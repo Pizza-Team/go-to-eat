@@ -11,11 +11,11 @@ export default function RestCard({ restaurant }) {
         </div>
 
         <div className="info">
-          <div className="name">{restaurant.name}</div>
+          <div className="name">{restaurant.name.name}</div>
 
-          <div className="location">{restaurant.city}</div>
+          <div className="location">{restaurant.location.area.areaname_m}</div>
 
-          <div className="type">{restaurant.type}</div>
+          <div className="type">{restaurant.categories.category_name_l[0]}</div>
         </div>
       </div>
       {display && (
@@ -23,7 +23,7 @@ export default function RestCard({ restaurant }) {
           <div className="main-overlay" onClick={() => setDisplay(false)}></div>
 
           <div className="checkout">
-            <h1 className="checkout-name">{restaurant.name}</h1>
+            <h1 className="checkout-name">{restaurant.name.name}</h1>
             <div className="checkout-image">
                 <img src="https://resizer.otstatic.com/v2/photos/wide-medium/1/25243676.jpg" />
             </div>
