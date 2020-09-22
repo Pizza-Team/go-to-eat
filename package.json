@@ -1,8 +1,19 @@
 {
-  "name": "go-to-eat",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Pizza-Team/go-to-eat.git",
-  "author": "team-pizza",
-  "license": "MIT"
+    "name": "go-to-eat",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Pizza-Team/go-to-eat.git",
+    "author": "team-pizza",
+    "license": "MIT",
+    "scripts": {
+        "hack:server": "nodemon server"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.4",
+        "unirest": "^0.6.0"
+    }
 }
