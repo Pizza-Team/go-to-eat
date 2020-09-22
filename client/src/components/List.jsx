@@ -5,6 +5,7 @@ export default function List({ restaurants }) {
   return (
     <>
       <div id="num-results">Displaying {restaurants.length} restaurants...</div>
+      
       <div id="list-container">
         {restaurants.map((restaurant) => (
           <RestCard restaurant={restaurant} />

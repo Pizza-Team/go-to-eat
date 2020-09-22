@@ -24,12 +24,13 @@ export default function App() {
 
   return (
     <div id="wrapper">
-      <div id="main-overlay"></div>
       <nav>
         <div>
           <h1>Go-to-Eat Logo</h1>
         </div>
+
         <div id="about">About</div>
+        
         <div id="how-to">How to Use</div>
       </nav>
 

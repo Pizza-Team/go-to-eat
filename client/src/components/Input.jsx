@@ -4,7 +4,9 @@ export default function Input() {
   return (
     <div id="input-container">
         <div id="overlay"></div>
+
         <div id="find">Find a restaurant...</div>
+
         <div id="filter-section">
             <select>
                 <option>Area</option>
@@ -22,6 +24,7 @@ export default function Input() {
                 <option>Budget</option>
             </select>
         </div>
+        
         <div id="button-container"> 
             <button id="filter-button">Let's Eat!</button>
         </div>
