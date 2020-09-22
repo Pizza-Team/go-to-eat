@@ -1,0 +1,8 @@
+{
+  "name": "go-to-eat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Pizza-Team/go-to-eat.git",
+  "author": "team-pizza",
+  "license": "MIT"
+}
