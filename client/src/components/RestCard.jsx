@@ -43,13 +43,13 @@ export default function RestCard({ restaurant }) {
               <div className="checkout-info">
                 <div className="info-line">
                   <div className="icon">
-                    <FontAwesomeIcon icon={faClock} size="lg" color="navy"/>
+                    <FontAwesomeIcon icon={faClock} size="lg" color="darkslategrey"/>
                   </div>
                   <div className="info-content">{restaurant.business_hour}</div>
                 </div>
                 <div className="info-line">
                   <div className="icon">
-                    <FontAwesomeIcon icon={faMapMarkerAlt} size="lg" color="navy"/>
+                    <FontAwesomeIcon icon={faMapMarkerAlt} size="lg" color="darkslategrey"/>
                   </div>
                   <div className="info-content">
                     {restaurant.contacts.address}
@@ -57,13 +57,13 @@ export default function RestCard({ restaurant }) {
                 </div>
                 <div className="info-line">
                   <div className="icon">
-                    <FontAwesomeIcon icon={faPhone} size="lg" color="navy"/>
+                    <FontAwesomeIcon icon={faPhone} size="lg" color="darkslategrey"/>
                   </div>
                   <div className="info-content">{restaurant.contacts.tel}</div>
                 </div>
                 <div className="info-line">
                   <div className="icon">
-                    <FontAwesomeIcon icon={faUtensils} size="lg" color="navy"/>
+                    <FontAwesomeIcon icon={faUtensils} size="lg" color="darkslategrey"/>
                   </div>
                   <div className="info-content">
                     {restaurant.categories.category_name_l[0]}
@@ -71,7 +71,7 @@ export default function RestCard({ restaurant }) {
                 </div>
                 <div className="info-line">
                   <div className="icon">
-                    <FontAwesomeIcon icon={faExternalLinkAlt} size="lg" color="navy"/>
+                    <FontAwesomeIcon icon={faExternalLinkAlt} size="lg" color="darkslategrey"/>
                   </div>
                   <div className="info-content">
                     <a href={restaurant.url} target="_blank">
