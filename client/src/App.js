@@ -23,10 +23,12 @@ export default function App() {
 		{ name: 'waku', type: 'pizza', city: 'Roppongi' },
 	];
 	const [restaurants, setRestaurants] = useState(test);
+	const [lang, setLang] = useState('en');
 	const { t, i18n } = useTranslation();
-	function handleClick(lang) {
+
+	useEffect(() => {
 		i18n.changeLanguage(lang);
-	}
+	}, [lang]);
 
 	return (
 		<div id="wrapper">
@@ -35,17 +37,18 @@ export default function App() {
 				<div>
 					<h1>Go-to-Eat Logo</h1>
 				</div>
-				<div id="about">{t('About.1')}</div>
-				<div id="how-to">{t('How.1')}</div>
-				<div className="language">
-					<button onClick={() => handleClick('en')}>EN</button>
-					<button onClick={() => handleClick('jp')}>JP</button>
-				</div>
+				<div id="about">{t('About')}</div>
+				<div id="how-to">{t('How')}</div>
+
+				<button className="language" onClick={() => setLang('en')}>
+					EN
+				</button>
+				<button onClick={() => setLang('jp')}>JP</button>
 			</nav>
 
-			<Input />
+			<Input t={t} />
 
-			<List restaurants={restaurants} />
+			<List restaurants={restaurants} t={t} />
 		</div>
 	);
 }
