@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import Input from "./components/Input";
+import List from "./components/List";
+import "./App.css";
 
-function App() {
+export default function App() {
+  const test = [
+    { name: "maku", type: "burgers", city: "Roppongi" },
+    { name: "waku", type: "pizza", city: "Roppongi" },
+    { name: "baku", type: "sushi", city: "Roppongi" },
+    { name: "booku", type: "cheese", city: "Roppongi" },
+    { name: "maku", type: "burgers", city: "Roppongi" },
+    { name: "waku", type: "pizza", city: "Roppongi" },
+    { name: "baku", type: "sushi", city: "Roppongi" },
+    { name: "booku", type: "cheese", city: "Roppongi" },
+    { name: "maku", type: "burgers", city: "Roppongi" },
+    { name: "waku", type: "pizza", city: "Roppongi" },
+    { name: "baku", type: "sushi", city: "Roppongi" },
+    { name: "booku", type: "cheese", city: "Roppongi" },
+    { name: "maku", type: "burgers", city: "Roppongi" },
+    { name: "waku", type: "pizza", city: "Roppongi" },
+  ];
+  const [restaurants, setRestaurants] = useState(test);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="wrapper">
+      <nav>
+        <div>
+          <h1>Go-to-Eat Logo</h1>
+        </div>
+        <div id="about">About</div>
+        <div id="how-to">How to Use</div>
+      </nav>
+
+      <Input />
+
+      <List restaurants={restaurants} />
     </div>
   );
 }
-
-export default App;
