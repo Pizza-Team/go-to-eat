@@ -50,11 +50,6 @@ table {
 h1 {
   font-size: 20px;
 }
-#input-container {
-  width: 100%;
-  height: 300px;
-  background-color: lavender;
-}
 #list-container {
   width: 100%;
   display: flex;
@@ -70,6 +65,7 @@ h1 {
   background-color: rgb(255, 255, 255);
   box-shadow: 0 2px 6px lightgrey;
   cursor: pointer;
+  z-index: 10
 }
 .image {
   width: 100%;
@@ -94,4 +90,78 @@ nav {
 }
 .name {
   font-weight: 700;
+}
+select {
+  margin: 10px;
+  padding: 3px;
+  border-radius: 4px;
+  width: 160px;
+}
+#input-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+  background-image: url("https://cdn.otstatic.com/cfe/5/images/25161502-fbb7de.jpg");
+  background-position: center;
+}
+#overlay {
+  background-color: rgb(67, 67, 82);
+  opacity: 0.5;
+  width: 100%;
+  height: 300px;
+  z-index: 0;
+  position: absolute;
+}
+#button-container {
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  z-index: 10
+}
+#filter-button {
+  font-family: 'Pacifico', cursive;
+  cursor: pointer;
+  font-size: 22px;
+  background: none;
+  color: white;
+  width: 120px;
+  border: none;
+}
+#filter-section {
+  margin-top: 40px;
+  z-index: 10
+}
+#find {
+  width: 100%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  letter-spacing: 2px;
+  z-index: 10;
+  color: rgb(255, 255, 255);
+}
+.checkout {
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  left: 30%;
+  top: 10%;
+  position: fixed;
+  z-index: 100;
+  border-radius: 4px;
+}
+.main-overlay{
+  z-index: 50;
+  background-color: rgb(172, 172, 185);
+  opacity: .6;
+  width: 100%;
+  height: 2000px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
