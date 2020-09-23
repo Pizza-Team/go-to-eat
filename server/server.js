@@ -20,8 +20,6 @@ app.use(
 
 app.use(express.static(path.join(__dirname, "../client", + "/build")));
 
-app.use("/api/restaurants", restaurantApi);
-
-app.use("/api/pay", payApi);
+app.use("/api", restaurantApi, payApi);
 
 module.exports = app;
