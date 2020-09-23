@@ -11,11 +11,9 @@ router.use(express.static('.'));
 router.get("/pay", async function(req, res) {
     res.send("pay");
 });
-
 router.post('/pay/create-session', async (req, res) => {
   const session = await stripe.checkout.sessions.create(req.body);
   res.json({ id: session.id });
 });
-
 
 module.exports = router;

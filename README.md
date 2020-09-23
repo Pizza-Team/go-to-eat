@@ -1,6 +1,6 @@
-<!-- <p align="center">
-  <img width="300" src="./client/public/logo.png">
-</p> -->
+<p align="center">
+  <img width="300" alt="logo" src="./client/public/Logo.png">
+</p>
 
 [EaTokyo](https://eatokyo.herokuapp.com/) is our vision to support the Japanese Government's Go-to-Eat Campaign in the Tokyo area. Throughout the Go-to-Eat Campaign, the Japanese government will be offering customers 25% discounts to several local restaurants and reimbursing those restaurants the difference. 
 
