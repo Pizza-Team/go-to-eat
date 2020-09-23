@@ -1,6 +1,9 @@
 import React, { useContext, useState, useEffect } from "react";
 import { loadStripe } from "@stripe/stripe-js";
-// import axios from "axios";
+import axios from "axios";
+// require("dotenv").config();
+// const stripePromise = loadStripe(process.env.SECRET_KEY);
+
 const stripePromise = loadStripe("pk_test_51HU4otHqeWVlhNqJ7NTbptD5erwy8p4EwqEQ1ZoZLreuw8Rt7xcG7TWAj88DXwhfL8vY7t9B5fiD96Hpow2yuuoS00nltDDR3v");
 
 export default function Order({ restaurant }) {
@@ -10,18 +13,43 @@ export default function Order({ restaurant }) {
   const [quantity10k, setQuantity10k] = useState(0);
 
   async function order() {
+    const quantity = [quantity1k, quantity3k, quantity5k, quantity10k];
+    const price = [1000, 3000, 5000, 10000];
+
+    const voucher = {
+      payment_method_types: ['card'],
+      line_items: [],
+          mode: 'payment',
+          success_url: `https://www.codechrysalis.io/`,
+          cancel_url: `https://google.co.jp`
+    };
+
+    for (let i = 0; i < quantity.length; i++) {
+      if (quantity[i] === 0) continue;
+
+      voucher.line_items.push(
+        {
+          price_data: {
+          currency: 'jpy',
+          product_data: {
+            name: `${restaurant.name.name}`,
+            images: ['https://i.imgur.com/EHyR2nP.png'],
+          },
+          unit_amount: price[i],
+          },
+          quantity: quantity[i]
+        }
+      );
+    }
+
     const stripe = await stripePromise;
+      
+    axios.post("/api/pay/create-session", voucher)
+    .then(result => result.data)
+    .then(result => stripe.redirectToCheckout({
+      sessionId: result.id,
+    }));
 
-    const response = await fetch("/api/pay/create-session", {
-      method: "POST",
-    });
-
-    const session = await response.json();
-
-    // When the customer clicks on the button, redirect them to Checkout.
-    const result = await stripe.redirectToCheckout({
-      sessionId: session.id,
-    });
   };
 
   return (

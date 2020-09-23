@@ -6,7 +6,9 @@
     "author": "team-pizza",
     "license": "MIT",
     "scripts": {
-        "hack:server": "nodemon ./server/index.js"
+        "hack:server": "nodemon ./server/index.js",
+        "start": "node server/index.js",
+        "heroku-postbuild": "cd client && yarn && yarn build"
     },
     "proxy": "http://localhost:4000/",
     "dependencies": {
@@ -19,5 +21,8 @@
         "nodemon": "^2.0.4",
         "stripe": "^8.97.0",
         "unirest": "^0.6.0"
+    },
+    "engines": {
+        "node": "12.x"
     }
 }
