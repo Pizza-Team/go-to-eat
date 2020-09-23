@@ -1,4 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
+import axios from "axios";
 
 export default function Order({ restaurant }) {
   const [quantity1k, setQuantity1k] = useState(0);
@@ -8,7 +9,9 @@ export default function Order({ restaurant }) {
 
   // submit order
   function order() {
+    // create the session object
 
+    // send request to create session
   };
 
   return (
