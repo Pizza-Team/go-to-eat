@@ -154,4 +154,3 @@ router.get("/restaurants", async function(req, res) {
 // });
 
 module.exports = router;
-zzz
