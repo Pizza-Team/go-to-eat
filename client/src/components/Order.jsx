@@ -1,5 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
-import axios from "axios";
+import { loadStripe } from "@stripe/stripe-js";
+// import axios from "axios";
+const stripePromise = loadStripe("pk_test_51HU4otHqeWVlhNqJ7NTbptD5erwy8p4EwqEQ1ZoZLreuw8Rt7xcG7TWAj88DXwhfL8vY7t9B5fiD96Hpow2yuuoS00nltDDR3v");
 
 export default function Order({ restaurant }) {
   const [quantity1k, setQuantity1k] = useState(0);
@@ -7,11 +9,19 @@ export default function Order({ restaurant }) {
   const [quantity5k, setQuantity5k] = useState(0);
   const [quantity10k, setQuantity10k] = useState(0);
 
-  // submit order
-  function order() {
-    // create the session object
+  async function order() {    
+    const stripe = await stripePromise;
 
-    // send request to create session
+    const response = await fetch("/api/pay/create-session", {
+      method: "POST",
+    });
+
+    const session = await response.json();
+
+    // When the customer clicks on the button, redirect them to Checkout.
+    const result = await stripe.redirectToCheckout({
+      sessionId: session.id,
+    });
   };
 
   return (
