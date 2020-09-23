@@ -91,7 +91,7 @@ router.get("/", async function(req, res) {
 
 router.get("/*", (req, res) => {
   res
-    .sendFile(path.join("..", "client", "build", "index.html"))
+    .sendFile(path.join(__dirname, "../client", "build", "index.html"))
     .catch((err) => {
       res.json({ err });
     });
