@@ -1,12 +1,8 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 import axios from 'axios';
-// require("dotenv").config();
-// const stripePromise = loadStripe(process.env.SECRET_KEY);
-
-const stripePromise = loadStripe(
-	'pk_test_51HU4otHqeWVlhNqJ7NTbptD5erwy8p4EwqEQ1ZoZLreuw8Rt7xcG7TWAj88DXwhfL8vY7t9B5fiD96Hpow2yuuoS00nltDDR3v'
-);
+require('dotenv').config();
+const stripePromise = loadStripe(process.env.SECRET_KEY);
 
 export default function Order({ restaurant, t }) {
 	const [quantity1k, setQuantity1k] = useState(0);
@@ -181,7 +177,7 @@ export default function Order({ restaurant, t }) {
 			</table>
 			<div>
 				<button className="order-button" onClick={order}>
-					ORDER
+					{t('Order')}
 				</button>
 			</div>
 		</div>

@@ -23,24 +23,6 @@ export default function RestCard({ restaurant, t }) {
 		);
 	}
 
-	{
-		/* // if (
-		// 	restaurant.categories.category_name_l[0] === 'Sushi / Seafood' &&
-		// 	'Traditional Japanese' &&
-		// 	'Yakitori (Grilled Meat and Vegetables Skewers) / Meat Dishes'
-		// )
-		// if (
-		// 	restaurant.categories.category_name_l[0] ===
-		// 		'Dining Bars / Bars / Beer Halls' ||
-		// 	'Alcohol'
-		// )
-		// 	return <img src={Bar[num]} bject-fit="contain" height="200px" />;
-		// if (
-		// 	restaurant.categories.category_name_l[0] === 'Western / European' &&
-		// 	'Italian / French'
-		// )
-		// 	return <img src={Western[num]} bject-fit="contain" height="200px" />; */
-	}
 	return (
 		<>
 			<div id="restaurant-container" onClick={() => setDisplay(true)}>
@@ -63,13 +45,7 @@ export default function RestCard({ restaurant, t }) {
 					<div className="checkout">
 						<h1 className="checkout-name">{restaurant.name.name}</h1>
 						<div className="informational">
-							<div className="checkout-image">
-								<img
-									src={
-										'https://resizer.otstatic.com/v2/photos/wide-medium/1/25243676.jpg'
-									}
-								/>
-							</div>
+							<div className="checkout-image">{imageMatch()}</div>
 							<div className="checkout-info">
 								{/* hours of operations */}
 								<div className="info-line">
