@@ -48,6 +48,7 @@ export default function Input({ t }) {
 
 	return (
 		<div id="input-container">
+			<div id="overlay"></div>
 			<div id="find">{t('Find')}</div>
 			<div id="filter-section">
 				{/* dropdown menu for AREA */}
