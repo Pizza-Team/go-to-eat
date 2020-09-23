@@ -4,7 +4,7 @@ import categories from '../data/category_l.json';
 import { RestaurantContext } from '../RestaurantContext';
 import data from '../data/data.json';
 
-export default function Input() {
+export default function Input({ t }) {
 	const { restaurants, setRestaurants } = useContext(RestaurantContext);
 
 	const [area, setArea] = useState('');
@@ -35,11 +35,11 @@ export default function Input() {
 		<div id="input-container">
 			<div id="overlay"></div>
 
-			<div id="find">Find a restaurant...</div>
+			<div id="find">{t('Find')}</div>
 
 			<div id="filter-section">
 				<select value={area} onChange={(e) => setArea(e.target.value)}>
-					<option>Area</option>
+					<option>{t('Area')}</option>
 					{areas.area_m
 						.sort((a, b) => a.areaname_m.localeCompare(b.areaname_m))
 						.map((area) => (
@@ -48,7 +48,7 @@ export default function Input() {
 				</select>
 
 				<select value={category} onChange={(e) => setCategory(e.target.value)}>
-					<option>Food Type</option>
+					<option>{t('Food Type')}</option>
 					{categories.category_l
 						.sort((a, b) => a.category_l_name.localeCompare(b.category_l_name))
 						.map((category) => (
@@ -59,7 +59,7 @@ export default function Input() {
 				</select>
 
 				<select>
-					<option>Budget</option>
+					<option>{t('Budget')}</option>
 				</select>
 			</div>
 
