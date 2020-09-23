@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Input from './components/Input';
 import List from './components/List';
-import HowTo from './components/HowTo';
 import './App.css';
 import Banner from './Images/Banner.jpeg';
 import coupon from './Images/coupon.jpeg';
@@ -26,6 +25,7 @@ export default function App() {
 
 	return (
 		<div id="wrapper">
+			<div id="main-overlay"></div>
 			<nav className="nav">
 				<div>
 					<img src={Logo} alt="logo" className="logo" />
@@ -65,7 +65,6 @@ export default function App() {
 			<RestaurantContext.Provider value={{ restaurants, setRestaurants }}>
 				<Input t={t} />
 				<List restaurants={restaurants} t={t} />
-				<HowTo howTo={howTo} />
 			</RestaurantContext.Provider>
 		</div>
 	);

@@ -62,7 +62,7 @@ export default function Input({ t }) {
 
 				{/* dropdown menu for CATEGORY */}
 				<select value={category} onChange={(e) => setCategory(e.target.value)}>
-					<option>Food Type</option>
+					<option>{t('Food Type')}</option>
 					{categories.category_l
 						.sort((a, b) => a.category_l_name.localeCompare(b.category_l_name))
 						.map((category) => (
@@ -74,7 +74,7 @@ export default function Input({ t }) {
 
 				{/* dropdown menu for BUDGET */}
 				<select value={budget} onChange={(e) => setBudget(e.target.value)}>
-					<option>Budget</option>
+					<option>{t('Budget')}</option>
 					<option value={[0, 1000]}>{'< ¥1,000'}</option>
 					<option value={[1000, 3000]}>{'¥1,000 - ¥3,000'}</option>
 					<option value={[3000, 5000]}>{'¥3,000 - ¥5,000'}</option>
@@ -92,7 +92,7 @@ export default function Input({ t }) {
 
 			{/* button to clear filter */}
 			<div id="clear" onClick={clear}>
-				Clear Filter
+				{t('Clear Filter')}
 			</div>
 		</div>
 	);

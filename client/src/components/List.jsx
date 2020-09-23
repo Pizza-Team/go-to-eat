@@ -13,12 +13,11 @@ export default function List({ t }) {
 			</div>
 
 			<div id="list-container">
-				    {/* map over restaurants list to create each restaurant card */}
+				{/* map over restaurants list to create each restaurant card */}
 				{restaurants.map((restaurant) => (
-					<RestCard restaurant={restaurant} />
+					<RestCard restaurant={restaurant} t={t} />
 				))}
 			</div>
 		</div>
 	);
-
 }

@@ -1,12 +1,17 @@
 {
-    "About": "About",
-    "How": "How to Use",
-    "Displaying": "Displaying",
-    "Restaurants": "Restaurants...",
-    "Find": "Find a Restaurant...",
-    "Area": "Area",
-    "Station": "Station",
-    "Food Type": "Food Type",
-    "Budget": "Budget",
-    "Clear Filter": "Clear Filter"
+	"About": "About",
+	"How": "How to Use",
+	"Displaying": "Displaying",
+	"Restaurants": "Restaurants...",
+	"Find": "Find a Restaurant...",
+	"Area": "Area",
+	"Station": "Station",
+	"Food Type": "Food Type",
+	"Budget": "Budget",
+	"Clear Filter": "Clear Filter",
+	"Quantity": "Quantity",
+	"Voucher Amount": "Voucher Amount",
+	"Discount": "Discount",
+	"Your Cost": "Your Cost",
+	"Order": "Order"
 }
