@@ -6,7 +6,7 @@ import data from "../data/data.json";
 import axios from "axios";
 
 
-export default function Input() {
+export default function Input({t}) {
   // shared restaurant state with useContext
 
   const { restaurants, setRestaurants } = useContext(RestaurantContext);
@@ -73,6 +73,15 @@ export default function Input() {
       }
       setRestaurants(filtered);
     }
+  }
+
+  // if "clear filter" button is clicked, it will reset dropdown menus to default
+	// and will reset restaurants list		
+	function clear() {
+		setArea('');		
+		setCategory('');		
+		setBudget('');		
+		setRestaurants(data);		
   }
 
 	return (
