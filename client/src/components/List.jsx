@@ -3,6 +3,8 @@ import RestCard from './RestCard';
 import { RestaurantContext } from '../RestaurantContext';
 
 export default function List({ t }) {
+	const options = ['Japanese1', 'Japanese2'];
+
 	const { restaurants, setRestaurants } = useContext(RestaurantContext);
 
 	return (

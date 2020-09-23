@@ -200,12 +200,15 @@ body {
 	box-shadow: 0 2px 6px lightgrey;
 	cursor: pointer;
 	z-index: 10;
-	object-fit: cover;
+	object-fit: contain;
+
 }
 
 .image {
 	width: 100%;
 	overflow: hidden;
+	height: 180px;
+
 }
 
 .info {

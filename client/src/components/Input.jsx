@@ -6,7 +6,6 @@ import data from '../data/data.json';
 
 export default function Input({ t }) {
 	const { restaurants, setRestaurants } = useContext(RestaurantContext);
-
 	const [area, setArea] = useState('');
 
 	const [category, setCategory] = useState('');
