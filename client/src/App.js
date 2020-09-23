@@ -21,24 +21,21 @@ export default function App() {
 	}, [lang]);
 
 	return (
-		<div>
-			<div id="wrapper">
-				<div id="main-overlay"></div>
-				<nav className="nav">
-					<div>
-						<img src={Logo} alt="logo" className="logo" />
-					</div>
-					<div id="about">{t('About')}</div>
-					<div id="how-to" onClick={() => setHowTo(true)}>
-						{t('How')}
-					</div>
+		<div id="wrapper">
+			<nav className="nav">
+				<div>
+					<img src={Logo} alt="logo" className="logo" />
+				</div>
+				<div id="about">{t('About')}</div>
+				<div id="how-to" onClick={() => setHowTo(true)}>
+					{t('How')}
+				</div>
 
-					<button className="language" onClick={() => setLang('en')}>
-						EN
-					</button>
-					<button onClick={() => setLang('jp')}>JP</button>
-				</nav>
-			</div>
+				<button className="language" onClick={() => setLang('en')}>
+					EN
+				</button>
+				<button onClick={() => setLang('jp')}>JP</button>
+			</nav>
 			{howTo && (
 				<>
 					<div className="howToContainer">
@@ -55,7 +52,6 @@ export default function App() {
 
 			<RestaurantContext.Provider value={{ restaurants, setRestaurants }}>
 				<Input t={t} />
-
 				<List restaurants={restaurants} t={t} />
 				<HowTo howTo={howTo} />
 			</RestaurantContext.Provider>
