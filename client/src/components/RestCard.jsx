@@ -12,8 +12,12 @@ import { food } from '../Images/imageArray';
 export default function RestCard({ restaurant, t }) {
 	const [display, setDisplay] = useState(false);
 
+	//last num of latitude(0~9)
+	const lastNumOfLatitude = Number(restaurant.location.latitude.slice(-1));
+
 	function imageMatch() {
-		const num = Math.floor(Math.random() * 12);
+		//0<=(lastNumOfLatitude/9)<=1
+		const num = Math.floor((lastNumOfLatitude / 9) * 12);
 
 		// if (
 		// 	restaurant.categories.category_name_l[0] === 'Sushi / Seafood' &&
