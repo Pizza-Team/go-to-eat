@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 require("dotenv").config();
-const stripe = loadStripe(process.env.STRIPE_KEY);
+const stripe = require("stripe")(process.env.STRIPE_KEY);
 
 router.use(express.static('.'));
 
