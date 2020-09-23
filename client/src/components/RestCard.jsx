@@ -26,6 +26,8 @@ export default function RestCard({ restaurant }) {
           <div className="location">{restaurant.location.area.areaname_m}</div>
 
           <div className="type">{restaurant.categories.category_name_l[0]}</div>
+
+          <div className="type">{"¥" + restaurant.budget}</div>
         </div>
       </div>
 

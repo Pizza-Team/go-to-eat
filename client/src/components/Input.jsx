@@ -8,14 +8,16 @@ export default function Input() {
   // shared restaurant state with useContext
   const { restaurants, setRestaurants } = useContext(RestaurantContext);
 
-  // if dropdown menus have selection, it will update area and category states
+  // if dropdown menus have selection, it will update area, category, and budget states
   const [area, setArea] = useState("");
   const [category, setCategory] = useState("");
+  const [budget, setBudget] = useState("");
 
   // when "let's eat" button is clicked, it will setRestaurants to filtered list
-  // if category filter is selected, it will filter further
+  // if category and budget states are selected, it will filter further
   function filterRestaurants() {
     if (area.length) {
+      // fetch restaurants by location
       let filtered = data.filter(
         (restaurant) => restaurant.location.area.areaname_m === area
       );
@@ -24,16 +26,23 @@ export default function Input() {
           (restaurant) => restaurant.categories.category_name_l[0] === category
         );
       }
+      if (budget.length > 0) {
+        // take budget (str) and split by comma and turn each element to number
+        const range = budget.split(",").map(num => Number(num))
+        // filter restaurants for those within budget ranges
+        filtered = filtered.filter((restaurant) => restaurant.budget >= range[0] && restaurant.budget <= range[1]);
+      }
       setRestaurants(filtered);
     }
   }
 
   // if "clear filter" button is clicked, it will reset dropdown menus to default
-  // and will reset restaurants list 
+  // and will reset restaurants list
   function clear() {
-      setArea("");
-      setCategory("");
-      setRestaurants(data);
+    setArea("");
+    setCategory("");
+    setBudget("")
+    setRestaurants(data);
   }
 
   return (
@@ -66,8 +75,13 @@ export default function Input() {
         </select>
 
         {/* dropdown menu for BUDGET */}
-        <select>
+        <select value={budget} onChange={(e) => setBudget(e.target.value)}>
           <option>Budget</option>
+          <option value={[0, 1000]}>{"< ¥1,000"}</option>
+          <option value={[1000, 3000]}>{"¥1,000 - ¥3,000"}</option>
+          <option value={[3000, 5000]}>{"¥3,000 - ¥5,000"}</option>
+          <option value={[5000, 10000]}>{"¥5,000 - ¥10,000"}</option>
+          <option value={[10000, 1000000000]}>{"> ¥10,000"}</option>
         </select>
       </div>
 
@@ -79,10 +93,9 @@ export default function Input() {
       </div>
 
       {/* button to clear filter */}
-      <div 
-        id="clear"
-        onClick={clear}
-        >Clear Filter</div>
+      <div id="clear" onClick={clear}>
+        Clear Filter
+      </div>
     </div>
   );
 }
