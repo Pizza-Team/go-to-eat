@@ -6,7 +6,7 @@ require("dotenv").config();
 // API for return restaurants
 // write api setting here
 
-const gurunabiUrl = "https://gurunavi-restaurant-search.p.rapidapi.com/"
+//We should set x-rapidapi-key in .env
 const header = {
     "x-rapidapi-host": "gurunavi-restaurant-search.p.rapidapi.com",
     "x-rapidapi-key": process.env.API_KEY,
@@ -14,9 +14,12 @@ const header = {
 };
 
 router.get("/", async function(req, res) {
-    console.log(111111111);
     //query for search
-    let query = { "pref": "PREF13", "lang": "en", "hit_per_page": "100", };
+    let query = { "pref": "PREF13", "hit_per_page": "100", };
+
+    if (req.query.lang) {
+        query['lang'] = req.query.lang;
+    }
 
     if (req.query.areacode_l) {
         query['areacode_l'] = req.query.areacode_l;
@@ -82,11 +85,8 @@ router.get("/", async function(req, res) {
 
     reqForRestaurant.end(function(resOfRestaurant) {
         if (resOfRestaurant.error) throw new Error(resOfRestaurant.error);
-
-        // console.log(JSON.stringify(res.body));
         res.send(resOfRestaurant.body);
     });
-
 });
 
 module.exports = router;
