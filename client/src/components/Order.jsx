@@ -10,33 +10,37 @@ export default function Order({ restaurant, t }) {
 	const [quantity5k, setQuantity5k] = useState(0);
 	const [quantity10k, setQuantity10k] = useState(0);
 
-	async function order() {
-		const quantity = [quantity1k, quantity3k, quantity5k, quantity10k];
-		const price = [1000, 3000, 5000, 10000];
 
-		const voucher = {
-			payment_method_types: ['card'],
-			line_items: [],
-			mode: 'payment',
-			success_url: `https://www.codechrysalis.io/`,
-			cancel_url: `https://google.co.jp`,
-		};
+  async function order() {
+    const quantity = [quantity1k, quantity3k, quantity5k, quantity10k];
+    const price = [1000, 3000, 5000, 10000];
+    
+    const voucher = {
+      payment_method_types: ['card'],
+      line_items: [],
+      mode: 'payment',
+      success_url: `https://www.codechrysalis.io/`,
+      cancel_url: `https://google.co.jp`
+    };
+        
+    for (let i = 0; i < quantity.length; i++) {
+      const discountPrice = price[i] - price[i] * 0.25;
+      if (quantity[i] === 0) continue;
+      voucher.line_items.push(
+        {
+          price_data: {
+          currency: 'jpy',
+          product_data: {
+            name: `${restaurant.name.name}`,
+            images: ['https://i.imgur.com/EHyR2nP.png'],
+          },
+          unit_amount: discountPrice,
+          },
+          quantity: quantity[i]
+        }
+      );
+    }
 
-		for (let i = 0; i < quantity.length; i++) {
-			if (quantity[i] === 0) continue;
-
-			voucher.line_items.push({
-				price_data: {
-					currency: 'jpy',
-					product_data: {
-						name: `${restaurant.name.name}`,
-						images: ['https://i.imgur.com/EHyR2nP.png'],
-					},
-					unit_amount: price[i],
-				},
-				quantity: quantity[i],
-			});
-		}
 
 		const stripe = await stripePromise;
 
