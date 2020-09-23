@@ -68,7 +68,7 @@ export default function Input({ t }) {
 				</button>
 			</div>
 			<div id="clear" onClick={clear}>
-				Clear Filter
+				{t('Clear Filter')}
 			</div>
 		</div>
 	);

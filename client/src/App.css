@@ -178,8 +178,8 @@ body {
 
 #how-to {
 	display: flex;
+	width: 100x;
 	flex-direction: row;
-	flex-wrap: nowrap;
 }
 
 #list-container {
@@ -201,14 +201,12 @@ body {
 	cursor: pointer;
 	z-index: 10;
 	object-fit: contain;
-
 }
 
 .image {
 	width: 100%;
 	overflow: hidden;
 	height: 180px;
-
 }
 
 .info {
@@ -375,4 +373,25 @@ select {
 .informational {
 	display: flex;
 	flex-flow: row nowrap;
+}
+
+.howToContainer {
+	width: 800px;
+	height: 600px;
+	background-color: rgb(194, 194, 194);
+	left: 25%;
+	top: 10%;
+	position: fixed;
+	z-index: 100;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.howToBanner {
+	width: 800px;
+}
+
+.howToTitle {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
 }

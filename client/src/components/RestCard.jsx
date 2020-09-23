@@ -14,15 +14,15 @@ export default function RestCard({ restaurant, t }) {
 
 	function imageMatch() {
 		const num = Math.floor(Math.random() * 12);
+		return (
+			<img src={food[num]} object-fit="contain" height="200px" width="270px" />
+		);
 
 		// if (
 		// 	restaurant.categories.category_name_l[0] === 'Sushi / Seafood' &&
 		// 	'Traditional Japanese' &&
 		// 	'Yakitori (Grilled Meat and Vegetables Skewers) / Meat Dishes'
 		// )
-		return (
-			<img src={food[num]} object-fit="contain" height="200px" width="270px" />
-		);
 		// if (
 		// 	restaurant.categories.category_name_l[0] ===
 		// 		'Dining Bars / Bars / Beer Halls' ||
