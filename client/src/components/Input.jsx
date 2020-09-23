@@ -5,12 +5,15 @@ import { RestaurantContext } from "../RestaurantContext";
 import data from "../data/data.json";
 
 export default function Input() {
+  // shared restaurant state with useContext
   const { restaurants, setRestaurants } = useContext(RestaurantContext);
 
+  // if dropdown menus have selection, it will update area and category states
   const [area, setArea] = useState("");
-
   const [category, setCategory] = useState("");
 
+  // when "let's eat" button is clicked, it will setRestaurants to filtered list
+  // if category filter is selected, it will filter further
   function filterRestaurants() {
     if (area.length) {
       let filtered = data.filter(
@@ -25,6 +28,8 @@ export default function Input() {
     }
   }
 
+  // if "clear filter" button is clicked, it will reset dropdown menus to default
+  // and will reset restaurants list 
   function clear() {
       setArea("");
       setCategory("");
@@ -38,6 +43,7 @@ export default function Input() {
       <div id="find">Find a restaurant...</div>
 
       <div id="filter-section">
+        {/* dropdown menu for AREA */}
         <select value={area} onChange={(e) => setArea(e.target.value)}>
           <option>Area</option>
           {areas.area_m
@@ -47,6 +53,7 @@ export default function Input() {
             ))}
         </select>
 
+        {/* dropdown menu for CATEGORY */}
         <select value={category} onChange={(e) => setCategory(e.target.value)}>
           <option>Food Type</option>
           {categories.category_l
@@ -58,16 +65,20 @@ export default function Input() {
             ))}
         </select>
 
+        {/* dropdown menu for BUDGET */}
         <select>
           <option>Budget</option>
         </select>
       </div>
 
       <div id="button-container">
+        {/* button to filter restaurants */}
         <button id="filter-button" onClick={filterRestaurants}>
           Let's Eat!
         </button>
       </div>
+
+      {/* button to clear filter */}
       <div 
         id="clear"
         onClick={clear}

@@ -3,6 +3,7 @@ import RestCard from "./RestCard";
 import { RestaurantContext } from "../RestaurantContext";
 
 export default function List() {
+  // shared restaurant state with useContext
   const {restaurants, setRestaurants} = useContext(RestaurantContext)
   
   return (
@@ -10,6 +11,7 @@ export default function List() {
       <div id="num-results">Displaying {restaurants.length} restaurants...</div>
 
       <div id="list-container">
+        {/* map over restaurants list to create each restaurant card */}
         {restaurants.map((restaurant) => (
           <RestCard restaurant={restaurant} />
         ))}
