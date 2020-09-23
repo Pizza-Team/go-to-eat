@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Order from "./Order";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faClock,
@@ -14,7 +15,7 @@ export default function RestCard({ restaurant }) {
 
   return (
     <>
-    {/* when you click on a restaurant card, it will setDisplay to true so modal window shows */}
+      {/* when you click on a restaurant card, it will setDisplay to true so modal window shows */}
       <div id="restaurant-container" onClick={() => setDisplay(true)}>
         <div className="image">
           <img src="https://resizer.otstatic.com/v2/photos/wide-medium/1/25243676.jpg" />
@@ -34,7 +35,7 @@ export default function RestCard({ restaurant }) {
       {/* modal window for this restaurant displays when display is true (when it's clicked) */}
       {display && (
         <>
-        {/* overlay grays out the rest of the body */}
+          {/* overlay grays out the rest of the body */}
           <div className="main-overlay" onClick={() => setDisplay(false)}></div>
 
           <div className="checkout">
@@ -48,11 +49,14 @@ export default function RestCard({ restaurant }) {
                 />
               </div>
               <div className="checkout-info">
-
                 {/* hours of operations */}
                 <div className="info-line">
                   <div className="icon">
-                    <FontAwesomeIcon icon={faClock} size="lg" color="darkslategrey"/>
+                    <FontAwesomeIcon
+                      icon={faClock}
+                      size="lg"
+                      color="darkslategrey"
+                    />
                   </div>
                   <div className="info-content">{restaurant.business_hour}</div>
                 </div>
@@ -60,7 +64,11 @@ export default function RestCard({ restaurant }) {
                 {/* address */}
                 <div className="info-line">
                   <div className="icon">
-                    <FontAwesomeIcon icon={faMapMarkerAlt} size="lg" color="darkslategrey"/>
+                    <FontAwesomeIcon
+                      icon={faMapMarkerAlt}
+                      size="lg"
+                      color="darkslategrey"
+                    />
                   </div>
                   <div className="info-content">
                     {restaurant.contacts.address}
@@ -70,7 +78,11 @@ export default function RestCard({ restaurant }) {
                 {/* phone number */}
                 <div className="info-line">
                   <div className="icon">
-                    <FontAwesomeIcon icon={faPhone} size="lg" color="darkslategrey"/>
+                    <FontAwesomeIcon
+                      icon={faPhone}
+                      size="lg"
+                      color="darkslategrey"
+                    />
                   </div>
                   <div className="info-content">{restaurant.contacts.tel}</div>
                 </div>
@@ -78,7 +90,11 @@ export default function RestCard({ restaurant }) {
                 {/* food category */}
                 <div className="info-line">
                   <div className="icon">
-                    <FontAwesomeIcon icon={faUtensils} size="lg" color="darkslategrey"/>
+                    <FontAwesomeIcon
+                      icon={faUtensils}
+                      size="lg"
+                      color="darkslategrey"
+                    />
                   </div>
                   <div className="info-content">
                     {restaurant.categories.category_name_l[0]}
@@ -88,7 +104,11 @@ export default function RestCard({ restaurant }) {
                 {/* website url */}
                 <div className="info-line">
                   <div className="icon">
-                    <FontAwesomeIcon icon={faExternalLinkAlt} size="lg" color="darkslategrey"/>
+                    <FontAwesomeIcon
+                      icon={faExternalLinkAlt}
+                      size="lg"
+                      color="darkslategrey"
+                    />
                   </div>
                   <div className="info-content">
                     <a href={restaurant.url} target="_blank">
@@ -98,6 +118,9 @@ export default function RestCard({ restaurant }) {
                 </div>
               </div>
             </div>
+
+              <Order 
+                restaurant={restaurant}/>
           </div>
         </>
       )}
