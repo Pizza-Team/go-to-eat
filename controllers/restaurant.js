@@ -1,3 +1,4 @@
+
 const express = require("express");
 const router = express.Router();
 const unirest = require("unirest");
@@ -8,12 +9,21 @@ require("dotenv").config();
 
 //We should set x-rapidapi-key in .env
 const header = {
+<<<<<<< HEAD
+    "x-rapidapi-host": "gurunavi-restaurant-search.p.rapidapi.com",
+    "x-rapidapi-key": process.env.API_KEY,
+    "useQueryString": true,
+};
+
+router.get("/restaurants", async function (req, res) {
+=======
   "x-rapidapi-host": "gurunavi-restaurant-search.p.rapidapi.com",
   "x-rapidapi-key": process.env.API_KEY,
   useQueryString: true,
 };
 
 router.get("/restaurants", async function(req, res) {
+>>>>>>> 73e8a7b6237c7a30822f12cc59cc4cd138897d04
     //query for search
     let query = { "pref": "PREF13", "hit_per_page": "100", };
 
@@ -83,9 +93,63 @@ router.get("/restaurants", async function(req, res) {
     reqForRestaurant.query(query);
     reqForRestaurant.headers(header)
 
-    reqForRestaurant.end(function(resOfRestaurant) {
-        if (resOfRestaurant.error) throw new Error(resOfRestaurant.error);
-        res.send(resOfRestaurant.body);
+    reqForRestaurant.end(function (resOfRestaurant) {
+        let restaurantList = []
+
+        console.log(req.query.budget);
+
+        //if include budget query
+        switch (req.query.budget) {
+            // -1000
+            case "1":
+                for (let elm of resOfRestaurant.body.rest) {
+                    if (elm.budget <= 1000) {
+                        restaurantList.push(elm)
+                    }
+                }
+                break;
+
+            //1000-3000
+            case "2":
+                for (let elm of resOfRestaurant.body.rest) {
+                    console.log(elm.budget);
+                    if (elm.budget >= 1000 && elm.budget <= 3000) {
+                        restaurantList.push(elm)
+                    }
+                }
+                break;
+
+            //3000-5000
+            case "3":
+                for (let elm of resOfRestaurant.body.rest) {
+                    if (elm.budget >= 3000 && elm.budget <= 5000) {
+                        restaurantList.push(elm)
+                    }
+                }
+                break;
+
+            //5000-10000
+            case "4":
+                for (let elm of resOfRestaurant.body.rest) {
+                    if (elm.budget >= 5000 && elm.budget <= 10000) {
+                        restaurantList.push(elm)
+                    }
+                }
+                break;
+
+            //10000-
+            case "5":
+
+                for (let elm of resOfRestaurant.body.rest) {
+                    if (elm.budget >= 10000) {
+                        restaurantList.push(elm)
+                    }
+                }
+                break;
+            default:
+                restaurantList = resOfRestaurant.body.rest
+        }
+        res.send(restaurantList);
     });
 });
 
@@ -98,3 +162,4 @@ router.get("/*", (req, res) => {
 });
 
 module.exports = router;
+zzz
