@@ -1,4 +1,4 @@
 import { createContext } from 'react';
-import data from "./data/data.json"
+import data from './data/data.json';
 
-export const RestaurantContext = createContext(data)
+export const RestaurantContext = createContext(data);

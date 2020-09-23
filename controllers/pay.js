@@ -1,7 +1,9 @@
 const express = require('express');
-const app = express();
 const router = express.Router();
-const stripe = require('stripe')(process.env.SECRET_KEY);
+require("dotenv").config();
+const stripe = loadStripe(process.env.STRIPE_KEY);
+
+router.use(express.static('.'));
 
 router.use(express.static('.'));
 // API for Payment
@@ -13,4 +15,5 @@ router.post('/pay/create-session', async (req, res) => {
   const session = await stripe.checkout.sessions.create(req.body);
   res.json({ id: session.id });
 });
+
 module.exports = router;
