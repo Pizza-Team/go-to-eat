@@ -144,6 +144,35 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 }
+.logo {
+	height: 80px;
+}
+.lang-button {
+	width: 120px;
+	margin-left: 20px;
+}
+nav {
+	display: flex;
+	flex-flow: row nowrap;
+	height: 30px;
+	align-items: center;
+	padding: 40px;
+}
+#about {
+	width: 120px;
+	margin-left: 60%;
+	cursor: pointer;
+}
+#about-content {
+	font-size: 20px;
+}
+#how-to {
+	margin-right: 40px;
+	cursor: pointer;
+}
+.lang-button {
+	width: 40px;
+}
 
 /* restaurant display */
 #gallery-container {
@@ -156,26 +185,6 @@ body {
 	width: 90%;
 	text-align: left;
 }
-
-.nav {
-	height: 60px;
-	display: flex;
-	padding: 40px;
-}
-
-.logo {
-	height: 100px;
-	display: flex;
-	justify-content: flex-end;
-}
-
-#about {
-	display: flex;
-	justify-content: flex-end;
-	flex-direction: row;
-	flex-wrap: nowrap;
-}
-
 #how-to {
 	display: flex;
 	width: 100px;
@@ -228,18 +237,6 @@ body {
 	padding: 10px;
 }
 
-nav {
-	display: flex;
-	flex-flow: row nowrap;
-	height: 30px;
-	align-items: center;
-}
-
-#about {
-	margin-left: 70%;
-	margin-right: 20px;
-}
-
 #num-results {
 	padding-top: 30px;
 	padding-left: 30px;
@@ -266,8 +263,8 @@ select {
 	overflow: hidden;
 	width: 100%;
 	height: 300px;
-	background-image: url('https://cdn.otstatic.com/cfe/5/images/25161502-fbb7de.jpg');
-	background-position: center;
+	background-image: url('https://images.unsplash.com/photo-1590577976322-3d2d6e2130d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+	background-position: 100% 25%;
 }
 
 #overlay {
@@ -393,9 +390,9 @@ select {
 .howToContainer {
 	width: 800px;
 	height: 600px;
-	background-color: rgb(231, 231, 231);
+	background-color: white;
 	left: 25%;
-	top: 10%;
+	top: 5%;
 	position: fixed;
 	z-index: 100;
 	border-radius: 4px;
