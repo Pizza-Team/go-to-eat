@@ -6,7 +6,9 @@
     "author": "team-pizza",
     "license": "MIT",
     "scripts": {
-        "hack:server": "nodemon server"
+        "start": "node server/index.js",
+        "hack:server": "nodemon server",
+        "heroku-postbuild": "cd client && yarn && yarn build"
     },
     "dependencies": {
         "cors": "^2.8.5",

@@ -1,18 +1,80 @@
 import React, { useContext, useState, useEffect } from "react";
 import axios from "axios";
+import { loadStripe } from "@stripe/stripe-js";
 
 export default function Order({ restaurant }) {
   const [quantity1k, setQuantity1k] = useState(0);
   const [quantity3k, setQuantity3k] = useState(0);
   const [quantity5k, setQuantity5k] = useState(0);
   const [quantity10k, setQuantity10k] = useState(0);
+  const stripePromise = loadStripe(process.env.SECRET_KEY);
 
   // submit order
-  function order() {
+  async function order() {
     // create the session object
+    const sessionObj = {
+      payment_method_types: ["card"],
+      line_items: [
+        {
+          price_data: {
+            currency: "yen",
+            product_data: {
+              name: "¥1k Voucher",
+            },
+            unit_amount: 1000,
+          },
+          quantity: quantity1k,
+        },
+        {
+          price_data: {
+            currency: "yen",
+            product_data: {
+              name: "¥3k Voucher",
+            },
+            unit_amount: 3000,
+          },
+          quantity: quantity3k,
+        },
+        {
+          price_data: {
+            currency: "yen",
+            product_data: {
+              name: "¥5k Voucher",
+            },
+            unit_amount: 5000,
+          },
+          quantity: quantity5k,
+        },
+        {
+          price_data: {
+            currency: "yen",
+            product_data: {
+              name: "¥10k Voucher",
+            },
+            unit_amount: 10000,
+          },
+          quantity: quantity10k,
+        },
+      ],
+      mode: "payment",
+      success_url: `https://www.codechrysalis.io/`,
+      cancel_url: `https://google.co.jp`,
+    };
 
     // send request to create session
-  };
+    const stripe = await stripePromise;
+    const response = await axios.post("/create-session", sessionObj);
+    const session = await response.json();
+    // When the customer clicks on the button, redirect them to Checkout.
+    const result = await stripe.redirectToCheckout({
+      sessionId: session.id,
+    });
+    if (result.error) {
+      // If `redirectToCheckout` fails due to a browser or network
+      // error, display the localized error message to your customer
+      // using `result.error.message`.
+    }
+  }
 
   return (
     <div className="order-container">
@@ -37,14 +99,14 @@ export default function Order({ restaurant }) {
               <option value={4}>4</option>
             </select>
           </td>
-          <td className="voucher"> 
+          <td className="voucher">
             {new Intl.NumberFormat("ja-JP", {
               style: "currency",
               currency: "JPY",
             }).format(1000)}
           </td>
           <td>25% OFF</td>
-          <td className="discount-price"> 
+          <td className="discount-price">
             {new Intl.NumberFormat("ja-JP", {
               style: "currency",
               currency: "JPY",
@@ -66,14 +128,14 @@ export default function Order({ restaurant }) {
               <option value={4}>4</option>
             </select>
           </td>
-          <td className="voucher"> 
+          <td className="voucher">
             {new Intl.NumberFormat("ja-JP", {
               style: "currency",
               currency: "JPY",
             }).format(3000)}
           </td>
           <td>25% OFF</td>
-          <td className="discount-price"> 
+          <td className="discount-price">
             {new Intl.NumberFormat("ja-JP", {
               style: "currency",
               currency: "JPY",
@@ -95,14 +157,14 @@ export default function Order({ restaurant }) {
               <option value={4}>4</option>
             </select>
           </td>
-          <td className="voucher"> 
+          <td className="voucher">
             {new Intl.NumberFormat("ja-JP", {
               style: "currency",
               currency: "JPY",
             }).format(5000)}
           </td>
           <td>25% OFF</td>
-          <td className="discount-price"> 
+          <td className="discount-price">
             {new Intl.NumberFormat("ja-JP", {
               style: "currency",
               currency: "JPY",
@@ -124,14 +186,14 @@ export default function Order({ restaurant }) {
               <option value={4}>4</option>
             </select>
           </td>
-          <td className="voucher"> 
+          <td className="voucher">
             {new Intl.NumberFormat("ja-JP", {
               style: "currency",
               currency: "JPY",
             }).format(10000)}
           </td>
           <td>25% OFF</td>
-          <td className="discount-price"> 
+          <td className="discount-price">
             {new Intl.NumberFormat("ja-JP", {
               style: "currency",
               currency: "JPY",
@@ -140,9 +202,9 @@ export default function Order({ restaurant }) {
         </tr>
       </table>
       <div>
-          <button 
-            className="order-button"
-            onClick={order}>ORDER</button>
+        <button className="order-button" onClick={order}>
+          ORDER
+        </button>
       </div>
     </div>
   );
