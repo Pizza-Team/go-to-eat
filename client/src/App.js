@@ -10,6 +10,7 @@ export default function App() {
 
   return (
     <div id="wrapper">
+      {/* navigation bar */}
       <nav>
         <div>
           <h1>Go-to-Eat Logo</h1>
@@ -19,6 +20,8 @@ export default function App() {
 
         <div id="how-to">How to Use</div>
       </nav>
+
+      {/* sharing restaurants state and setState with Input & List components using UseContext */}
       <RestaurantContext.Provider value={{restaurants, setRestaurants}}>
         <Input />
 

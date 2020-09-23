@@ -76,7 +76,7 @@ body {
 }
 #restaurant-container {
   width: 270px;
-  height: 280px;
+  height: 300px;
   margin-right: 60px;
   margin-bottom: 60px;
   background-color: rgb(255, 255, 255);
@@ -233,4 +233,43 @@ select {
 .informational {
   display: flex;
   flex-flow: row nowrap;
+}
+.order-container {
+  width: 100%;
+}
+.quantity {
+  width: 40px;
+}
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+.order-table td, .order-table th {
+  text-align: left;
+  border-bottom: solid lightgrey;
+  border-width: 1px;
+}
+.order-table th {
+  margin: 30px;
+  font-weight: 700;
+  padding: 4px;
+  color: darkslategrey;
+  width: 100px;
+}
+.order-table td {
+  padding-left: 4px;
+}
+.order-button {
+  width: 120px;
+  margin-top: 40px;
+  margin-left: 80%;
+  border-radius: 4px;
+}
+.voucher {
+  font-weight: 700;
+}
+.discount-price {
+  font-weight: 700;
+  color: maroon;
 }
