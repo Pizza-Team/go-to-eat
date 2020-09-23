@@ -139,6 +139,29 @@ h1 {
   font-size: 20px;
 }
 
+.nav {
+  height: 60px;
+  display: flex;
+  padding: 40px;
+}
+
+.logo {
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+#about {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#how-to {
+  display: flex;
+}
+
+
 #list-container {
   width: 100%;
   display: flex;
@@ -272,10 +295,12 @@ select {
   top: 0;
   left: 0;
 }
+
 .checkout-name {
   font-weight: 700;
   padding-bottom: 10px
 }
+
 .checkout-image {
   display: flex;
 }

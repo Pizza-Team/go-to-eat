@@ -4,6 +4,7 @@ import List from './components/List';
 import './App.css';
 import { useTranslation } from 'react-i18next';
 import i18n from './i18next';
+import Logo from './logo.png';
 
 export default function App() {
 	const test = [
@@ -33,9 +34,9 @@ export default function App() {
 	return (
 		<div id="wrapper">
 			<div id="main-overlay"></div>
-			<nav>
+			<nav className="nav">
 				<div>
-					<h1>Go-to-Eat Logo</h1>
+					<img src={Logo} alt="logo" className="logo" />
 				</div>
 				<div id="about">{t('About')}</div>
 				<div id="how-to">{t('How')}</div>
