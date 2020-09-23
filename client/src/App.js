@@ -86,7 +86,7 @@ export default function App() {
 							></img>
 							<br></br>
 							<p>
-								EaTokyo is the product of our team's vision to support the
+								EATokyo is the product of our team's vision to support the
 								Japanese Government's Go-to-Eat Campaign in the Tokyo area.
 								Throughout the Go-to-Eat Campaign, the Japanese government will
 								be offering customers 25% discounts to several local restaurants
@@ -95,7 +95,7 @@ export default function App() {
 							<br></br>
 							<p>
 								However, public information about this campaign has been vague
-								and confusing. With an application like EaTokyo, customers can
+								and confusing. With an application like EATokyo, customers can
 								find all the information they need to take advantage of these
 								discounted prices, search for all participating restaurants, and
 								order the discounted vouchers online.
