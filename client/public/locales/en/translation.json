@@ -8,5 +8,10 @@
     "Station": "Station",
     "Food Type": "Food Type",
     "Budget": "Budget",
-    "Clear Filter": "Clear Filter"
+    "Clear Filter": "Clear Filter",
+    "Quantity": "Quantity",
+    "Voucher Amount": "Voucher Amount",
+    "Discount": "Discount",
+    "Your Cost": "Your Cost"
+
 }

@@ -10,7 +10,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { food } from '../Images/imageArray';
 
-export default function RestCard({ restaurant }) {
+export default function RestCard({ restaurant, t }) {
 	const [display, setDisplay] = useState(false);
 
 	const lastNumOfLatitude = Number(restaurant.location.latitude.slice(-1));
@@ -141,7 +141,7 @@ export default function RestCard({ restaurant }) {
 							</div>
 						</div>
 
-						<Order restaurant={restaurant} />
+						<Order restaurant={restaurant} t={t} />
 					</div>
 				</>
 			)}
