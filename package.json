@@ -6,7 +6,7 @@
     "author": "team-pizza",
     "license": "MIT",
     "scripts": {
-        "start": "node server",
+        "start": "node server/index.js",
         "hack:server": "nodemon server",
         "heroku-postbuild": "cd client && yarn && yarn build"
     },
