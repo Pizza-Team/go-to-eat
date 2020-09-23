@@ -84,17 +84,17 @@ router.get("/restaurants", async function(req, res) {
     reqForRestaurant.headers(header)
 
     reqForRestaurant.end(function(resOfRestaurant) {
-        if (resOfRestaurant.error) throw new Error(resOfRestaurant.error);
+        // if (resOfRestaurant.error) throw new Error(resOfRestaurant.error);
         res.send(resOfRestaurant.body);
     });
 });
 
-router.get("/*", (req, res) => {
-  res
-    .sendFile(path.join(__dirname, "../client", "build", "index.html"))
-    .catch((err) => {
-      res.json({ err });
-    });
-});
+// router.get("/*", (req, res) => {
+//   res
+//     .sendFile(path.join(__dirname, "../client", "build", "index.html"))
+//     .catch((err) => {
+//       res.json({ err });
+//     });
+// });
 
 module.exports = router;
