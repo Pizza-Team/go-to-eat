@@ -6,6 +6,8 @@ import Banner from './Images/Banner.jpeg';
 import coupon from './Images/coupon.jpeg';
 import iphone from './Images/iphone.png';
 import food from './Images/food.jpg';
+import USA from './Images/USA.png';
+import JP from './Images/JP.png';
 import { useTranslation } from 'react-i18next';
 import i18n from './i18next';
 import Logo from './Images/Logo.png';
@@ -35,10 +37,14 @@ export default function App() {
 					{t('How')}
 				</div>
 
-				<button className="language" onClick={() => setLang('en')}>
+				<a>
+					<img src={USA} className="language" onClick={() => setLang('en')} />
 					EN
-				</button>
-				<button onClick={() => setLang('jp')}>JP</button>
+				</a>
+				<a>
+					<img src={JP} className="language" onClick={() => setLang('jp')} />
+					JP
+				</a>
 			</nav>
 			{howTo && (
 				<>

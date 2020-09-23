@@ -178,10 +178,25 @@ body {
 
 #how-to {
 	display: flex;
-	width: 100x;
+	width: 100px;
 	flex-direction: row;
 }
 
+.language {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.language:hover {
+	-moz-transform: translate(2px, -2px);
+	-ms-transform: translate(-2px, -2px);
+	-o-transform: translate(-2px, -2px);
+	-webkit-transform: translate(-2px, -2px);
+	transform: translate(-2px, -2px);
+	transition: all 0.15s ease-in-out;
+	cursor: pointer;
+}
 #list-container {
 	display: flex;
 	flex-flow: row wrap;
