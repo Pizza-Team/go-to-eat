@@ -9,7 +9,7 @@ export default function Order({ restaurant }) {
   const [quantity5k, setQuantity5k] = useState(0);
   const [quantity10k, setQuantity10k] = useState(0);
 
-  async function order() {    
+  async function order() {
     const stripe = await stripePromise;
 
     const response = await fetch("/api/pay/create-session", {
