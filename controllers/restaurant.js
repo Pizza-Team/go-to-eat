@@ -9,21 +9,13 @@ require("dotenv").config();
 
 //We should set x-rapidapi-key in .env
 const header = {
-<<<<<<< HEAD
-    "x-rapidapi-host": "gurunavi-restaurant-search.p.rapidapi.com",
-    "x-rapidapi-key": process.env.API_KEY,
-    "useQueryString": true,
-};
 
-router.get("/restaurants", async function (req, res) {
-=======
   "x-rapidapi-host": "gurunavi-restaurant-search.p.rapidapi.com",
   "x-rapidapi-key": process.env.API_KEY,
   useQueryString: true,
 };
 
 router.get("/restaurants", async function(req, res) {
->>>>>>> 73e8a7b6237c7a30822f12cc59cc4cd138897d04
     //query for search
     let query = { "pref": "PREF13", "hit_per_page": "100", };
 
@@ -153,13 +145,13 @@ router.get("/restaurants", async function(req, res) {
     });
 });
 
-router.get("/*", (req, res) => {
-  res
-    .sendFile(path.join(__dirname, "../client", "build", "index.html"))
-    .catch((err) => {
-      res.json({ err });
-    });
-});
+// router.get("/*", (req, res) => {
+//   res
+//     .sendFile(path.join(__dirname, "../client", "build", "index.html"))
+//     .catch((err) => {
+//       res.json({ err });
+//     });
+// });
 
 module.exports = router;
 zzz
