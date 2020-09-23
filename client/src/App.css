@@ -378,22 +378,34 @@ select {
 .howToContainer {
 	width: 800px;
 	height: 600px;
-	background-color: rgb(194, 194, 194);
+	background-color: rgb(231, 231, 231);
 	left: 25%;
 	top: 10%;
 	position: fixed;
 	z-index: 100;
 	border-radius: 4px;
 	padding: 10px;
+	margin-top: 40px;
 }
 
 .howToBanner {
 	width: 800px;
+	margin: 10px;
+	overflow: auto;
 }
 
 .howToTitle {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	font-weight: light;
+}
+
+.howtoLogo {
+	height: 100px;
+	width: 200px;
+	text-align: center;
+	margin-left: 260px;
+	padding: 30px;
 }
 
 .order-container {
