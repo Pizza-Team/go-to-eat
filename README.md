@@ -2,7 +2,11 @@
   <img width="300" src="./client/public/logo.png">
 </p> -->
 
-[EaTokyo](https://eatokyo.herokuapp.com/) is our vision to support the Japanese Government's Go-to-Eat Campaign in the Tokyo area. Throughout the Go-to-Eat Campaign, the Japanese government will be offering customers 25% discounts to several local restaurants and reimbursing those restaurants the difference. However, public information about this campaign has been vague and confusing. With an application like EaTokyo, customers can find all the information they need to take advantage of these discounted prices, search for all participating restaurants, and order the discounted vouchers online. The pandemic has had a severe impact on local businesses, and we hope more people get back out there to support the local businesses in their community again, while still staying safe! 
+[EaTokyo](https://eatokyo.herokuapp.com/) is our vision to support the Japanese Government's Go-to-Eat Campaign in the Tokyo area. Throughout the Go-to-Eat Campaign, the Japanese government will be offering customers 25% discounts to several local restaurants and reimbursing those restaurants the difference. 
+
+However, public information about this campaign has been vague and confusing. With an application like EaTokyo, customers can find all the information they need to take advantage of these discounted prices, search for all participating restaurants, and order the discounted vouchers online. 
+
+いい東京! Stay safe, and keep supporting the small businesses in our communities! 
 
 ### For Users
 Select an area from the dropdown menu. You can also add filters for food type and/or budget. When you're ready, click on the "Let's Eat!" button.
