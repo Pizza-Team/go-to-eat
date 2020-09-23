@@ -19,6 +19,7 @@
         "express": "^4.17.1",
         "morgan": "^1.10.0",
         "nodemon": "^2.0.4",
+        "react-i18next": "^11.7.3",
         "stripe": "^8.97.0",
         "unirest": "^0.6.0"
     },
