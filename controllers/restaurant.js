@@ -13,7 +13,7 @@ const header = {
   useQueryString: true,
 };
 
-router.get("/", async function(req, res) {
+router.get("/restaurants", async function(req, res) {
     //query for search
     let query = { "pref": "PREF13", "hit_per_page": "100", };
 

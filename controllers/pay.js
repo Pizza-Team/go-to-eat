@@ -3,7 +3,7 @@ const router = express.Router();
 
 // API for Payment
 // write api setting here
-router.get("/", async function(req, res) {
+router.get("/pay", async function(req, res) {
     res.send("pay");
 });
 
