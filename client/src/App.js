@@ -9,7 +9,7 @@ import iphone from './Images/iphone.png';
 import food from './Images/food.jpg';
 import { useTranslation } from 'react-i18next';
 import i18n from './i18next';
-import Logo from './logo.png';
+import Logo from './Images/Logo.png';
 import data from './data/data.json';
 import { RestaurantContext } from './RestaurantContext';
 import { Scrollbars } from 'react-custom-scrollbars';
