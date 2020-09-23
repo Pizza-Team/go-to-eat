@@ -6,20 +6,25 @@ import Banner from "./Images/Banner.jpeg";
 import coupon from "./Images/coupon.jpeg";
 import iphone from "./Images/iphone.png";
 import food from "./Images/food.jpg";
+import storefront from "./Images/storefront.jpeg";
 import { useTranslation } from "react-i18next";
 import i18n from "./i18next";
 import Logo from "./Images/Logo.png";
 import data from "./data/data.json";
 import { RestaurantContext } from "./RestaurantContext";
 import { Scrollbars } from "react-custom-scrollbars";
+
 export default function App() {
   const [restaurants, setRestaurants] = useState(data);
   const [lang, setLang] = useState("en");
   const { t, i18n } = useTranslation();
   const [howTo, setHowTo] = useState(false);
+  const [about, setAbout] = useState(false);
+
   useEffect(() => {
     i18n.changeLanguage(lang);
   }, [lang]);
+
   return (
     <div id="wrapper">
       <div id="main-overlay"></div>
@@ -27,15 +32,52 @@ export default function App() {
         <div>
           <img src={Logo} alt="logo" className="logo" />
         </div>
-        <div id="about">{t("About")}</div>
+        <div id="about" onClick={() => setAbout(true)}>
+          {t("About")}
+        </div>
         <div id="how-to" onClick={() => setHowTo(true)}>
           {t("How")}
         </div>
+
         <button className="language" onClick={() => setLang("en")}>
           EN
         </button>
         <button onClick={() => setLang("jp")}>JP</button>
       </nav>
+      {about && (
+        <>
+          <div className="main-overlay" onClick={() => setAbout(false)}></div>
+          <div className="howToContainer">
+            <div>
+              <h1>About EaTokyo</h1>
+            </div>
+            <div id="about-content">
+				<img alt="storefront" className="howToBanner" src={storefront}></img>
+              <br></br>
+              <p>
+                EaTokyo is the product of our team's vision to support the
+                Japanese Government's Go-to-Eat Campaign in the Tokyo area.
+                Throughout the Go-to-Eat Campaign, the Japanese government will
+                be offering customers 25% discounts to several local restaurants
+                and reimbursing those restaurants the difference.
+              </p>
+              <br></br>
+              <p>
+                However, public information about this campaign has been vague
+                and confusing. With an application like EaTokyo, customers can
+                find all the information they need to take advantage of these
+                discounted prices, search for all participating restaurants, and
+                order the discounted vouchers online. 
+              </p>
+			  <br></br>
+			  <p>
+			  いい東京! Stay safe, and keep supporting the small businesses in our communities!
+			  </p>
+            </div>
+          </div>
+        </>
+      )}
+
       {howTo && (
         <>
           <div className="main-overlay" onClick={() => setHowTo(false)}></div>
@@ -54,9 +96,9 @@ export default function App() {
               <img className="howToBanner" src={food} />
             </Scrollbars>
           </div>
-          >
         </>
       )}
+
       <RestaurantContext.Provider value={{ restaurants, setRestaurants }}>
         <Input t={t} />
         <List restaurants={restaurants} t={t} />
