@@ -178,8 +178,8 @@ body {
 
 #how-to {
 	display: flex;
+	width: 100x;
 	flex-direction: row;
-	flex-wrap: nowrap;
 }
 
 #list-container {
@@ -193,22 +193,20 @@ body {
 
 #restaurant-container {
 	width: 270px;
-	height: 280px;
+	height: 300px;
 	margin-right: 60px;
 	margin-bottom: 60px;
 	background-color: rgb(255, 255, 255);
 	box-shadow: 0 2px 6px lightgrey;
 	cursor: pointer;
 	z-index: 10;
-	object-fit: contain;
-
+	object-fit: cover;
 }
 
 .image {
 	width: 100%;
 	overflow: hidden;
 	height: 180px;
-
 }
 
 .info {
@@ -375,4 +373,74 @@ select {
 .informational {
 	display: flex;
 	flex-flow: row nowrap;
+}
+
+.howToContainer {
+	width: 800px;
+	height: 600px;
+	background-color: rgb(194, 194, 194);
+	left: 25%;
+	top: 10%;
+	position: fixed;
+	z-index: 100;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.howToBanner {
+	width: 800px;
+}
+
+.howToTitle {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.order-container {
+	width: 100%;
+}
+
+.quantity {
+	width: 40px;
+}
+
+.order-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 30px;
+}
+
+.order-table td,
+.order-table th {
+	text-align: left;
+	border-bottom: solid lightgrey;
+	border-width: 1px;
+}
+
+.order-table th {
+	margin: 30px;
+	font-weight: 700;
+	padding: 4px;
+	color: darkslategrey;
+	width: 100px;
+}
+
+.order-table td {
+	padding-left: 4px;
+}
+
+.order-button {
+	width: 120px;
+	margin-top: 40px;
+	margin-left: 80%;
+	border-radius: 4px;
+}
+
+.voucher {
+	font-weight: 700;
+}
+
+.discount-price {
+	font-weight: 700;
+	color: maroon;
 }

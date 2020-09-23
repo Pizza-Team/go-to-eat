@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Order from './Order';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
 	faClock,
@@ -9,20 +10,25 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { food } from '../Images/imageArray';
 
-export default function RestCard({ restaurant, t }) {
+export default function RestCard({ restaurant }) {
 	const [display, setDisplay] = useState(false);
 
+	const lastNumOfLatitude = Number(restaurant.location.latitude.slice(-1));
 	function imageMatch() {
-		const num = Math.floor(Math.random() * 12);
+		//0<=(lastNumOfLatitude/9)<=1
+		const num = Math.floor((lastNumOfLatitude / 9) * 12);
+		//last num of latitude(0~9)
+		return (
+			<img src={food[num]} object-fit="contain" height="200px" width="270px" />
+		);
+	}
 
-		// if (
+	{
+		/* // if (
 		// 	restaurant.categories.category_name_l[0] === 'Sushi / Seafood' &&
 		// 	'Traditional Japanese' &&
 		// 	'Yakitori (Grilled Meat and Vegetables Skewers) / Meat Dishes'
 		// )
-		return (
-			<img src={food[num]} object-fit="contain" height="200px" width="270px" />
-		);
 		// if (
 		// 	restaurant.categories.category_name_l[0] ===
 		// 		'Dining Bars / Bars / Beer Halls' ||
@@ -33,9 +39,8 @@ export default function RestCard({ restaurant, t }) {
 		// 	restaurant.categories.category_name_l[0] === 'Western / European' &&
 		// 	'Italian / French'
 		// )
-		// 	return <img src={Western[num]} bject-fit="contain" height="200px" />;
+		// 	return <img src={Western[num]} bject-fit="contain" height="200px" />; */
 	}
-
 	return (
 		<>
 			<div id="restaurant-container" onClick={() => setDisplay(true)}>
@@ -43,13 +48,16 @@ export default function RestCard({ restaurant, t }) {
 				<div className="info">
 					<div className="name">{restaurant.name.name}</div>
 
-					<div className="location">{restaurant.location.area.areaname_m}</div>
-
 					<div className="type">{restaurant.categories.category_name_l[0]}</div>
+
+					<div className="type">{'¥' + restaurant.budget}</div>
 				</div>
 			</div>
+
+			{/* modal window for this restaurant displays when display is true (when it's clicked) */}
 			{display && (
 				<>
+					{/* overlay grays out the rest of the body */}
 					<div className="main-overlay" onClick={() => setDisplay(false)}></div>
 
 					<div className="checkout">
@@ -63,6 +71,7 @@ export default function RestCard({ restaurant, t }) {
 								/>
 							</div>
 							<div className="checkout-info">
+								{/* hours of operations */}
 								<div className="info-line">
 									<div className="icon">
 										<FontAwesomeIcon
@@ -73,6 +82,8 @@ export default function RestCard({ restaurant, t }) {
 									</div>
 									<div className="info-content">{restaurant.business_hour}</div>
 								</div>
+
+								{/* address */}
 								<div className="info-line">
 									<div className="icon">
 										<FontAwesomeIcon
@@ -85,6 +96,8 @@ export default function RestCard({ restaurant, t }) {
 										{restaurant.contacts.address}
 									</div>
 								</div>
+
+								{/* phone number */}
 								<div className="info-line">
 									<div className="icon">
 										<FontAwesomeIcon
@@ -95,6 +108,8 @@ export default function RestCard({ restaurant, t }) {
 									</div>
 									<div className="info-content">{restaurant.contacts.tel}</div>
 								</div>
+
+								{/* food category */}
 								<div className="info-line">
 									<div className="icon">
 										<FontAwesomeIcon
@@ -107,6 +122,8 @@ export default function RestCard({ restaurant, t }) {
 										{restaurant.categories.category_name_l[0]}
 									</div>
 								</div>
+
+								{/* website url */}
 								<div className="info-line">
 									<div className="icon">
 										<FontAwesomeIcon
@@ -123,6 +140,8 @@ export default function RestCard({ restaurant, t }) {
 								</div>
 							</div>
 						</div>
+
+						<Order restaurant={restaurant} />
 					</div>
 				</>
 			)}
