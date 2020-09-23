@@ -1,19 +1,19 @@
-import React, { useState, useEffect } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import RestCard from './RestCard';
-import { useTranslation } from 'react-i18next';
-import i18n from '../i18next';
+import { RestaurantContext } from '../RestaurantContext';
 
-export default function List({ restaurants, t }) {
+export default function List() {
+	const { restaurants, setRestaurants } = useContext(RestaurantContext);
+
 	return (
-		<>
-			<div id="num-results">
-				{t('Displaying')} {restaurants.length} {t('Restaurants')}
-			</div>
+		<div id="gallery-container">
+			<div id="num-results">Displaying {restaurants.length} restaurants...</div>
+
 			<div id="list-container">
 				{restaurants.map((restaurant) => (
 					<RestCard restaurant={restaurant} />
 				))}
 			</div>
-		</>
+		</div>
 	);
 }

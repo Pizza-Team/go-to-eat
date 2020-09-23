@@ -1,0 +1,1012 @@
+{
+    "length": 168,
+    "area_m": [{
+            "areacode_m": "AREAM2105",
+            "areaname_m": "Ginza",
+            "garea_large": { "areacode_l": "AREAL2101", "areaname_l": "Ginza / Yurakucho / Tsukiji" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2107",
+            "areaname_m": "Shimbashi",
+            "garea_large": { "areacode_l": "AREAL2107", "areaname_l": "Shimbashi / Hamamatsucho / Tamachi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2133",
+            "areaname_m": "Akasaka",
+            "garea_large": { "areacode_l": "AREAL2133", "areaname_l": "Akasaka / Roppongi / Azabu" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2136",
+            "areaname_m": "Toranomon",
+            "garea_large": { "areacode_l": "AREAL2107", "areaname_l": "Shimbashi / Hamamatsucho / Tamachi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2172",
+            "areaname_m": "Hamamatsucho / Daimon",
+            "garea_large": { "areacode_l": "AREAL2107", "areaname_l": "Shimbashi / Hamamatsucho / Tamachi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2175",
+            "areaname_m": "Tamachi / Mita",
+            "garea_large": { "areacode_l": "AREAL2107", "areaname_l": "Shimbashi / Hamamatsucho / Tamachi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2187",
+            "areaname_m": "Iidabashi",
+            "garea_large": { "areacode_l": "AREAL2184", "areaname_l": "Iidabashi / Yotsuya / Kagurazaka" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2192",
+            "areaname_m": "Kagurazaka",
+            "garea_large": { "areacode_l": "AREAL2184", "areaname_l": "Iidabashi / Yotsuya / Kagurazaka" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2928",
+            "areaname_m": "Shiodome",
+            "garea_large": { "areacode_l": "AREAL2107", "areaname_l": "Shimbashi / Hamamatsucho / Tamachi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2929",
+            "areaname_m": "Shibakoen / Around Tokyo Tower",
+            "garea_large": { "areacode_l": "AREAL2107", "areaname_l": "Shimbashi / Hamamatsucho / Tamachi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2930",
+            "areaname_m": "Shibaura",
+            "garea_large": { "areacode_l": "AREAL2107", "areaname_l": "Shimbashi / Hamamatsucho / Tamachi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2943",
+            "areaname_m": "Nagatacho",
+            "garea_large": { "areacode_l": "AREAL2133", "areaname_l": "Akasaka / Roppongi / Azabu" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2106",
+            "areaname_m": "Yurakucho / Hibiya",
+            "garea_large": { "areacode_l": "AREAL2101", "areaname_l": "Ginza / Yurakucho / Tsukiji" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2956",
+            "areaname_m": "Kudanshita",
+            "garea_large": { "areacode_l": "AREAL2184", "areaname_l": "Iidabashi / Yotsuya / Kagurazaka" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2109",
+            "areaname_m": "Tsukiji",
+            "garea_large": { "areacode_l": "AREAL2101", "areaname_l": "Ginza / Yurakucho / Tsukiji" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2944",
+            "areaname_m": "Kasumigaseki",
+            "garea_large": { "areacode_l": "AREAL2133", "areaname_l": "Akasaka / Roppongi / Azabu" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2195",
+            "areaname_m": "Ichigaya",
+            "garea_large": { "areacode_l": "AREAL2184", "areaname_l": "Iidabashi / Yotsuya / Kagurazaka" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2927",
+            "areaname_m": "Tsukishima",
+            "garea_large": { "areacode_l": "AREAL2101", "areaname_l": "Ginza / Yurakucho / Tsukiji" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2945",
+            "areaname_m": "Kamiyacho",
+            "garea_large": { "areacode_l": "AREAL2133", "areaname_l": "Akasaka / Roppongi / Azabu" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2957",
+            "areaname_m": "Yotsuya",
+            "garea_large": { "areacode_l": "AREAL2184", "areaname_l": "Iidabashi / Yotsuya / Kagurazaka" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2132",
+            "areaname_m": "Roppongi",
+            "garea_large": { "areacode_l": "AREAL2133", "areaname_l": "Akasaka / Roppongi / Azabu" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2958",
+            "areaname_m": "Hanzomon / Kojimachi",
+            "garea_large": { "areacode_l": "AREAL2184", "areaname_l": "Iidabashi / Yotsuya / Kagurazaka" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2946",
+            "areaname_m": "Nishiazabu",
+            "garea_large": { "areacode_l": "AREAL2133", "areaname_l": "Akasaka / Roppongi / Azabu" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2959",
+            "areaname_m": "Shinanomachi",
+            "garea_large": { "areacode_l": "AREAL2184", "areaname_l": "Iidabashi / Yotsuya / Kagurazaka" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2138",
+            "areaname_m": "Hiro-o",
+            "garea_large": { "areacode_l": "AREAL2133", "areaname_l": "Akasaka / Roppongi / Azabu" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2947",
+            "areaname_m": "Azabu-juban",
+            "garea_large": { "areacode_l": "AREAL2133", "areaname_l": "Akasaka / Roppongi / Azabu" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2137",
+            "areaname_m": "Shirokane / Shirokanedai",
+            "garea_large": { "areacode_l": "AREAL2133", "areaname_l": "Akasaka / Roppongi / Azabu" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2115",
+            "areaname_m": "Shinjuku",
+            "garea_large": { "areacode_l": "AREAL2115", "areaname_l": "Shinjuku / Yoyogi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2933",
+            "areaname_m": "Hatsudai",
+            "garea_large": { "areacode_l": "AREAL2115", "areaname_l": "Shinjuku / Yoyogi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2934",
+            "areaname_m": "Sendagaya",
+            "garea_large": { "areacode_l": "AREAL2115", "areaname_l": "Shinjuku / Yoyogi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2122",
+            "areaname_m": "Okubo",
+            "garea_large": { "areacode_l": "AREAL2116", "areaname_l": "Okubo / Takadanobaba" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2123",
+            "areaname_m": "Takadanobaba",
+            "garea_large": { "areacode_l": "AREAL2116", "areaname_l": "Okubo / Takadanobaba" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2935",
+            "areaname_m": "Waseda",
+            "garea_large": { "areacode_l": "AREAL2116", "areaname_l": "Okubo / Takadanobaba" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2126",
+            "areaname_m": "Shibuya",
+            "garea_large": { "areacode_l": "AREAL2125", "areaname_l": "Shibuya / Harajuku / Aoyama" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2129",
+            "areaname_m": "Harajuku",
+            "garea_large": { "areacode_l": "AREAL2125", "areaname_l": "Shibuya / Harajuku / Aoyama" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2130",
+            "areaname_m": "Omote-sando / Aoyama",
+            "garea_large": { "areacode_l": "AREAL2125", "areaname_l": "Shibuya / Harajuku / Aoyama" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2936",
+            "areaname_m": "Gaiemmae / Aoyama-itchome",
+            "garea_large": { "areacode_l": "AREAL2125", "areaname_l": "Shibuya / Harajuku / Aoyama" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2157",
+            "areaname_m": "Ikebukuro",
+            "garea_large": { "areacode_l": "AREAL2156", "areaname_l": "Ikebukuro / Sugamo / Komagome" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2159",
+            "areaname_m": "Mejiro",
+            "garea_large": { "areacode_l": "AREAL2156", "areaname_l": "Ikebukuro / Sugamo / Komagome" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2158",
+            "areaname_m": "Gokokuji",
+            "garea_large": { "areacode_l": "AREAL2156", "areaname_l": "Ikebukuro / Sugamo / Komagome" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2160",
+            "areaname_m": "Otsuka",
+            "garea_large": { "areacode_l": "AREAL2156", "areaname_l": "Ikebukuro / Sugamo / Komagome" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2937",
+            "areaname_m": "Sugamo",
+            "garea_large": { "areacode_l": "AREAL2156", "areaname_l": "Ikebukuro / Sugamo / Komagome" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2938",
+            "areaname_m": "Komagome",
+            "garea_large": { "areacode_l": "AREAL2156", "areaname_l": "Ikebukuro / Sugamo / Komagome" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2939",
+            "areaname_m": "Hakusan",
+            "garea_large": { "areacode_l": "AREAL2156", "areaname_l": "Ikebukuro / Sugamo / Komagome" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2141",
+            "areaname_m": "Marunouchi",
+            "garea_large": { "areacode_l": "AREAL2141", "areaname_l": "Tokyo Station / Marunouchi / Nihombashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2940",
+            "areaname_m": "Otemachi",
+            "garea_large": { "areacode_l": "AREAL2141", "areaname_l": "Tokyo Station / Marunouchi / Nihombashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2941",
+            "areaname_m": "Tokyo Station (Yaesu)",
+            "garea_large": { "areacode_l": "AREAL2141", "areaname_l": "Tokyo Station / Marunouchi / Nihombashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2143",
+            "areaname_m": "Nihombashi",
+            "garea_large": { "areacode_l": "AREAL2141", "areaname_l": "Tokyo Station / Marunouchi / Nihombashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2942",
+            "areaname_m": "Kyobashi",
+            "garea_large": { "areacode_l": "AREAL2141", "areaname_l": "Tokyo Station / Marunouchi / Nihombashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2145",
+            "areaname_m": "Mitsukoshimae",
+            "garea_large": { "areacode_l": "AREAL2141", "areaname_l": "Tokyo Station / Marunouchi / Nihombashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2198",
+            "areaname_m": "Ueno",
+            "garea_large": { "areacode_l": "AREAL2198", "areaname_l": "Ueno / Asakusa / Nippori" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2948",
+            "areaname_m": "Okachimachi",
+            "garea_large": { "areacode_l": "AREAL2198", "areaname_l": "Ueno / Asakusa / Nippori" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2949",
+            "areaname_m": "Yushima",
+            "garea_large": { "areacode_l": "AREAL2198", "areaname_l": "Ueno / Asakusa / Nippori" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2205",
+            "areaname_m": "Asakusa",
+            "garea_large": { "areacode_l": "AREAL2198", "areaname_l": "Ueno / Asakusa / Nippori" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2201",
+            "areaname_m": "Nippori",
+            "garea_large": { "areacode_l": "AREAL2198", "areaname_l": "Ueno / Asakusa / Nippori" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2950",
+            "areaname_m": "Tabata",
+            "garea_large": { "areacode_l": "AREAL2198", "areaname_l": "Ueno / Asakusa / Nippori" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2951",
+            "areaname_m": "Nezu",
+            "garea_large": { "areacode_l": "AREAL2198", "areaname_l": "Ueno / Asakusa / Nippori" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2202",
+            "areaname_m": "Sendagi",
+            "garea_large": { "areacode_l": "AREAL2198", "areaname_l": "Ueno / Asakusa / Nippori" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2142",
+            "areaname_m": "Kanda",
+            "garea_large": { "areacode_l": "AREAL2142", "areaname_l": "Kanda / Akihabara / Suidobashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2200",
+            "areaname_m": "Akihabara",
+            "garea_large": { "areacode_l": "AREAL2142", "areaname_l": "Kanda / Akihabara / Suidobashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2184",
+            "areaname_m": "Ochanomizu",
+            "garea_large": { "areacode_l": "AREAL2142", "areaname_l": "Kanda / Akihabara / Suidobashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2952",
+            "areaname_m": "Jimbocho",
+            "garea_large": { "areacode_l": "AREAL2142", "areaname_l": "Kanda / Akihabara / Suidobashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2953",
+            "areaname_m": "Suidobashi",
+            "garea_large": { "areacode_l": "AREAL2142", "areaname_l": "Kanda / Akihabara / Suidobashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2954",
+            "areaname_m": "Koishikawa",
+            "garea_large": { "areacode_l": "AREAL2142", "areaname_l": "Kanda / Akihabara / Suidobashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2955",
+            "areaname_m": "Hongo",
+            "garea_large": { "areacode_l": "AREAL2142", "areaname_l": "Kanda / Akihabara / Suidobashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2169",
+            "areaname_m": "Shinagawa",
+            "garea_large": { "areacode_l": "AREAL2169", "areaname_l": "Shinagawa / Gotanda / Osaki" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2176",
+            "areaname_m": "Gotanda",
+            "garea_large": { "areacode_l": "AREAL2169", "areaname_l": "Shinagawa / Gotanda / Osaki" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2960",
+            "areaname_m": "Osaki",
+            "garea_large": { "areacode_l": "AREAL2169", "areaname_l": "Shinagawa / Gotanda / Osaki" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2961",
+            "areaname_m": "Togoshi-ginza / Hatanodai",
+            "garea_large": { "areacode_l": "AREAL2169", "areaname_l": "Shinagawa / Gotanda / Osaki" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2171",
+            "areaname_m": "Around Tenno-zu-Isle",
+            "garea_large": { "areacode_l": "AREAL2169", "areaname_l": "Shinagawa / Gotanda / Osaki" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2113",
+            "areaname_m": "Odaiba",
+            "garea_large": { "areacode_l": "AREAL2170", "areaname_l": "Odaiba / Toyosu / Wangan" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2962",
+            "areaname_m": "Ariake",
+            "garea_large": { "areacode_l": "AREAL2170", "areaname_l": "Odaiba / Toyosu / Wangan" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2963",
+            "areaname_m": "Harumi",
+            "garea_large": { "areacode_l": "AREAL2170", "areaname_l": "Odaiba / Toyosu / Wangan" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2111",
+            "areaname_m": "Toyosu",
+            "garea_large": { "areacode_l": "AREAL2170", "areaname_l": "Odaiba / Toyosu / Wangan" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2178",
+            "areaname_m": "Ebisu",
+            "garea_large": { "areacode_l": "AREAL2178", "areaname_l": "Ebisu / Naka-meguro / Meguro" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2964",
+            "areaname_m": "Daikan-Yama",
+            "garea_large": { "areacode_l": "AREAL2178", "areaname_l": "Ebisu / Naka-meguro / Meguro" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2181",
+            "areaname_m": "Naka-meguro",
+            "garea_large": { "areacode_l": "AREAL2178", "areaname_l": "Ebisu / Naka-meguro / Meguro" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2965",
+            "areaname_m": "Yutenji",
+            "garea_large": { "areacode_l": "AREAL2178", "areaname_l": "Ebisu / Naka-meguro / Meguro" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2180",
+            "areaname_m": "Meguro",
+            "garea_large": { "areacode_l": "AREAL2178", "areaname_l": "Ebisu / Naka-meguro / Meguro" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2966",
+            "areaname_m": "Fudo-mae / Musashi-koyama",
+            "garea_large": { "areacode_l": "AREAL2178", "areaname_l": "Ebisu / Naka-meguro / Meguro" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2164",
+            "areaname_m": "Jiyugaoka",
+            "garea_large": { "areacode_l": "AREAL2164", "areaname_l": "Jiyugaoka / Sangen-jaya / Futako-tamagawa" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2967",
+            "areaname_m": "Den-en-chofu",
+            "garea_large": { "areacode_l": "AREAL2164", "areaname_l": "Jiyugaoka / Sangen-jaya / Futako-tamagawa" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2968",
+            "areaname_m": "Gakugei-daigaku",
+            "garea_large": { "areacode_l": "AREAL2164", "areaname_l": "Jiyugaoka / Sangen-jaya / Futako-tamagawa" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2166",
+            "areaname_m": "Sangen-jaya",
+            "garea_large": { "areacode_l": "AREAL2164", "areaname_l": "Jiyugaoka / Sangen-jaya / Futako-tamagawa" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2969",
+            "areaname_m": "Ikejiri-ohashi / Mishuku",
+            "garea_large": { "areacode_l": "AREAL2164", "areaname_l": "Jiyugaoka / Sangen-jaya / Futako-tamagawa" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2970",
+            "areaname_m": "Komazawa-daigaku",
+            "garea_large": { "areacode_l": "AREAL2164", "areaname_l": "Jiyugaoka / Sangen-jaya / Futako-tamagawa" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2168",
+            "areaname_m": "Futako-tamagawa / Yoga",
+            "garea_large": { "areacode_l": "AREAL2164", "areaname_l": "Jiyugaoka / Sangen-jaya / Futako-tamagawa" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2207",
+            "areaname_m": "Shimo-Kitazawa",
+            "garea_large": { "areacode_l": "AREAL2207", "areaname_l": "Shimo-kitazawa / Meidaimae / Seijogakuen-mae" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2971",
+            "areaname_m": "Yoyogi-uehara",
+            "garea_large": { "areacode_l": "AREAL2207", "areaname_l": "Shimo-kitazawa / Meidaimae / Seijogakuen-mae" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2209",
+            "areaname_m": "Sasazuka",
+            "garea_large": { "areacode_l": "AREAL2207", "areaname_l": "Shimo-kitazawa / Meidaimae / Seijogakuen-mae" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2972",
+            "areaname_m": "Meidaimae",
+            "garea_large": { "areacode_l": "AREAL2207", "areaname_l": "Shimo-kitazawa / Meidaimae / Seijogakuen-mae" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2973",
+            "areaname_m": "Takaido",
+            "garea_large": { "areacode_l": "AREAL2207", "areaname_l": "Shimo-kitazawa / Meidaimae / Seijogakuen-mae" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2211",
+            "areaname_m": "Chitose-karasuyama / Sengawa",
+            "garea_large": { "areacode_l": "AREAL2207", "areaname_l": "Shimo-kitazawa / Meidaimae / Seijogakuen-mae" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2215",
+            "areaname_m": "Gotokuji / Kyodo",
+            "garea_large": { "areacode_l": "AREAL2207", "areaname_l": "Shimo-kitazawa / Meidaimae / Seijogakuen-mae" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2974",
+            "areaname_m": "Chitose-Funabashi / Seijogakuen-mae",
+            "garea_large": { "areacode_l": "AREAL2207", "areaname_l": "Shimo-kitazawa / Meidaimae / Seijogakuen-mae" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2975",
+            "areaname_m": "Kitami / Komae",
+            "garea_large": { "areacode_l": "AREAL2207", "areaname_l": "Shimo-kitazawa / Meidaimae / Seijogakuen-mae" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2217",
+            "areaname_m": "Nakano",
+            "garea_large": { "areacode_l": "AREAL2217", "areaname_l": "Nakano / Kichijoji / Mitaka" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2976",
+            "areaname_m": "Ogikubo",
+            "garea_large": { "areacode_l": "AREAL2217", "areaname_l": "Nakano / Kichijoji / Mitaka" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2977",
+            "areaname_m": "Koenji",
+            "garea_large": { "areacode_l": "AREAL2217", "areaname_l": "Nakano / Kichijoji / Mitaka" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2978",
+            "areaname_m": "Honancho",
+            "garea_large": { "areacode_l": "AREAL2217", "areaname_l": "Nakano / Kichijoji / Mitaka" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2979",
+            "areaname_m": "Ochiai",
+            "garea_large": { "areacode_l": "AREAL2217", "areaname_l": "Nakano / Kichijoji / Mitaka" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2980",
+            "areaname_m": "Iogi",
+            "garea_large": { "areacode_l": "AREAL2217", "areaname_l": "Nakano / Kichijoji / Mitaka" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2276",
+            "areaname_m": "Kichijoji",
+            "garea_large": { "areacode_l": "AREAL2217", "areaname_l": "Nakano / Kichijoji / Mitaka" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2981",
+            "areaname_m": "Mitaka",
+            "garea_large": { "areacode_l": "AREAL2217", "areaname_l": "Nakano / Kichijoji / Mitaka" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2222",
+            "areaname_m": "Nerima",
+            "garea_large": { "areacode_l": "AREAL2222", "areaname_l": "Nerima / Ekoda / Tanashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2982",
+            "areaname_m": "Heiwadai",
+            "garea_large": { "areacode_l": "AREAL2222", "areaname_l": "Nerima / Ekoda / Tanashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2983",
+            "areaname_m": "Hikarigaoka",
+            "garea_large": { "areacode_l": "AREAL2222", "areaname_l": "Nerima / Ekoda / Tanashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2984",
+            "areaname_m": "Oizumi-gakuen",
+            "garea_large": { "areacode_l": "AREAL2222", "areaname_l": "Nerima / Ekoda / Tanashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2985",
+            "areaname_m": "Ekoda",
+            "garea_large": { "areacode_l": "AREAL2222", "areaname_l": "Nerima / Ekoda / Tanashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2986",
+            "areaname_m": "Kami-Shakujii",
+            "garea_large": { "areacode_l": "AREAL2222", "areaname_l": "Nerima / Ekoda / Tanashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2987",
+            "areaname_m": "Tanashi",
+            "garea_large": { "areacode_l": "AREAL2222", "areaname_l": "Nerima / Ekoda / Tanashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2282",
+            "areaname_m": "Higashi-Kurume",
+            "garea_large": { "areacode_l": "AREAL2222", "areaname_l": "Nerima / Ekoda / Tanashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2988",
+            "areaname_m": "Higashi-Murayama",
+            "garea_large": { "areacode_l": "AREAL2222", "areaname_l": "Nerima / Ekoda / Tanashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2989",
+            "areaname_m": "Kiyose",
+            "garea_large": { "areacode_l": "AREAL2222", "areaname_l": "Nerima / Ekoda / Tanashi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2228",
+            "areaname_m": "Kinshicho / Sumiyoshi",
+            "garea_large": { "areacode_l": "AREAL2228", "areaname_l": "Kinshicho / Oshiage / Shin-Koiwa" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2990",
+            "areaname_m": "Oshiage",
+            "garea_large": { "areacode_l": "AREAL2228", "areaname_l": "Kinshicho / Oshiage / Shin-Koiwa" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2991",
+            "areaname_m": "Ryogoku",
+            "garea_large": { "areacode_l": "AREAL2228", "areaname_l": "Kinshicho / Oshiage / Shin-Koiwa" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2230",
+            "areaname_m": "Asakusabashi",
+            "garea_large": { "areacode_l": "AREAL2228", "areaname_l": "Kinshicho / Oshiage / Shin-Koiwa" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2992",
+            "areaname_m": "Kameido",
+            "garea_large": { "areacode_l": "AREAL2228", "areaname_l": "Kinshicho / Oshiage / Shin-Koiwa" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2993",
+            "areaname_m": "Shin-Koiwa",
+            "garea_large": { "areacode_l": "AREAL2228", "areaname_l": "Kinshicho / Oshiage / Shin-Koiwa" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2232",
+            "areaname_m": "Koiwa",
+            "garea_large": { "areacode_l": "AREAL2228", "areaname_l": "Kinshicho / Oshiage / Shin-Koiwa" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2234",
+            "areaname_m": "Funabori / Mizue",
+            "garea_large": { "areacode_l": "AREAL2228", "areaname_l": "Kinshicho / Oshiage / Shin-Koiwa" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2148",
+            "areaname_m": "Ningyocho / Kodemmacho",
+            "garea_large": { "areacode_l": "AREAL2146", "areaname_l": "Ningyocho / Monzen-nakacho / Kasai" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2146",
+            "areaname_m": "Kayabacho",
+            "garea_large": { "areacode_l": "AREAL2146", "areaname_l": "Ningyocho / Monzen-nakacho / Kasai" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2996",
+            "areaname_m": "Hatchobori",
+            "garea_large": { "areacode_l": "AREAL2146", "areaname_l": "Ningyocho / Monzen-nakacho / Kasai" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2149",
+            "areaname_m": "Monzen-nakacho",
+            "garea_large": { "areacode_l": "AREAL2146", "areaname_l": "Ningyocho / Monzen-nakacho / Kasai" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2997",
+            "areaname_m": "Kiyosumi-shirakawa",
+            "garea_large": { "areacode_l": "AREAL2146", "areaname_l": "Ningyocho / Monzen-nakacho / Kasai" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2998",
+            "areaname_m": "Kiba",
+            "garea_large": { "areacode_l": "AREAL2146", "areaname_l": "Ningyocho / Monzen-nakacho / Kasai" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2999",
+            "areaname_m": "Toyocho",
+            "garea_large": { "areacode_l": "AREAL2146", "areaname_l": "Ningyocho / Monzen-nakacho / Kasai" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2153",
+            "areaname_m": "Minami-sunamachi / Kikukawa",
+            "garea_large": { "areacode_l": "AREAL2146", "areaname_l": "Ningyocho / Monzen-nakacho / Kasai" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2237",
+            "areaname_m": "Nishi-kasai / Kasai",
+            "garea_large": { "areacode_l": "AREAL2146", "areaname_l": "Ningyocho / Monzen-nakacho / Kasai" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2239",
+            "areaname_m": "Shin-Kiba / Kasairinkaikoen",
+            "garea_large": { "areacode_l": "AREAL2146", "areaname_l": "Ningyocho / Monzen-nakacho / Kasai" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3000",
+            "areaname_m": "Minami-Senju",
+            "garea_large": { "areacode_l": "AREAL2241", "areaname_l": "Kita-Senju / Ayase / Kameari" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2241",
+            "areaname_m": "Machiya",
+            "garea_large": { "areacode_l": "AREAL2241", "areaname_l": "Kita-Senju / Ayase / Kameari" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2243",
+            "areaname_m": "Kita-Senju",
+            "garea_large": { "areacode_l": "AREAL2241", "areaname_l": "Kita-Senju / Ayase / Kameari" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3001",
+            "areaname_m": "Ayase",
+            "garea_large": { "areacode_l": "AREAL2241", "areaname_l": "Kita-Senju / Ayase / Kameari" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3002",
+            "areaname_m": "Nishiarai",
+            "garea_large": { "areacode_l": "AREAL2241", "areaname_l": "Kita-Senju / Ayase / Kameari" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3003",
+            "areaname_m": "Kanamachi",
+            "garea_large": { "areacode_l": "AREAL2241", "areaname_l": "Kita-Senju / Ayase / Kameari" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3004",
+            "areaname_m": "Kameari / Aoto",
+            "garea_large": { "areacode_l": "AREAL2241", "areaname_l": "Kita-Senju / Ayase / Kameari" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2250",
+            "areaname_m": "Itabashi",
+            "garea_large": { "areacode_l": "AREAL2250", "areaname_l": "Itabashi / Narimasu / Akabane" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3005",
+            "areaname_m": "Narimasu",
+            "garea_large": { "areacode_l": "AREAL2250", "areaname_l": "Itabashi / Narimasu / Akabane" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3006",
+            "areaname_m": "Takashimadaira",
+            "garea_large": { "areacode_l": "AREAL2250", "areaname_l": "Itabashi / Narimasu / Akabane" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2248",
+            "areaname_m": "Akabane",
+            "garea_large": { "areacode_l": "AREAL2250", "areaname_l": "Itabashi / Narimasu / Akabane" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3007",
+            "areaname_m": "Oji",
+            "garea_large": { "areacode_l": "AREAL2250", "areaname_l": "Itabashi / Narimasu / Akabane" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2254",
+            "areaname_m": "Oimachi",
+            "garea_large": { "areacode_l": "AREAL2254", "areaname_l": "Oimachi / Omori / Kamata" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3008",
+            "areaname_m": "Omori",
+            "garea_large": { "areacode_l": "AREAL2254", "areaname_l": "Oimachi / Omori / Kamata" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2255",
+            "areaname_m": "Kamata",
+            "garea_large": { "areacode_l": "AREAL2254", "areaname_l": "Oimachi / Omori / Kamata" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3009",
+            "areaname_m": "Haneda",
+            "garea_large": { "areacode_l": "AREAL2254", "areaname_l": "Oimachi / Omori / Kamata" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3010",
+            "areaname_m": "Ikegami / Senzoku-ike",
+            "garea_large": { "areacode_l": "AREAL2254", "areaname_l": "Oimachi / Omori / Kamata" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2273",
+            "areaname_m": "Fuchu",
+            "garea_large": { "areacode_l": "AREAL2273", "areaname_l": "Fuchu / Chofu" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3011",
+            "areaname_m": "Inagi",
+            "garea_large": { "areacode_l": "AREAL2273", "areaname_l": "Fuchu / Chofu" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3012",
+            "areaname_m": "Chofu",
+            "garea_large": { "areacode_l": "AREAL2273", "areaname_l": "Fuchu / Chofu" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3078",
+            "areaname_m": "Seiseki-sakuragaoka",
+            "garea_large": { "areacode_l": "AREAL2273", "areaname_l": "Fuchu / Chofu" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3013",
+            "areaname_m": "Tama Center",
+            "garea_large": { "areacode_l": "AREAL2923", "areaname_l": "Machida / Tama" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2294",
+            "areaname_m": "Machida",
+            "garea_large": { "areacode_l": "AREAL2923", "areaname_l": "Machida / Tama" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3077",
+            "areaname_m": "Tsurukawa",
+            "garea_large": { "areacode_l": "AREAL2923", "areaname_l": "Machida / Tama" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2278",
+            "areaname_m": "Koganei",
+            "garea_large": { "areacode_l": "AREAL2278", "areaname_l": "Koganei / Kokubunji / Kunitachi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2279",
+            "areaname_m": "Kodaira",
+            "garea_large": { "areacode_l": "AREAL2278", "areaname_l": "Koganei / Kokubunji / Kunitachi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2280",
+            "areaname_m": "Kokubunji",
+            "garea_large": { "areacode_l": "AREAL2278", "areaname_l": "Koganei / Kokubunji / Kunitachi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2281",
+            "areaname_m": "Kunitachi",
+            "garea_large": { "areacode_l": "AREAL2278", "areaname_l": "Koganei / Kokubunji / Kunitachi" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2286",
+            "areaname_m": "Tachikawa",
+            "garea_large": { "areacode_l": "AREAL2286", "areaname_l": "Tachikawa / Hachioji / Ome" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3014",
+            "areaname_m": "Akishima",
+            "garea_large": { "areacode_l": "AREAL2286", "areaname_l": "Tachikawa / Hachioji / Ome" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2288",
+            "areaname_m": "Hachioji",
+            "garea_large": { "areacode_l": "AREAL2286", "areaname_l": "Tachikawa / Hachioji / Ome" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3015",
+            "areaname_m": "Hino",
+            "garea_large": { "areacode_l": "AREAL2286", "areaname_l": "Tachikawa / Hachioji / Ome" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2290",
+            "areaname_m": "Ome / Ozaku",
+            "garea_large": { "areacode_l": "AREAL2286", "areaname_l": "Tachikawa / Hachioji / Ome" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3016",
+            "areaname_m": "Fussa",
+            "garea_large": { "areacode_l": "AREAL2286", "areaname_l": "Tachikawa / Hachioji / Ome" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM3017",
+            "areaname_m": "Akiruno",
+            "garea_large": { "areacode_l": "AREAL2286", "areaname_l": "Tachikawa / Hachioji / Ome" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        },
+        {
+            "areacode_m": "AREAM2295",
+            "areaname_m": "Izu Islands / Ogasawara Islands",
+            "garea_large": { "areacode_l": "AREAL2295", "areaname_l": "Izu Islands / Ogasawara Islands" },
+            "pref": { "pref_code": "PREF13", "pref_name": "Tokyo" }
+        }
+    ]
+}

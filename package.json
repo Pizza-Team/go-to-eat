@@ -5,10 +5,15 @@
   "repository": "https://github.com/Pizza-Team/go-to-eat.git",
   "author": "team-pizza",
   "license": "MIT",
+  "scripts": {
+    "hack:server": "nodemon server"
+  },
   "dependencies": {
-    "i18next": "^19.7.0",
-    "i18next-browser-languagedetector": "^6.0.1",
-    "i18next-http-backend": "^1.0.21",
-    "react-i18next": "^11.7.2"
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "unirest": "^0.6.0"
   }
 }

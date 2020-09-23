@@ -5,25 +5,11 @@ import './App.css';
 import { useTranslation } from 'react-i18next';
 import i18n from './i18next';
 import Logo from './logo.png';
+import data from './data/data.json';
+import { RestaurantContext } from './RestaurantContext';
 
 export default function App() {
-	const test = [
-		{ name: 'maku', type: 'burgers', city: 'Roppongi' },
-		{ name: 'waku', type: 'pizza', city: 'Roppongi' },
-		{ name: 'baku', type: 'sushi', city: 'Roppongi' },
-		{ name: 'booku', type: 'cheese', city: 'Roppongi' },
-		{ name: 'maku', type: 'burgers', city: 'Roppongi' },
-		{ name: 'waku', type: 'pizza', city: 'Roppongi' },
-		{ name: 'baku', type: 'sushi', city: 'Roppongi' },
-		{ name: 'booku', type: 'cheese', city: 'Roppongi' },
-		{ name: 'maku', type: 'burgers', city: 'Roppongi' },
-		{ name: 'waku', type: 'pizza', city: 'Roppongi' },
-		{ name: 'baku', type: 'sushi', city: 'Roppongi' },
-		{ name: 'booku', type: 'cheese', city: 'Roppongi' },
-		{ name: 'maku', type: 'burgers', city: 'Roppongi' },
-		{ name: 'waku', type: 'pizza', city: 'Roppongi' },
-	];
-	const [restaurants, setRestaurants] = useState(test);
+	const [restaurants, setRestaurants] = useState(data);
 	const [lang, setLang] = useState('en');
 	const { t, i18n } = useTranslation();
 
@@ -32,24 +18,28 @@ export default function App() {
 	}, [lang]);
 
 	return (
-		<div id="wrapper">
-			<div id="main-overlay"></div>
-			<nav className="nav">
-				<div>
-					<img src={Logo} alt="logo" className="logo" />
-				</div>
-				<div id="about">{t('About')}</div>
-				<div id="how-to">{t('How')}</div>
+		<div>
+			<div id="wrapper">
+				<div id="main-overlay"></div>
+				<nav className="nav">
+					<div>
+						<img src={Logo} alt="logo" className="logo" />
+					</div>
+					<div id="about">{t('About')}</div>
+					<div id="how-to">{t('How')}</div>
 
-				<button className="language" onClick={() => setLang('en')}>
-					EN
-				</button>
-				<button onClick={() => setLang('jp')}>JP</button>
-			</nav>
+					<button className="language" onClick={() => setLang('en')}>
+						EN
+					</button>
+					<button onClick={() => setLang('jp')}>JP</button>
+				</nav>
+			</div>
 
-			<Input t={t} />
+			<RestaurantContext.Provider value={{ restaurants, setRestaurants }}>
+				<Input t={t} />
 
-			<List restaurants={restaurants} t={t} />
+				<List restaurants={restaurants} t={t} />
+			</RestaurantContext.Provider>
 		</div>
 	);
 }
