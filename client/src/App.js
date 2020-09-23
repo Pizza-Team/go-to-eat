@@ -45,10 +45,8 @@ export default function App() {
 						<h1 className="howToTitle">1. Select your Restaurant</h1>
 						<img className="howToBanner" src={Banner} />
 						<h1 className="howToTitle">2. Purchase a Coupon</h1>
-						<h1>
-							{' '}
-							className="howToTitle"3. Show your Coupon at your Restaurant to
-							Redeem
+						<h1 className="howToTitle">
+							3. Show your Coupon at your Restaurant to Redeem
 						</h1>
 						<h1 className="howToTitle">4. Enjoy!</h1>
 					</div>
