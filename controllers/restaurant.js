@@ -51,4 +51,12 @@ router.get("/stationInTokyo", async function(req, res) {
     });
 
 });
+
+router.get("/*", (req, res) => {
+    res.sendFile(path.join("..", "client", "build", "index.html"))
+    .catch((err) => {
+      res.json({err})
+    })
+  });
+
 module.exports = router;
