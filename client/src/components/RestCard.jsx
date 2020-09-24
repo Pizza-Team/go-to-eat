@@ -10,10 +10,12 @@ import {
 	faAlignJustify,
 } from '@fortawesome/free-solid-svg-icons';
 
+
 export default function RestCard({ restaurant, t, lang }) {
 	const [display, setDisplay] = useState(false);
 
 	const lastNumOfLatitude = Number(restaurant.location.latitude.slice(-1));
+
 	function imageMatch(smallImgSrc) {
     if (smallImgSrc) {
       const ImgSrc=smallImgSrc.split("?")[0]
@@ -26,6 +28,7 @@ export default function RestCard({ restaurant, t, lang }) {
         />
       );
     }
+
 	}
 
 	function languageSwitch() {
