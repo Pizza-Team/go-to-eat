@@ -56,7 +56,7 @@ export default function RestCard({ restaurant, t, lang }) {
 						<div className="x-button" onClick={() => setDisplay(false)}>
 							X
 						</div>
-						<h1 className="checkout-name">{restaurant.name.name}</h1>
+						<h1 className="checkout-name">{languageSwitch()}</h1>
 						<div className="informational">
 							<div className="checkout-image">
 								{imageMatch(restaurant.image_url.thumbnail)}
@@ -125,7 +125,7 @@ export default function RestCard({ restaurant, t, lang }) {
 									</div>
 									<div className="info-content">
 										<a href={restaurant.url} target="_blank">
-											Website
+											{t('Website')}
 										</a>
 									</div>
 								</div>
@@ -134,7 +134,7 @@ export default function RestCard({ restaurant, t, lang }) {
 
 						<Order restaurant={restaurant} t={t} />
 						<div className="cancel-button" onClick={() => setDisplay(false)}>
-							Cancel
+							{t('Cancel')}
 						</div>
 					</div>
 				</>
