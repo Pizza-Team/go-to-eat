@@ -1,4 +1,4 @@
-export const japanese = [
+export const food = [
 	require('../Images/Japanese1.jpeg'),
 	require('../Images/Japanese2.jpeg'),
 	require('../Images/Japanese3.jpeg'),
