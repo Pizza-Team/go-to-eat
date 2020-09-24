@@ -9,8 +9,7 @@ import {
 	faExternalLinkAlt,
 	faAlignJustify,
 } from '@fortawesome/free-solid-svg-icons';
-import { japanese, bar, western } from '../Images/imageArray';
-console.log('westernasdfasdf', japanese);
+import food from '../Images/imageArray';
 
 export default function RestCard({ restaurant, t, lang }) {
 	const [display, setDisplay] = useState(false);
