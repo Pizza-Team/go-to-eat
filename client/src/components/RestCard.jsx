@@ -15,15 +15,17 @@ export default function RestCard({ restaurant, t, lang }) {
 
 	const lastNumOfLatitude = Number(restaurant.location.latitude.slice(-1));
 	function imageMatch(smallImgSrc) {
-		const ImgSrc=smallImgSrc.split("?")[0]
-		return (
-			<img
-				src={ImgSrc}
-				object-fit="contain"
-				height="200px"
-				width="270px"
-			/>
-		);
+    if (smallImgSrc) {
+      const ImgSrc=smallImgSrc.split("?")[0]
+      return (
+        <img
+          src={ImgSrc}
+          object-fit="contain"
+          height="200px"
+          width="270px"
+        />
+      );
+    }
 	}
 
 	function languageSwitch() {
@@ -58,7 +60,7 @@ export default function RestCard({ restaurant, t, lang }) {
 						</div>
 						<h1 className="checkout-name">{restaurant.name.name}</h1>
 						<div className="informational">
-							<div className="checkout-image">{imageMatch()}</div>
+							<div className="checkout-image">{imageMatch(restaurant.image_url.thumbnail)}</div>
 							<div className="checkout-info">
 								{/* hours of operations */}
 								<div className="info-line">
