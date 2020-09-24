@@ -14,7 +14,7 @@ export default function List({ t, lang }) {
 
 			<div id="list-container">
 				{/* map over restaurants list to create each restaurant card */}
-				{restaurants.map((restaurant) => (
+				{restaurants.length && restaurants.map((restaurant) => (
 					<RestCard restaurant={restaurant} t={t} lang={lang} />
 				))}
 			</div>
