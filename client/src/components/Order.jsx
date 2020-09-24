@@ -17,7 +17,7 @@ export default function Order({ restaurant, t }) {
       payment_method_types: ["card"],
       line_items: [],
       mode: 'payment',
-      success_url: `${process.env.REACT_APP_DOMAIN}/api/success`,
+      success_url: `${process.env.REACT_APP_DOMAIN}/success`,
       cancel_url: `${process.env.REACT_APP_DOMAIN}/cancel`
 		};
 
