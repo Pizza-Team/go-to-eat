@@ -1,68 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This was developed during our time as students at Code Chrysalis.
 
-## Available Scripts
+<p align="center">
+  <img width="300" alt="logo" src="./client/public/Logo.png">
+</p>
 
-In the project directory, you can run:
+[EATokyo](https://eatokyo.herokuapp.com/) is our vision to support the Japanese government's Go-to-Eat Campaign in the Tokyo area - an incentive program to revitalize the local economy, as we continue to recover from the pandemic. Throughout the Go-to-Eat Campaign, the Japanese government will be offering customers 25% discounts to several local restaurants and reimbursing those restaurants the difference. 
 
-### `yarn start`
+However, public information about this campaign has been vague and confusing. With an application like EATokyo, customers can find all the information they need to take advantage of these discounted prices, search for all participating restaurants, and order the discounted vouchers online. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+いい東京! Stay safe, and keep supporting the small businesses in our communities! 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### For Users
+Select an area from the dropdown menu. You can also add filters for food type and/or budget. When you're ready, click on the "Let's Eat!" button.
 
-### `yarn test`
+Click on a restaurant, select the quantity and dollar amount of the voucher you'd like to purchase, and click "Order." You will receive the voucher and can use it at the selected restaurant on your next visit!
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### For Contributors
+In the development environment:
 
-### `yarn build`
+1. Install dependencies in root and client directories.
+```
+yarn
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+cd client
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+2. Start frontend and backend servers in separate terminals:
+```
+yarn start
+```
+```
+cd ..
+yarn start
+```
+3. Open up frontend server at http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Technologies Used
+- React
+- Express
+- Stripe Checkout API
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Future Features
+- Map view
