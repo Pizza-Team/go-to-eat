@@ -46,7 +46,7 @@ export default function Input({ t, lang }) {
     //langのクエリを入れる
     if (lang === "jp") {
       queryArry.push(`lang=ja`);
-    }else{
+    } else {
       queryArry.push(`lang=en`);
     }
 
@@ -81,51 +81,60 @@ export default function Input({ t, lang }) {
       <div id="find">{t("Find")}</div>
       <div id="filter-section">
         {/* dropdown menu for AREA */}
-        <select
-          value={area}
-          onChange={(e) => {
-            setArea(e.target.value);
-          }}
-        >
-          <option>{t("Area")}</option>
-          {areas.area_m
-            .sort((a, b) => a.areaname_m.localeCompare(b.areaname_m))
-            .map((area) => (
-              <option value={area.areacode_m}>{area.areaname_m}</option>
-            ))}
-        </select>
+        <div className="select">
+          <select
+            value={area}
+            onChange={(e) => {
+              setArea(e.target.value);
+            }}
+          >
+            <option>{t("Area")}</option>
+            {areas.area_m
+              .sort((a, b) => a.areaname_m.localeCompare(b.areaname_m))
+              .map((area) => (
+                <option value={area.areacode_m}>{area.areaname_m}</option>
+              ))}
+          </select>
+          <p id="required">*Required</p>
+        </div>
 
         {/* dropdown menu for CATEGORY */}
-        <select
-          value={category}
-          onChange={(e) => {
-            setCategory(e.target.value);
-          }}
-        >
-          <option>{t("Food Type")}</option>
-          {categories.category_l
-            .sort((a, b) => a.category_l_name.localeCompare(b.category_l_name))
-            .map((category) => (
-              <option value={category.category_l_code}>
-                {category.category_l_name}
-              </option>
-            ))}
-        </select>
+        <div className="select">
+          <select
+            value={category}
+            onChange={(e) => {
+              setCategory(e.target.value);
+            }}
+          >
+            <option>{t("Food Type")}</option>
+            {categories.category_l
+              .sort((a, b) =>
+                a.category_l_name.localeCompare(b.category_l_name)
+              )
+              .map((category) => (
+                <option value={category.category_l_code}>
+                  {category.category_l_name}
+                </option>
+              ))}
+          </select>
+        </div>
 
         {/* dropdown menu for BUDGET */}
-        <select
-          value={budget}
-          onChange={(e) => {
-            setBudget(e.target.value);
-          }}
-        >
-          <option>{t("Budget")}</option>
-          <option value="1">{"< ¥1,000"}</option>
-          <option value="2">{"¥1,000 - ¥3,000"}</option>
-          <option value="3">{"¥3,000 - ¥5,000"}</option>
-          <option value="4">{"¥5,000 - ¥10,000"}</option>
-          <option value="5">{"> ¥10,000"}</option>
-        </select>
+        <div className="select">
+          <select
+            value={budget}
+            onChange={(e) => {
+              setBudget(e.target.value);
+            }}
+          >
+            <option>{t("Budget")}</option>
+            <option value="1">{"< ¥1,000"}</option>
+            <option value="2">{"¥1,000 - ¥3,000"}</option>
+            <option value="3">{"¥3,000 - ¥5,000"}</option>
+            <option value="4">{"¥5,000 - ¥10,000"}</option>
+            <option value="5">{"> ¥10,000"}</option>
+          </select>
+        </div>
       </div>
 
       <div id="button-container">

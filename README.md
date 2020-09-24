@@ -11,7 +11,7 @@ However, public information about this campaign has been vague and confusing. Wi
 いい東京! Stay safe, and keep supporting the small businesses in our communities! 
 
 ### For Users
-Select an area from the dropdown menu. You can also add filters for food type and/or budget. When you're ready, click on the "Let's Eat!" button.
+Select an area from the dropdown menu. You can also add filters for food type and/or budget.
 
 Click on a restaurant, select the quantity and dollar amount of the voucher you'd like to purchase, and click "Order." You will receive the voucher and can use it at the selected restaurant on your next visit!
 
