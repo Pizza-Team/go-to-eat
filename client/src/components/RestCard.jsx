@@ -10,10 +10,10 @@ import {
 	faAlignJustify,
 } from '@fortawesome/free-solid-svg-icons';
 import { japanese, bar, western } from '../Images/imageArray';
+console.log('westernasdfasdf', japanese);
 
 export default function RestCard({ restaurant, t, lang }) {
 	const [display, setDisplay] = useState(false);
-	console.log(restaurant);
 
 	const lastNumOfLatitude = Number(restaurant.location.latitude.slice(-1));
 	function imageMatch() {
@@ -28,9 +28,11 @@ export default function RestCard({ restaurant, t, lang }) {
 			'Traditional Japanese'
 		) {
 			category = japanese;
-		}
-		if (restaurant.categories.category_name_l[0] === 'Western / European') {
+		} else if (
+			restaurant.categories.category_name_l[0] === 'Western / European'
+		) {
 			category = western;
+			console.log('western', category);
 		}
 		return (
 			<img
