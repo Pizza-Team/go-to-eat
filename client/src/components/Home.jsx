@@ -87,32 +87,6 @@ export default function App() {
 				</>
 			)}
 
-			{about && (
-				<>
-					<div className="main-overlay" onClick={() => setAbout(false)}></div>
-					<div className="howToContainer">
-						<div id="about-title">
-							<h1>{t('About EATokyo')}</h1>
-						</div>
-						<div id="about-content">
-							<img alt="storefront" id="about-banner" src={storefront}></img>
-							<br></br>
-							<div className="copy">
-								<p>{t('About Text')}</p>
-								<br></br>
-								<p>
-									<p>{t('About Text2')}</p>
-								</p>
-								<br></br>
-								<p>
-									<p>{t('About Text3')}</p>
-								</p>
-							</div>
-						</div>
-					</div>
-				</>
-			)}
-
 			{howTo && (
 				<>
 					<div className="main-overlay" onClick={() => setHowTo(false)}></div>
