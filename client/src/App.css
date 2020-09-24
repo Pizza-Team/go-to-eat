@@ -345,8 +345,13 @@ select {
 #filter-section {
   margin-top: 40px;
   z-index: 10;
+  display: flex;
+  flex-flow: row nowrap;
 }
-
+#required {
+  color: rgb(245, 94, 94);
+  margin-left: 10px;
+}
 #find {
   width: 100%;
   text-align: center;
