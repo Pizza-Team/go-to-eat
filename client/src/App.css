@@ -147,6 +147,7 @@ body {
 
 .logo {
   height: 90px;
+  cursor: pointer;
 }
 
 .lang-button {
@@ -188,6 +189,7 @@ nav {
   overflow: hidden;
   width: 90%;
   margin: auto;
+  line-height: 1.5;
 }
 
 .copy {
@@ -468,7 +470,7 @@ select {
 
 .howToContainer {
   width: 800px;
-  height: 600px;
+  height: auto;
   background-color: white;
   left: 25%;
   top: 5%;
