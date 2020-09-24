@@ -16,7 +16,7 @@ export default function App() {
       {/* <Route path="/success" component={Success} /> */}
 
 
-      <Route path="/success.html" />
+      <Route path="/success" />
         <Success />
       <Route />
 
