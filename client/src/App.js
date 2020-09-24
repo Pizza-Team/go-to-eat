@@ -132,7 +132,7 @@ export default function App() {
 			)}
 
 			<RestaurantContext.Provider value={{ restaurants, setRestaurants }}>
-				<Input t={t} />
+				<Input t={t} lang={lang}/>
 				<List restaurants={restaurants} t={t} />
 			</RestaurantContext.Provider>
 		</div>
