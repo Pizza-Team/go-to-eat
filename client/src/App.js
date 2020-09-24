@@ -8,6 +8,7 @@ import iphone from './Images/iphone.png';
 import food from './Images/food.jpg';
 import USA from './Images/USA.png';
 import JP from './Images/JP.png';
+
 import storefront from './Images/storefront.jpeg';
 import { useTranslation } from 'react-i18next';
 import i18n from './i18next';

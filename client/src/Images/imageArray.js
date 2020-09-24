@@ -11,4 +11,8 @@ export let food = [
 	require('../Images/Western2.jpeg'),
 	require('../Images/Western3.jpeg'),
 	require('../Images/Western4.jpeg'),
+	require('../Images/burger.jpeg'),
+	require('../Images/curry.jpeg'),
+	require('../Images/meat.jpeg'),
+	require('../Images/sandwich.jpeg'),
 ];
