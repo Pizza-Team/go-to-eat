@@ -20,30 +20,30 @@ export default function App() {
 	const [about, setAbout] = useState(false);
 	const [covidInfo, setCovidInfo] = useState(false);
 
-	useEffect(() => {
-		i18n.changeLanguage(lang);
-	}, [lang]);
+  useEffect(() => {
+    i18n.changeLanguage(lang);
+  }, [lang]);
 
-	return (
-		<div id="wrapper">
-			<div id="main-overlay"></div>
-			<nav className="nav">
-				<div id="logo-container">
-					<img src={Logo} alt="logo" className="logo" />
-				</div>
+  return (
+    <div id="wrapper">
+      <div id="main-overlay"></div>
+      <nav className="nav">
+        <div id="logo-container">
+          <img src={Logo} alt="logo" className="logo" />
+        </div>
 
-				<div id="nav-main">
-					<div id="info-container">
-						<div id="about" onClick={() => setAbout(true)}>
-							{t('About')}
-						</div>
-						<div id="how-to" onClick={() => setHowTo(true)}>
-							{t('How')}
-						</div>
-						<div id="covid-header" onClick={() => setCovidInfo(true)}>
-							{t('COVID Measures')}
-						</div>
-					</div>
+        <div id="nav-main">
+          <div id="info-container">
+            <div id="about" onClick={() => setAbout(true)}>
+              {t("About")}
+            </div>
+            <div id="how-to" onClick={() => setHowTo(true)}>
+              {t("How")}
+            </div>
+            <div id="covid-header" onClick={() => setCovidInfo(true)}>
+              {t("COVID Measures")}
+            </div>
+          </div>
 
 					<div id="lang-container">
 						<a className="lang-icons">
@@ -132,12 +132,12 @@ export default function App() {
               </h1>
               <img className="howToBanner" src={coupon} />
 			<h1 className="howToTitle">4. Enjoy!</h1> */}
-							<img className="howToBanner" id="diagram" src={howdiagram} />
-							{/* </Scrollbars> */}
-						</div>
-					</div>
-				</>
-			)}
+              <img className="howToBanner" id="diagram" src={howdiagram} />
+              {/* </Scrollbars> */}
+            </div>
+          </div>
+        </>
+      )}
 
 			{covidInfo && (
 				<>
@@ -154,16 +154,16 @@ export default function App() {
 								<p>{t('COVID Text')}</p>
 							</div>
 
-							<img id="covid" src={covidDiagram} alt="covid-info" />
-						</div>
-					</div>
-				</>
-			)}
+              <img id="covid" src={covidDiagram} alt="covid-info" />
+            </div>
+          </div>
+        </>
+      )}
 
-			<RestaurantContext.Provider value={{ restaurants, setRestaurants }}>
-				<Input t={t} lang={lang} />
-				<List restaurants={restaurants} t={t} lang={lang} />
-			</RestaurantContext.Provider>
-		</div>
-	);
+      <RestaurantContext.Provider value={{ restaurants, setRestaurants }}>
+        <Input t={t} lang={lang} />
+        <List restaurants={restaurants} t={t} lang={lang} />
+      </RestaurantContext.Provider>
+    </div>
+  );
 }

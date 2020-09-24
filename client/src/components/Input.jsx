@@ -1,11 +1,11 @@
-import React, { useContext, useState, useEffect } from 'react';
-import areas from '../data/area_m.json';
-import areas_jp from '../data/area_m_ja.json';
-import categories from '../data/category_l.json';
-import categories_jp from '../data/category_l_ja.json';
-import { RestaurantContext } from '../RestaurantContext';
-import data from '../data/data.json';
-import axios from 'axios';
+import React, { useContext, useState } from "react";
+import areas from "../data/area_m.json";
+import areas_jp from "../data/area_m_ja.json";
+import categories from "../data/category_l.json";
+import categories_jp from "../data/category_l_ja.json";
+import { RestaurantContext } from "../RestaurantContext";
+import data from "../data/data.json";
+import axios from "axios";
 
 export default function Input({ t, lang }) {
 	// shared restaurant state with useContext

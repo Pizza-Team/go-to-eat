@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useState } from "react";
 import { loadStripe } from "@stripe/stripe-js";
 import axios from "axios";
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_CLIENT_KEY);
@@ -17,7 +17,7 @@ export default function Order({ restaurant, t }) {
       payment_method_types: ["card"],
       line_items: [],
       mode: 'payment',
-      success_url: `${process.env.REACT_APP_DOMAIN}/api/success`,
+      success_url: `${process.env.REACT_APP_DOMAIN}/success`,
       cancel_url: `${process.env.REACT_APP_DOMAIN}/cancel`
 		};
 

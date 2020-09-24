@@ -147,7 +147,6 @@ body {
 
 .logo {
   height: 90px;
-  width: 220px;
 }
 
 .lang-button {
@@ -543,7 +542,7 @@ select {
   margin-top: 40px;
   margin-left: 80%;
   border-radius: 4px;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .cancel-button {
@@ -620,25 +619,21 @@ select {
   #nav-main {
     flex-flow: row wrap;
   }
-
   #lang-container {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     width: 100%;
   }
-
   #info-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
   }
-
   #about {
     width: 25%;
     padding: 5px;
   }
-
   #how-to {
     width: 25%;
     padding: 5px;

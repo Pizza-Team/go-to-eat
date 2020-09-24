@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Banner from "../Images/Banner.jpeg";
 import USA from "../Images/USA.png";
 import JP from "../Images/JP.png";

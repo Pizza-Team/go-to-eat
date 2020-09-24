@@ -9,33 +9,10 @@ export default function App() {
   return (
     <Router>
       <div>
+        <Route exact path="/" component={Home} />
 
-
-      <Route exact path="/" component={Home} />
-
-      <Route path="/success" component={Success} />
-
-
-      {/* <Route path="/success" />
-        <Success />
-      <Route /> */}
-
+        <Route path="/success" component={Success} />
       </div>
     </Router>
-
-
-    // <Router>
-    //   <Route path="/" />
-    //     <Home />
-    //   <Route />
-    //   <Switch>
-    //     <Route path="/success.html">
-    //       <Success />
-    //     </Route>
-    //     <Route path="/pay/create-session">
-    //       <Order />
-    //     </Route>
-    //   </Switch>
-    // </Router>
   );
 }

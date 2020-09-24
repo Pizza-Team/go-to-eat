@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import Order from './Order';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React, { useState } from "react";
+import Order from "./Order";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faClock,
-	faMapMarkerAlt,
-	faPhone,
-	faUtensils,
-	faExternalLinkAlt,
-	faAlignJustify,
-} from '@fortawesome/free-solid-svg-icons';
+  faClock,
+  faMapMarkerAlt,
+  faPhone,
+  faUtensils,
+  faExternalLinkAlt,
+  faAlignJustify,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function RestCard({ restaurant, t, lang }) {
-	const [display, setDisplay] = useState(false);
+  const [display, setDisplay] = useState(false);
 
 	const lastNumOfLatitude = Number(restaurant.location.latitude.slice(-1));
 
