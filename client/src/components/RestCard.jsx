@@ -9,7 +9,7 @@ import {
 	faExternalLinkAlt,
 	faAlignJustify,
 } from '@fortawesome/free-solid-svg-icons';
-import food from '../Images/imageArray';
+import {food} from '../Images/imageArray';
 
 export default function RestCard({ restaurant, t, lang }) {
 	const [display, setDisplay] = useState(false);
@@ -21,18 +21,18 @@ export default function RestCard({ restaurant, t, lang }) {
 		//last num of latitude(0~9)
 		let category = null;
 
-		if (
-			restaurant.categories.category_name_l[0] ===
-				'Yakiniku (BBQ) / Horumon (Offal)' ||
-			'Traditional Japanese'
-		) {
-			category = japanese;
-		} else if (
-			restaurant.categories.category_name_l[0] === 'Western / European'
-		) {
-			category = western;
-			console.log('western', category);
-		}
+		// if (
+		// 	restaurant.categories.category_name_l[0] ===
+		// 		'Yakiniku (BBQ) / Horumon (Offal)' ||
+		// 	'Traditional Japanese'
+		// ) {
+		// 	category = japanese;
+		// } else if (
+		// 	restaurant.categories.category_name_l[0] === 'Western / European'
+		// ) {
+		// 	category = western;
+		// 	console.log('western', category);
+		// }
 		return (
 			<img
 				src={food[num - 1] || food[0]}
