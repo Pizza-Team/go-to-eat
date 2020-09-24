@@ -9,10 +9,6 @@ import {
 	faExternalLinkAlt,
 	faAlignJustify,
 } from '@fortawesome/free-solid-svg-icons';
-import { japanese, bar, western } from '../Images/imageArray';
-
-
-console.log('westernasdfasdf', japanese);
 
 export default function RestCard({ restaurant, t, lang }) {
 	const [display, setDisplay] = useState(false);
@@ -22,7 +18,6 @@ export default function RestCard({ restaurant, t, lang }) {
 		const ImgSrc=smallImgSrc.split("?")[0]
 		return (
 			<img
-			
 				src={ImgSrc}
 				object-fit="contain"
 				height="200px"
@@ -57,8 +52,10 @@ export default function RestCard({ restaurant, t, lang }) {
 				<>
 					{/* overlay grays out the rest of the body */}
 					<div className="main-overlay" onClick={() => setDisplay(false)}></div>
-
 					<div className="checkout">
+						<div className="x-button" onClick={() => setDisplay(false)}>
+							X
+						</div>
 						<h1 className="checkout-name">{restaurant.name.name}</h1>
 						<div className="informational">
 							<div className="checkout-image">{imageMatch()}</div>
@@ -134,6 +131,9 @@ export default function RestCard({ restaurant, t, lang }) {
 						</div>
 
 						<Order restaurant={restaurant} t={t} />
+						<div className="cancel-button" onClick={() => setDisplay(false)}>
+							Cancel
+						</div>
 					</div>
 				</>
 			)}
