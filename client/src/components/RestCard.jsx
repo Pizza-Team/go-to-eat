@@ -152,11 +152,11 @@ export default function RestCard({ restaurant, t, lang }) {
 		}
 	}
 
-	function languageSwitch() {
-		if (lang === 'jp') {
-			return restaurant.name.name_sub;
-		} else return restaurant.name.name;
-	}
+	// function languageSwitch() {
+	// 	if (lang === 'jp') {
+	// 		return restaurant.name.name_sub;
+	// 	} else return restaurant.name.name;
+	// }
 
 	return (
 		<>
@@ -165,7 +165,7 @@ export default function RestCard({ restaurant, t, lang }) {
 					{imageMatch(restaurant.image_url.thumbnail)}
 				</div>
 				<div className="info">
-					<div className="name">{languageSwitch()}</div>
+					<div className="name">{restaurant.name.name}</div>
 
 					<div className="location">{restaurant.location.area.areaname_m}</div>
 
@@ -184,7 +184,7 @@ export default function RestCard({ restaurant, t, lang }) {
 						<div className="x-button" onClick={() => setDisplay(false)}>
 							X
 						</div>
-						<h1 className="checkout-name">{languageSwitch()}</h1>
+						<h1 className="checkout-name">{restaurant.name.name}</h1>
 						<div className="informational">
 							<div className="checkout-image">
 								{imageMatch(restaurant.image_url.thumbnail)}
