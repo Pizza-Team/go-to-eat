@@ -9,38 +9,23 @@ import {
 	faExternalLinkAlt,
 	faAlignJustify,
 } from '@fortawesome/free-solid-svg-icons';
-import {food} from '../Images/imageArray';
 
 export default function RestCard({ restaurant, t, lang }) {
 	const [display, setDisplay] = useState(false);
 
 	const lastNumOfLatitude = Number(restaurant.location.latitude.slice(-1));
-	function imageMatch() {
-		//0<=(lastNumOfLatitude/9)<=1
-		const num = Math.floor((lastNumOfLatitude / 9) * 4);
-		//last num of latitude(0~9)
-		let category = null;
-
-		// if (
-		// 	restaurant.categories.category_name_l[0] ===
-		// 		'Yakiniku (BBQ) / Horumon (Offal)' ||
-		// 	'Traditional Japanese'
-		// ) {
-		// 	category = japanese;
-		// } else if (
-		// 	restaurant.categories.category_name_l[0] === 'Western / European'
-		// ) {
-		// 	category = western;
-		// 	console.log('western', category);
-		// }
-		return (
-			<img
-				src={food[num - 1] || food[0]}
-				object-fit="contain"
-				height="200px"
-				width="270px"
-			/>
-		);
+	function imageMatch(smallImgSrc) {
+    if (smallImgSrc) {
+      const ImgSrc=smallImgSrc.split("?")[0]
+      return (
+        <img
+          src={ImgSrc}
+          object-fit="contain"
+          height="200px"
+          width="270px"
+        />
+      );
+    }
 	}
 
 	function languageSwitch() {
@@ -52,7 +37,7 @@ export default function RestCard({ restaurant, t, lang }) {
 	return (
 		<>
 			<div id="restaurant-container" onClick={() => setDisplay(true)}>
-				<div className="image">{imageMatch()}</div>
+				<div className="image">{imageMatch(restaurant.image_url.thumbnail)}</div>
 				<div className="info">
 					<div className="name">{languageSwitch()}</div>
 
@@ -75,7 +60,7 @@ export default function RestCard({ restaurant, t, lang }) {
 						</div>
 						<h1 className="checkout-name">{restaurant.name.name}</h1>
 						<div className="informational">
-							<div className="checkout-image">{imageMatch()}</div>
+							<div className="checkout-image">{imageMatch(restaurant.image_url.thumbnail)}</div>
 							<div className="checkout-info">
 								{/* hours of operations */}
 								<div className="info-line">
