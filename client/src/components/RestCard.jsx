@@ -7,29 +7,39 @@ import {
 	faPhone,
 	faUtensils,
 	faExternalLinkAlt,
+	faAlignJustify,
 } from '@fortawesome/free-solid-svg-icons';
-import { food } from '../Images/imageArray';
 
-export default function RestCard({ restaurant, t }) {
+export default function RestCard({ restaurant, t, lang }) {
 	const [display, setDisplay] = useState(false);
 
 	const lastNumOfLatitude = Number(restaurant.location.latitude.slice(-1));
-	function imageMatch() {
-		//0<=(lastNumOfLatitude/9)<=1
-		const num = Math.floor((lastNumOfLatitude / 9) * 12);
-		//last num of latitude(0~9)
-		console.log(num, food.length)
-		return (
-			<img src={food[num - 1]} object-fit="contain" height="200px" width="270px" />
-		);
+	function imageMatch(smallImgSrc) {
+    if (smallImgSrc) {
+      const ImgSrc=smallImgSrc.split("?")[0]
+      return (
+        <img
+          src={ImgSrc}
+          object-fit="contain"
+          height="200px"
+          width="270px"
+        />
+      );
+    }
+	}
+
+	function languageSwitch() {
+		if (lang === 'jp') {
+			return restaurant.name.name_sub;
+		} else return restaurant.name.name;
 	}
 
 	return (
 		<>
 			<div id="restaurant-container" onClick={() => setDisplay(true)}>
-				<div className="image">{imageMatch()}</div>
+				<div className="image">{imageMatch(restaurant.image_url.thumbnail)}</div>
 				<div className="info">
-					<div className="name">{restaurant.name.name}</div>
+					<div className="name">{languageSwitch()}</div>
 
 					<div className="location">{restaurant.location.area.areaname_m}</div>
 
@@ -44,11 +54,13 @@ export default function RestCard({ restaurant, t }) {
 				<>
 					{/* overlay grays out the rest of the body */}
 					<div className="main-overlay" onClick={() => setDisplay(false)}></div>
-
 					<div className="checkout">
+						<div className="x-button" onClick={() => setDisplay(false)}>
+							X
+						</div>
 						<h1 className="checkout-name">{restaurant.name.name}</h1>
 						<div className="informational">
-							<div className="checkout-image">{imageMatch()}</div>
+							<div className="checkout-image">{imageMatch(restaurant.image_url.thumbnail)}</div>
 							<div className="checkout-info">
 								{/* hours of operations */}
 								<div className="info-line">
@@ -121,6 +133,9 @@ export default function RestCard({ restaurant, t }) {
 						</div>
 
 						<Order restaurant={restaurant} t={t} />
+						<div className="cancel-button" onClick={() => setDisplay(false)}>
+							Cancel
+						</div>
 					</div>
 				</>
 			)}
