@@ -16,9 +16,9 @@ export default function Order({ restaurant, t }) {
     const voucher = {
       payment_method_types: ["card"],
       line_items: [],
-      mode: "payment",
-      success_url: `https://www.codechrysalis.io/`,
-      cancel_url: `https://google.co.jp`,
+      mode: 'payment',
+      success_url: `https://eatokyo.herokuapp.com/success`,
+      cancel_url: `https://eatokyo.herokuapp.com/cancel`
     };
 
     for (let i = 0; i < quantity.length; i++) {
