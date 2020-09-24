@@ -5,11 +5,6 @@ const stripe = require("stripe")(process.env.STRIPE_KEY);
 
 router.use(express.static('.'));
 
-router.get('/', (req, res) => {
-  const path = resolve('../client/build');
-  res.sendFile(path);
-});
-
 // router.use(express.static(path.join(__dirname, 'build')));
 // router.get('/', function(req, res) {
 //   res.sendFile(path.join(__dirname, 'build', 'index.html'));
