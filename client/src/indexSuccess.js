@@ -4,12 +4,13 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './i18next';
+import Success from './components/Success';
 
 ReactDOM.render(
 	<Suspense fallback={<div>Loading...</div>}>
-		<App />
+		< Success />
 	</Suspense>,
-	document.getElementById('root')
+	document.getElementById('successRoot')
 );
 
 // If you want your app to work offline and load faster, you can change
