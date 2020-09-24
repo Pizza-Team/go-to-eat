@@ -1,19 +1,19 @@
-import React, { useState, useEffect } from "react";
-import Input from "./Input";
-import List from "./List";
-import Banner from "../Images/Banner.jpeg";
-import USA from "../Images/USA.png";
-import JP from "../Images/JP.png";
-import storefront from "../Images/storefront.jpeg";
-import howdiagram from "../Images/how.png";
-import covidDiagram from "../Images/covidmeasures.png";
-import { useTranslation } from "react-i18next";
-import Logo from "../Images/Logo.png";
-import data from "../data/data.json";
-import { RestaurantContext } from "../RestaurantContext";
+import React, { useState, useEffect } from 'react';
+import Input from './Input';
+import List from './List';
+import Banner from '../Images/Banner.jpeg';
+import USA from '../Images/USA.png';
+import JP from '../Images/JP.png';
+import storefront from '../Images/storefront.jpeg';
+import howdiagram from '../Images/how.png';
+import covidDiagram from '../Images/covidmeasures.png';
+import { useTranslation } from 'react-i18next';
+import Logo from '../Images/Logo.png';
+import data from '../data/data.json';
+import { RestaurantContext } from '../RestaurantContext';
 
 export default function App() {
-    const [restaurants, setRestaurants] = useState(data);
+	const [restaurants, setRestaurants] = useState(data);
 	const [lang, setLang] = useState('en');
 	const { t, i18n } = useTranslation();
 	const [howTo, setHowTo] = useState(false);
@@ -70,34 +70,17 @@ export default function App() {
 					<div className="main-overlay" onClick={() => setAbout(false)}></div>
 					<div className="howToContainer">
 						<div id="about-title">
-							<h1>About EATokyo</h1>
+							<h1>{t('About EATokyo')}</h1>
 						</div>
 						<div id="about-content">
 							<img alt="storefront" id="about-banner" src={storefront}></img>
 							<br></br>
 							<div className="copy">
-								<p>
-									EATokyo is the product of our team's vision to support the
-									Japanese government's Go-to-Eat Campaign in the Tokyo area -
-									an incentive program to revitalize the local economy, as we
-									continue to recover from the pandemic. Throughout the
-									Go-to-Eat Campaign, the Japanese government will be offering
-									customers 25% discounts to several local restaurants and
-									reimbursing those restaurants the difference.
-								</p>
+								<p>{t('About Text')}</p>
 								<br></br>
-								<p>
-									However, public information about this campaign has been vague
-									and confusing. With an application like EATokyo, customers can
-									find all the information they need to take advantage of these
-									discounted prices, search for all participating restaurants,
-									and order the discounted vouchers online.
-								</p>
+								<p>{t('About Text2')}</p>
 								<br></br>
-								<p>
-									いい東京! Stay safe, and keep supporting the small businesses
-									in our communities!
-								</p>
+								<p>{t('About Text3')}</p>
 							</div>
 						</div>
 					</div>
@@ -109,33 +92,20 @@ export default function App() {
 					<div className="main-overlay" onClick={() => setAbout(false)}></div>
 					<div className="howToContainer">
 						<div id="about-title">
-							<h1>About EATokyo</h1>
+							<h1>{t('About EATokyo')}</h1>
 						</div>
 						<div id="about-content">
 							<img alt="storefront" id="about-banner" src={storefront}></img>
 							<br></br>
 							<div className="copy">
+								<p>{t('About Text')}</p>
+								<br></br>
 								<p>
-									EATokyo is the product of our team's vision to support the
-									Japanese government's Go-to-Eat Campaign in the Tokyo area -
-									an incentive program to revitalize the local economy, as we
-									continue to recover from the pandemic. Throughout the
-									Go-to-Eat Campaign, the Japanese government will be offering
-									customers 25% discounts to several local restaurants and
-									reimbursing those restaurants the difference.
+									<p>{t('About Text2')}</p>
 								</p>
 								<br></br>
 								<p>
-									However, public information about this campaign has been vague
-									and confusing. With an application like EATokyo, customers can
-									find all the information they need to take advantage of these
-									discounted prices, search for all participating restaurants,
-									and order the discounted vouchers online.
-								</p>
-								<br></br>
-								<p>
-									いい東京! Stay safe, and keep supporting the small businesses
-									in our communities!
+									<p>{t('About Text3')}</p>
 								</p>
 							</div>
 						</div>
@@ -148,7 +118,7 @@ export default function App() {
 					<div className="main-overlay" onClick={() => setHowTo(false)}></div>
 					<div className="howToContainer">
 						<div id="about-title">
-							<h1>How to Use</h1>
+							<h1>{t('How')}</h1>
 						</div>
 						<div id="about-content">
 							<img className="howToBanner" src={Banner} />
@@ -177,14 +147,11 @@ export default function App() {
 					></div>
 					<div className="howToContainer">
 						<div id="about-title">
-							<h1>COVID Measures</h1>
+							<h1>{t('COVID Measures')}</h1>
 						</div>
 						<div id="covid-content">
 							<div className="copy">
-								<p>
-									All participating restaurants are required to implement the
-									following measures to mitigate the spead of COVID-19:
-								</p>
+								<p>{t('COVID Text')}</p>
 							</div>
 
 							<img id="covid" src={covidDiagram} alt="covid-info" />
