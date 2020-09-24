@@ -3,9 +3,6 @@ import Input from "./components/Input";
 import List from "./components/List";
 import "./App.css";
 import Banner from "./Images/Banner.jpeg";
-import coupon from "./Images/coupon.jpeg";
-import iphone from "./Images/iphone.png";
-import food from "./Images/food.jpg";
 import USA from "./Images/USA.png";
 import JP from "./Images/JP.png";
 import storefront from "./Images/storefront.jpeg";
@@ -15,7 +12,6 @@ import { useTranslation } from "react-i18next";
 import Logo from "./Images/Logo.png";
 import data from "./data/data.json";
 import { RestaurantContext } from "./RestaurantContext";
-import { Scrollbars } from "react-custom-scrollbars";
 
 export default function App() {
   const [restaurants, setRestaurants] = useState(data);
@@ -33,48 +29,34 @@ export default function App() {
     <div id="wrapper">
       <div id="main-overlay"></div>
       <nav className="nav">
-        <div>
+        <div id="logo-container">
           <img src={Logo} alt="logo" className="logo" />
         </div>
-        <div id="about" onClick={() => setAbout(true)}>
-          {t("About")}
-        </div>
-        <div id="how-to" onClick={() => setHowTo(true)}>
-          {t("How")}
-        </div>
-        <div id="how-to" onClick={() => setCovidInfo(true)}>
-          {t("COVID Measures")}
+
+        <div id="nav-main">
+		<div id="info-container">
+          <div id="about" onClick={() => setAbout(true)}>
+            {t("About")}
+          </div>
+          <div id="how-to" onClick={() => setHowTo(true)}>
+            {t("How")}
+          </div>
+          <div id="covid-header" onClick={() => setCovidInfo(true)}>
+            {t("COVID Measures")}
+          </div>
         </div>
 
-        {/* {howTo && (
-          <>
-            <div className="main-overlay" onClick={() => setHowTo(false)}></div>
-            <div className="howToContainer">
-              <Scrollbars style={{ width: "100%", height: "100%" }}>
-                <img className="howtoLogo" src={Logo} />
-                <h1 className="howToTitle">1. Select your Restaurant</h1>
-                <img className="howToBanner" src={Banner} />
-                <h1 className="howToTitle">2. Purchase a Coupon</h1>
-                <img className="howToBanner" src={iphone} />
-                <h1 className="howToTitle">
-                  3. Show your Coupon at your Restaurant to Redeem
-                </h1>
-    
-	            <img className="howToBanner" src={coupon} />
-                <h1 className="howToTitle">4. Enjoy!</h1>
-                <img className="howToBanner" src={food} />
-              </Scrollbars>
-            </div>
-          </>
-        )} */}
-        <a className="lang-icons">
-          <img src={USA} className="language" onClick={() => setLang("en")} />
-          EN
-        </a>
-        <a className="lang-icons">
-          <img src={JP} className="language" onClick={() => setLang("jp")} />
-          JP
-        </a>
+        <div id="lang-container">
+          <a className="lang-icons">
+            <img src={USA} className="language" onClick={() => setLang("en")} />
+            EN
+          </a>
+          <a className="lang-icons">
+            <img src={JP} className="language" onClick={() => setLang("jp")} />
+            JP
+          </a>
+        </div>
+		</div>
       </nav>
       {about && (
         <>

@@ -84,12 +84,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -104,403 +104,514 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+  display: block;
 }
 
 body {
-	line-height: 1;
+  line-height: 1;
 }
 
 ol,
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-	quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+  content: "";
+  content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* reset */
 h1 {
-	font-size: 30px;
-	font-weight: 700;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 .logo {
-	height: 80px;
+  height: 80px;
 }
 .lang-button {
-	width: 120px;
-	margin-left: 20px;
+  width: 120px;
+  margin-left: 20px;
 }
 nav {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 30px;
+  align-items: center;
+  padding: 40px;
+}
+#nav-main {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+#info-container {
 	display: flex;
 	flex-flow: row nowrap;
-	height: 30px;
-	align-items: center;
-	padding: 40px;
+	padding: 10px;
+	padding-right: 40px;
 }
 #about {
-	width: 120px;
-	margin-left: 60%;
-	cursor: pointer;
+  width: 120px;
+  cursor: pointer;
 }
 #about-title {
-	padding: 10px;
+  padding: 10px;
 }
 #about-content {
-	overflow: hidden;
-	width: 90%;
-	margin: auto;
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
 }
 .copy {
-	font-size: 20px;
-	text-align: justify;
-	padding-top: 20px;
+  font-size: 20px;
+  text-align: justify;
+  padding-top: 20px;
 }
 #about-banner {
-	height: 200px;
-	padding-top: 30px;
+  height: 200px;
+  padding-top: 30px;
 }
 #logo-container {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 #how-to {
-	margin-right: 40px;
-	cursor: pointer;
+  margin-right: 40px;
+  cursor: pointer;
 }
 #covid-content {
-	width: 90%;
-	overflow: hidden;
-	width: 90%;
-	margin: auto;
+  width: 90%;
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
+}
+#covid-header {
+	cursor: pointer;
 }
 #covid {
-	margin-left: 10%;
+  margin-left: 10%;
 }
 .lang-button {
-	width: 40px;
+  width: 40px;
 }
 .lang-icons {
-	padding-right: 20px;
+  padding-right: 20px;
 }
 
 /* restaurant display */
 #gallery-container {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 #num-results {
-	width: 90%;
-	text-align: left;
+  width: 90%;
+  text-align: left;
 }
 #how-to {
-	display: flex;
-	width: 100px;
-	flex-direction: row;
+  display: flex;
+  width: 100px;
+  flex-direction: row;
 }
 
 .language {
-	width: 30px;
-	height: 30px;
-	cursor: pointer;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
 
 .language:hover {
-	-moz-transform: translate(2px, -2px);
-	-ms-transform: translate(-2px, -2px);
-	-o-transform: translate(-2px, -2px);
-	-webkit-transform: translate(-2px, -2px);
-	transform: translate(-2px, -2px);
-	transition: all 0.15s ease-in-out;
-	cursor: pointer;
+  -moz-transform: translate(2px, -2px);
+  -ms-transform: translate(-2px, -2px);
+  -o-transform: translate(-2px, -2px);
+  -webkit-transform: translate(-2px, -2px);
+  transform: translate(-2px, -2px);
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
 }
 #list-container {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-start;
-	padding-top: 30px;
-	width: 90%;
-	margin-left: 130px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding-top: 30px;
+  width: 90%;
+  margin-left: 130px;
 }
 
 #restaurant-container {
-	width: 270px;
-	height: 300px;
-	margin-right: 60px;
-	margin-bottom: 60px;
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0 2px 6px lightgrey;
-	cursor: pointer;
-	z-index: 10;
-	object-fit: cover;
+  width: 270px;
+  height: 300px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 6px lightgrey;
+  cursor: pointer;
+  z-index: 10;
+  object-fit: cover;
 }
 
 .image {
-	width: 100%;
-	overflow: hidden;
-	height: 180px;
+  width: 100%;
+  overflow: hidden;
+  height: 180px;
 }
 
 .info {
-	padding: 10px;
+  padding: 10px;
 }
 
 #num-results {
-	padding-top: 30px;
-	padding-left: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 
 .name {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 /* input component */
 select {
-	margin: 10px;
-	padding: 5px;
-	border-radius: 4px;
-	width: 160px;
-	font-size: 16px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  width: 160px;
+  font-size: 16px;
 }
 
 #input-container {
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	flex-flow: row wrap;
-	overflow: hidden;
-	width: 100%;
-	height: 400px;
-	background-image: url('https://images.unsplash.com/photo-1590577976322-3d2d6e2130d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
-	background-position: 75% 15%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  background-image: url("https://images.unsplash.com/photo-1590577976322-3d2d6e2130d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-position: 75% 15%;
 }
 
 #overlay {
-	background-color: rgb(67, 67, 82);
-	opacity: 0.7;
-	width: 100%;
-	height: 400px;
-	z-index: 0;
-	position: absolute;
+  background-color: rgb(67, 67, 82);
+  opacity: 0.7;
+  width: 100%;
+  height: 400px;
+  z-index: 0;
+  position: absolute;
 }
 
 #button-container {
-	width: 100%;
-	padding-top: 40px;
-	display: flex;
-	justify-content: center;
-	z-index: 10;
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
 }
 
 #filter-button {
-	font-family: 'Pacifico', cursive;
-	cursor: pointer;
-	font-size: 30px;
-	background: none;
-	color: white;
-	width: 200px;
-	border: none;
+  font-family: "Pacifico", cursive;
+  cursor: pointer;
+  font-size: 30px;
+  background: none;
+  color: white;
+  width: 200px;
+  border: none;
 }
 
 #filter-button:hover {
-	transform: translate(0, -4px);
-	transition: 0.2s;
+  transform: translate(0, -4px);
+  transition: 0.2s;
 }
 
 #filter-section {
-	margin-top: 40px;
-	z-index: 10;
+  margin-top: 40px;
+  z-index: 10;
 }
 
 #find {
-	width: 100%;
-	text-align: center;
-	font-weight: 700;
-	font-size: 35px;
-	letter-spacing: 2px;
-	z-index: 10;
-	color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: 2px;
+  z-index: 10;
+  color: rgb(255, 255, 255);
 }
 
 #clear {
-	cursor: pointer;
-	text-decoration: underline;
-	z-index: 10;
-	margin-top: 20px;
-	font-size: 20px;
-	padding: 2px;
-	color: white;
+  cursor: pointer;
+  text-decoration: underline;
+  z-index: 10;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 2px;
+  color: white;
 }
 
 /* modal window to start checkout */
 .checkout {
-	width: 800px;
-	height: 600px;
-	background-color: white;
-	left: 25%;
-	top: 10%;
-	position: fixed;
-	z-index: 100;
-	border-radius: 4px;
-	padding: 10px;
+  width: 800px;
+  height: auto;
+  background-color: white;
+  left: 25%;
+  top: 10%;
+  position: fixed;
+  z-index: 100;
+  border-radius: 4px;
+  padding: 10px;
 }
-
+.x-button {
+	margin-left: 95%;
+}
 .main-overlay {
-	z-index: 50;
-	background-color: rgb(172, 172, 185);
-	opacity: 0.6;
-	width: 100%;
-	height: 3400px;
-	position: absolute;
-	top: 0;
-	left: 0;
+  z-index: 50;
+  background-color: rgb(172, 172, 185);
+  opacity: 0.6;
+  width: 100%;
+  height: 3400px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .checkout-info {
-	padding-top: 15px;
+  padding-top: 15px;
 }
 
 .checkout-name {
-	font-weight: 700;
-	padding-bottom: 10px;
+  font-weight: 700;
+  padding-bottom: 10px;
 }
 
 .checkout-image {
-	display: flex;
+  display: flex;
 }
 
 .icon {
-	max-width: 50px;
-	padding-left: 20px;
-	display: flex;
-	align-content: center;
-	justify-content: center;
+  max-width: 50px;
+  padding-left: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .info-line {
-	display: flex;
-	flex-flow: row nowrap;
-	margin: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 5px;
 }
 
 .info-content {
-	display: flex;
-	align-items: center;
-	padding-left: 30px;
-	margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  margin-bottom: 15px;
 }
 
 .informational {
-	display: flex;
-	flex-flow: row nowrap;
+  display: flex;
+  flex-flow: row nowrap;
 }
 #how-content {
-	width: 90%;
-	overflow: hidden;
-	margin: auto;
+  width: 90%;
+  overflow: hidden;
+  margin: auto;
 }
 .howToContainer {
-	width: 800px;
-	height: 600px;
-	background-color: white;
-	left: 25%;
-	top: 5%;
-	position: fixed;
-	z-index: 100;
-	border-radius: 4px;
-	padding: 10px;
-	margin-top: 40px;
+  width: 800px;
+  height: 600px;
+  background-color: white;
+  left: 25%;
+  top: 5%;
+  position: fixed;
+  z-index: 100;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 40px;
 }
 #diagram {
-	object-fit: cover;
-	width: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 .howToBanner {
-	width: 800px;
-	margin-top: 10px;
-	overflow: hidden;
+  width: 800px;
+  margin-top: 10px;
+  overflow: hidden;
 }
 .howToTitle {
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-weight: light;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: light;
 }
 
 .howtoLogo {
-	height: 100px;
-	width: 200px;
-	text-align: center;
-	margin-left: 260px;
-	padding: 30px;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  margin-left: 260px;
+  padding: 30px;
 }
 
 .order-container {
-	width: 100%;
+  width: 100%;
 }
 
 .quantity {
-	width: 40px;
+  width: 40px;
 }
 
 .order-table {
-	width: 100%;
-	border-collapse: collapse;
-	margin-top: 30px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
 }
 
 .order-table td,
 .order-table th {
-	text-align: left;
-	border-bottom: solid lightgrey;
-	border-width: 1px;
+  text-align: left;
+  border-bottom: solid lightgrey;
+  border-width: 1px;
 }
 
 .order-table th {
-	margin: 30px;
-	font-weight: 700;
-	padding: 4px;
-	color: darkslategrey;
-	width: 100px;
+  margin: 30px;
+  font-weight: 700;
+  padding: 4px;
+  color: darkslategrey;
+  width: 100px;
 }
 
 .order-table td {
-	padding-left: 4px;
+  padding-left: 4px;
 }
 
 .order-button {
-	width: 120px;
-	margin-top: 40px;
-	margin-left: 80%;
-	border-radius: 4px;
+  width: 120px;
+  margin-top: 40px;
+  margin-left: 80%;
+  border-radius: 4px;
+  cursor: pointer
 }
-
+.cancel-button {
+	margin-left: 85%;
+	text-decoration: underline;
+	padding-top: 30px;
+	color: darkslategrey;
+	font-size: 14px;
+	cursor: pointer;
+}
 .voucher {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .discount-price {
-	font-weight: 700;
-	color: maroon;
+  font-weight: 700;
+  color: maroon;
+}
+@media (max-width: 1000px) {
+  #filter-section {
+    display: flex;
+    flex-flow: column;
+  }
+  #logo-container {
+	  width: 100%;
+  }
+  nav {
+	  display: flex;
+	  flex-flow: row wrap;
+	  height: auto;
+  }
+  #info-container {
+	  width: 100%;
+	  display: flex;
+	  flex-flow: row nowrap;
+	  justify-content: center;
+	  padding-top: 20px;
+  }
+  #lang-container {
+	  padding-top: 20px;
+	  width: 400px;;
+  }
+  .checkout {
+	  width: 90%;
+	  left: 0%;
+	  height: auto;
+	  position: fixed;
+	  overflow: auto;
+	  top: 0%;
+  }
+  .informational {
+	  flex-flow: row wrap;
+  }
+  .order-button {
+	  margin-left: auto;
+  }
+  .cancel-button {
+	  margin-left: auto;
+  }
+}
+@media (max-width: 800px) {
+	#nav-main {
+		flex-flow: row wrap;
+	}
+	#lang-container {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+		width: 100%;
+	}
+	#info-container {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: flex-start;
+	}
+	#about {
+		width: 25%;
+		padding: 5px;
+	}
+	#how-to {
+		width: 25%;
+		padding: 5px;
+	}
+	#covid-header {
+		width: 25%;
+	}
+	.order-table {
+		margin-top: 10px;
+	  }
+}
+@media (max-width: 400px) {
+	#about{
+		width: 100%
+	}
+	#how-to {
+		width: 100%;
+	}
+	#covid-header {
+		width: 100%;
+		padding-top: 5px;
+		padding: 5px;
+	}
+	#info-container {
+		width: 100%;
+	}
 }
