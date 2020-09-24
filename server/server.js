@@ -22,4 +22,8 @@ app.use(express.static(path.join(__dirname, "../client", "/build")));
 
 app.use("/api", restaurantApi, payApi);
 
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '/build/index.html'));
+});
+
 module.exports = app;

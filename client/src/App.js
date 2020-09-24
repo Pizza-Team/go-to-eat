@@ -5,11 +5,11 @@ import Success from "./components/Success";
 import "./App.css";
 import Home from "./components/Home";
 // import Order from "./components/Order";
-
 export default function App() {
   return (
     <Router>
       <div>
+
 
       <Route exact path="/" component={Home} />
 
@@ -22,6 +22,7 @@ export default function App() {
 
       </div>
     </Router>
+
 
     // <Router>
     //   <Route path="/" />
