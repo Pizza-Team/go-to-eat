@@ -127,7 +127,7 @@ export default function Input({ t, lang }) {
 						<option>{t('Area')}</option>
 						{areaSwitch()}
 					</select>
-					<p id="required">*Required</p>
+					<p id="required">*{t('Required')}</p>
 				</div>
 
 				{/* dropdown menu for CATEGORY */}
