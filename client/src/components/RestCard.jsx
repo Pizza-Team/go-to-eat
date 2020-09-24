@@ -18,10 +18,9 @@ export default function RestCard({ restaurant, t }) {
     //0<=(lastNumOfLatitude/9)<=1
     const num = Math.floor((lastNumOfLatitude / 9) * 12);
     //last num of latitude(0~9)
-    console.log(num, food.length);
     return (
       <img
-        src={food[num - 1]}
+        src={food[num - 1] || food[0]}
         object-fit="contain"
         height="200px"
         width="270px"
