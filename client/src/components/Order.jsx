@@ -16,10 +16,10 @@ export default function Order({ restaurant, t }) {
     const voucher = {
       payment_method_types: ["card"],
       line_items: [],
-      mode: 'payment',
+      mode: "payment",
       success_url: `${process.env.REACT_APP_DOMAIN}/success`,
-      cancel_url: `${process.env.REACT_APP_DOMAIN}/cancel`
-		};
+      cancel_url: `${process.env.REACT_APP_DOMAIN}/cancel`,
+    };
 
     for (let i = 0; i < quantity.length; i++) {
       const discountPrice = price[i] - price[i] * 0.25;
