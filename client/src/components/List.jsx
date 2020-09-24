@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import RestCard from './RestCard';
 import { RestaurantContext } from '../RestaurantContext';
 
-export default function List({ t }) {
+export default function List({ t, lang }) {
 	// shared restaurant state with useContext
 	const { restaurants, setRestaurants } = useContext(RestaurantContext);
 
@@ -15,7 +15,7 @@ export default function List({ t }) {
 			<div id="list-container">
 				{/* map over restaurants list to create each restaurant card */}
 				{restaurants.map((restaurant) => (
-					<RestCard restaurant={restaurant} t={t} />
+					<RestCard restaurant={restaurant} t={t} lang={lang} />
 				))}
 			</div>
 		</div>

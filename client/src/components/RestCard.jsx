@@ -7,21 +7,45 @@ import {
 	faPhone,
 	faUtensils,
 	faExternalLinkAlt,
+	faAlignJustify,
 } from '@fortawesome/free-solid-svg-icons';
-import { food } from '../Images/imageArray';
+import { japanese, bar, western } from '../Images/imageArray';
 
-export default function RestCard({ restaurant, t }) {
+export default function RestCard({ restaurant, t, lang }) {
 	const [display, setDisplay] = useState(false);
+	console.log(restaurant);
 
 	const lastNumOfLatitude = Number(restaurant.location.latitude.slice(-1));
 	function imageMatch() {
 		//0<=(lastNumOfLatitude/9)<=1
-		const num = Math.floor((lastNumOfLatitude / 9) * 12);
+		const num = Math.floor((lastNumOfLatitude / 9) * 4);
 		//last num of latitude(0~9)
-		console.log(num, food.length)
+		let category = null;
+
+		if (
+			restaurant.categories.category_name_l[0] ===
+				'Yakiniku (BBQ) / Horumon (Offal)' ||
+			'Traditional Japanese'
+		) {
+			category = japanese;
+		}
+		if (restaurant.categories.category_name_l[0] === 'Western / European') {
+			category = western;
+		}
 		return (
-			<img src={food[num - 1]} object-fit="contain" height="200px" width="270px" />
+			<img
+				src={category[num - 1]}
+				object-fit="contain"
+				height="200px"
+				width="270px"
+			/>
 		);
+	}
+
+	function languageSwitch() {
+		if (lang === 'jp') {
+			return restaurant.name.name_sub;
+		} else return restaurant.name.name;
 	}
 
 	return (
@@ -29,7 +53,7 @@ export default function RestCard({ restaurant, t }) {
 			<div id="restaurant-container" onClick={() => setDisplay(true)}>
 				<div className="image">{imageMatch()}</div>
 				<div className="info">
-					<div className="name">{restaurant.name.name}</div>
+					<div className="name">{languageSwitch()}</div>
 
 					<div className="location">{restaurant.location.area.areaname_m}</div>
 

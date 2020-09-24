@@ -58,15 +58,15 @@ export default function App() {
                 <img className="howToBanner" src={iphone} />
                 <h1 className="howToTitle">
                   3. Show your Coupon at your Restaurant to Redeem
-                </h1>
-    
-	            <img className="howToBanner" src={coupon} />
-                <h1 className="howToTitle">4. Enjoy!</h1>
-                <img className="howToBanner" src={food} />
-              </Scrollbars>
-            </div>
-          </>
-        )} */}
+				  </h1>
+				  
+				  <img className="howToBanner" src={coupon} />
+				  <h1 className="howToTitle">4. Enjoy!</h1>
+				  <img className="howToBanner" src={food} />
+				  </Scrollbars>
+				  </div>
+				  </>
+				)} */}
 				<a className="lang-icons">
 					<img src={USA} className="language" onClick={() => setLang('en')} />
 					EN
@@ -76,6 +76,7 @@ export default function App() {
 					JP
 				</a>
 			</nav>
+
 			{about && (
 				<>
 					<div className="main-overlay" onClick={() => setAbout(false)}></div>
@@ -130,10 +131,10 @@ export default function App() {
               <h1 className="howToTitle">2. Purchase a Coupon</h1>
               <img className="howToBanner" src={iphone} />
               <h1 className="howToTitle">
-                3. Show your Coupon at your Restaurant to Redeem
+			  3. Show your Coupon at your Restaurant to Redeem
               </h1>
               <img className="howToBanner" src={coupon} />
-              <h1 className="howToTitle">4. Enjoy!</h1> */}
+			<h1 className="howToTitle">4. Enjoy!</h1> */}
 							<img className="howToBanner" id="diagram" src={howdiagram} />
 							{/* </Scrollbars> */}
 						</div>
@@ -167,7 +168,7 @@ export default function App() {
 
 			<RestaurantContext.Provider value={{ restaurants, setRestaurants }}>
 				<Input t={t} />
-				<List restaurants={restaurants} t={t} />
+				<List restaurants={restaurants} t={t} lang={lang} />
 			</RestaurantContext.Provider>
 		</div>
 	);
