@@ -5,7 +5,7 @@ export const food = [
 	require('../Images/Japanese4.jpeg'),
 ];
 
-export const bar = [
+export const food = [
 	require('../Images/Bar1.jpeg'),
 	require('../Images/Bar2.jpeg'),
 	require('../Images/Bar3.jpeg'),

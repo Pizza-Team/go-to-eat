@@ -10,18 +10,21 @@ import {
   faAlignJustify,
 } from "@fortawesome/free-solid-svg-icons";
 
+
 export default function RestCard({ restaurant, t, lang }) {
   const [display, setDisplay] = useState(false);
 
-  const lastNumOfLatitude = Number(restaurant.location.latitude.slice(-1));
-  function imageMatch(smallImgSrc) {
+	const lastNumOfLatitude = Number(restaurant.location.latitude.slice(-1));
+
+	function imageMatch(smallImgSrc) {
     if (smallImgSrc) {
       const ImgSrc = smallImgSrc.split("?")[0];
       return (
         <img src={ImgSrc} object-fit="contain" height="200px" width="270px" />
       );
     }
-  }
+
+	}
 
   function languageSwitch() {
     if (lang === "jp") {
