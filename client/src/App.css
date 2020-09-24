@@ -564,7 +564,13 @@ select {
   font-weight: 700;
   color: maroon;
 }
-
+#received {
+  color: white;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  z-index: 10
+}
 @media (max-width: 1000px) {
   #filter-section {
     display: flex;
