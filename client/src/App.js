@@ -15,19 +15,5 @@ export default function App() {
         <Route path="/success" component={Success} />
       </div>
     </BrowserRouter>
-
-    // <Router>
-    //   <Route path="/" />
-    //     <Home />
-    //   <Route />
-    //   <Switch>
-    //     <Route path="/success.html">
-    //       <Success />
-    //     </Route>
-    //     <Route path="/pay/create-session">
-    //       <Order />
-    //     </Route>
-    //   </Switch>
-    // </Router>
   );
 }
