@@ -16,4 +16,8 @@ router.post('/pay/create-session', async (req, res) => {
   res.json({ id: session.id });
 });
 
+router.get("/success", async(req, res) => {
+  res.sendFile(path.join(__dirname, '/client/build/index.html'));
+});
+
 module.exports = router;
