@@ -1,8 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 import { loadStripe } from "@stripe/stripe-js";
 import axios from "axios";
-require("dotenv").config();
-const stripePromise = loadStripe(process.env.SECRET_KEY);
+const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_CLIENT_KEY);
 
 export default function Order({ restaurant }) {
   const [quantity1k, setQuantity1k] = useState(0);
