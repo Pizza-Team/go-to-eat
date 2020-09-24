@@ -9,6 +9,11 @@ router.get('/', (req, res) => {
   res.sendFile(path);
 });
 
+// router.use(express.static(path.join(__dirname, 'build')));
+// router.get('/', function(req, res) {
+//   res.sendFile(path.join(__dirname, 'build', 'index.html'));
+// });
+
 
 router.post('/pay/create-session', async (req, res) => {
   const session = await stripe.checkout.sessions.create(req.body);
