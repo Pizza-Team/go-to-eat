@@ -159,15 +159,15 @@ nav {
   padding: 40px;
 }
 #nav-main {
-	display: flex;
-	justify-content: flex-end;
-	width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 #info-container {
-	display: flex;
-	flex-flow: row nowrap;
-	padding: 10px;
-	padding-right: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 10px;
+  padding-right: 40px;
 }
 #about {
   width: 120px;
@@ -205,7 +205,7 @@ nav {
   margin: auto;
 }
 #covid-header {
-	cursor: pointer;
+  cursor: pointer;
 }
 #covid {
   margin-left: 10%;
@@ -385,7 +385,7 @@ select {
   padding: 10px;
 }
 .x-button {
-	margin-left: 95%;
+  margin-left: 95%;
 }
 .main-overlay {
   z-index: 50;
@@ -514,15 +514,15 @@ select {
   margin-top: 40px;
   margin-left: 80%;
   border-radius: 4px;
-  cursor: pointer
+  cursor: pointer;
 }
 .cancel-button {
-	margin-left: 85%;
-	text-decoration: underline;
-	padding-top: 30px;
-	color: darkslategrey;
-	font-size: 14px;
-	cursor: pointer;
+  margin-left: 85%;
+  text-decoration: underline;
+  padding-top: 30px;
+  color: darkslategrey;
+  font-size: 14px;
+  cursor: pointer;
 }
 .voucher {
   font-weight: 700;
@@ -538,85 +538,85 @@ select {
     flex-flow: column;
   }
   #logo-container {
-	  width: 100%;
+    width: 100%;
   }
   nav {
-	  display: flex;
-	  flex-flow: row wrap;
-	  height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
   }
   #info-container {
-	  width: 100%;
-	  display: flex;
-	  flex-flow: row nowrap;
-	  justify-content: center;
-	  padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding-top: 20px;
   }
   #lang-container {
-	  padding-top: 20px;
-	  width: 400px;;
+    padding-top: 20px;
+    width: 400px;
   }
   .checkout {
-	  width: 90%;
-	  left: 0%;
-	  height: auto;
-	  position: fixed;
-	  overflow: auto;
-	  top: 0%;
+    width: 90%;
+    left: 0%;
+    height: auto;
+    position: fixed;
+    overflow: auto;
+    top: 0%;
   }
   .informational {
-	  flex-flow: row wrap;
+    flex-flow: row wrap;
   }
   .order-button {
-	  margin-left: auto;
+    margin-left: auto;
   }
   .cancel-button {
-	  margin-left: auto;
+    margin-left: auto;
   }
 }
 @media (max-width: 800px) {
-	#nav-main {
-		flex-flow: row wrap;
-	}
-	#lang-container {
-		display: flex;
-		flex-flow: row nowrap;
-		justify-content: flex-start;
-		width: 100%;
-	}
-	#info-container {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: flex-start;
-	}
-	#about {
-		width: 25%;
-		padding: 5px;
-	}
-	#how-to {
-		width: 25%;
-		padding: 5px;
-	}
-	#covid-header {
-		width: 25%;
-	}
-	.order-table {
-		margin-top: 10px;
-	  }
+  #nav-main {
+    flex-flow: row wrap;
+  }
+  #lang-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  #info-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+  #about {
+    width: 25%;
+    padding: 5px;
+  }
+  #how-to {
+    width: 25%;
+    padding: 5px;
+  }
+  #covid-header {
+    width: 25%;
+  }
+  .order-table {
+    margin-top: 10px;
+  }
 }
 @media (max-width: 400px) {
-	#about{
-		width: 100%
-	}
-	#how-to {
-		width: 100%;
-	}
-	#covid-header {
-		width: 100%;
-		padding-top: 5px;
-		padding: 5px;
-	}
-	#info-container {
-		width: 100%;
-	}
+  #about {
+    width: 100%;
+  }
+  #how-to {
+    width: 100%;
+  }
+  #covid-header {
+    width: 100%;
+    padding-top: 5px;
+    padding: 5px;
+  }
+  #info-container {
+    width: 100%;
+  }
 }

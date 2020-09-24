@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useState } from "react";
 import { loadStripe } from "@stripe/stripe-js";
 import axios from "axios";
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_CLIENT_KEY);
