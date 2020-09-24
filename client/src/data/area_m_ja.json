@@ -1,0 +1,1496 @@
+{
+  "length": 168,
+  "area_m": [
+    {
+      "areacode_m": "AREAM2105",
+      "areaname_m": "銀座",
+      "garea_large": {
+        "areacode_l": "AREAL2101",
+        "areaname_l": "銀座・有楽町・築地"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2107",
+      "areaname_m": "新橋",
+      "garea_large": {
+        "areacode_l": "AREAL2107",
+        "areaname_l": "新橋・浜松町・田町"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2133",
+      "areaname_m": "赤坂",
+      "garea_large": {
+        "areacode_l": "AREAL2133",
+        "areaname_l": "赤坂・六本木・麻布"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2136",
+      "areaname_m": "虎ノ門",
+      "garea_large": {
+        "areacode_l": "AREAL2107",
+        "areaname_l": "新橋・浜松町・田町"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2172",
+      "areaname_m": "浜松町・大門",
+      "garea_large": {
+        "areacode_l": "AREAL2107",
+        "areaname_l": "新橋・浜松町・田町"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2175",
+      "areaname_m": "田町・三田",
+      "garea_large": {
+        "areacode_l": "AREAL2107",
+        "areaname_l": "新橋・浜松町・田町"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2187",
+      "areaname_m": "飯田橋",
+      "garea_large": {
+        "areacode_l": "AREAL2184",
+        "areaname_l": "飯田橋・四ツ谷・神楽坂"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2192",
+      "areaname_m": "神楽坂",
+      "garea_large": {
+        "areacode_l": "AREAL2184",
+        "areaname_l": "飯田橋・四ツ谷・神楽坂"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2928",
+      "areaname_m": "汐留",
+      "garea_large": {
+        "areacode_l": "AREAL2107",
+        "areaname_l": "新橋・浜松町・田町"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2929",
+      "areaname_m": "芝公園・東京タワー周辺",
+      "garea_large": {
+        "areacode_l": "AREAL2107",
+        "areaname_l": "新橋・浜松町・田町"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2930",
+      "areaname_m": "芝浦",
+      "garea_large": {
+        "areacode_l": "AREAL2107",
+        "areaname_l": "新橋・浜松町・田町"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2943",
+      "areaname_m": "永田町",
+      "garea_large": {
+        "areacode_l": "AREAL2133",
+        "areaname_l": "赤坂・六本木・麻布"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2106",
+      "areaname_m": "有楽町・日比谷",
+      "garea_large": {
+        "areacode_l": "AREAL2101",
+        "areaname_l": "銀座・有楽町・築地"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2956",
+      "areaname_m": "九段下",
+      "garea_large": {
+        "areacode_l": "AREAL2184",
+        "areaname_l": "飯田橋・四ツ谷・神楽坂"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2109",
+      "areaname_m": "築地",
+      "garea_large": {
+        "areacode_l": "AREAL2101",
+        "areaname_l": "銀座・有楽町・築地"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2944",
+      "areaname_m": "霞ヶ関",
+      "garea_large": {
+        "areacode_l": "AREAL2133",
+        "areaname_l": "赤坂・六本木・麻布"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2195",
+      "areaname_m": "市ヶ谷",
+      "garea_large": {
+        "areacode_l": "AREAL2184",
+        "areaname_l": "飯田橋・四ツ谷・神楽坂"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2927",
+      "areaname_m": "月島",
+      "garea_large": {
+        "areacode_l": "AREAL2101",
+        "areaname_l": "銀座・有楽町・築地"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2945",
+      "areaname_m": "神谷町",
+      "garea_large": {
+        "areacode_l": "AREAL2133",
+        "areaname_l": "赤坂・六本木・麻布"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2957",
+      "areaname_m": "四谷（四ツ谷）",
+      "garea_large": {
+        "areacode_l": "AREAL2184",
+        "areaname_l": "飯田橋・四ツ谷・神楽坂"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2132",
+      "areaname_m": "六本木",
+      "garea_large": {
+        "areacode_l": "AREAL2133",
+        "areaname_l": "赤坂・六本木・麻布"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2958",
+      "areaname_m": "半蔵門・麹町",
+      "garea_large": {
+        "areacode_l": "AREAL2184",
+        "areaname_l": "飯田橋・四ツ谷・神楽坂"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2946",
+      "areaname_m": "西麻布",
+      "garea_large": {
+        "areacode_l": "AREAL2133",
+        "areaname_l": "赤坂・六本木・麻布"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2959",
+      "areaname_m": "信濃町",
+      "garea_large": {
+        "areacode_l": "AREAL2184",
+        "areaname_l": "飯田橋・四ツ谷・神楽坂"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2138",
+      "areaname_m": "広尾",
+      "garea_large": {
+        "areacode_l": "AREAL2133",
+        "areaname_l": "赤坂・六本木・麻布"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2947",
+      "areaname_m": "麻布十番",
+      "garea_large": {
+        "areacode_l": "AREAL2133",
+        "areaname_l": "赤坂・六本木・麻布"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2137",
+      "areaname_m": "白金・白金台",
+      "garea_large": {
+        "areacode_l": "AREAL2133",
+        "areaname_l": "赤坂・六本木・麻布"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2115",
+      "areaname_m": "新宿",
+      "garea_large": {
+        "areacode_l": "AREAL2115",
+        "areaname_l": "新宿・代々木"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2933",
+      "areaname_m": "初台",
+      "garea_large": {
+        "areacode_l": "AREAL2115",
+        "areaname_l": "新宿・代々木"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2934",
+      "areaname_m": "千駄ヶ谷",
+      "garea_large": {
+        "areacode_l": "AREAL2115",
+        "areaname_l": "新宿・代々木"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2122",
+      "areaname_m": "大久保",
+      "garea_large": {
+        "areacode_l": "AREAL2116",
+        "areaname_l": "大久保・高田馬場"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2123",
+      "areaname_m": "高田馬場",
+      "garea_large": {
+        "areacode_l": "AREAL2116",
+        "areaname_l": "大久保・高田馬場"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2935",
+      "areaname_m": "早稲田",
+      "garea_large": {
+        "areacode_l": "AREAL2116",
+        "areaname_l": "大久保・高田馬場"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2126",
+      "areaname_m": "渋谷",
+      "garea_large": {
+        "areacode_l": "AREAL2125",
+        "areaname_l": "渋谷・原宿・青山"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2129",
+      "areaname_m": "原宿",
+      "garea_large": {
+        "areacode_l": "AREAL2125",
+        "areaname_l": "渋谷・原宿・青山"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2130",
+      "areaname_m": "表参道・青山",
+      "garea_large": {
+        "areacode_l": "AREAL2125",
+        "areaname_l": "渋谷・原宿・青山"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2936",
+      "areaname_m": "外苑前・青山一丁目",
+      "garea_large": {
+        "areacode_l": "AREAL2125",
+        "areaname_l": "渋谷・原宿・青山"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2157",
+      "areaname_m": "池袋",
+      "garea_large": {
+        "areacode_l": "AREAL2156",
+        "areaname_l": "池袋・巣鴨・駒込"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2159",
+      "areaname_m": "目白",
+      "garea_large": {
+        "areacode_l": "AREAL2156",
+        "areaname_l": "池袋・巣鴨・駒込"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2158",
+      "areaname_m": "護国寺",
+      "garea_large": {
+        "areacode_l": "AREAL2156",
+        "areaname_l": "池袋・巣鴨・駒込"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2160",
+      "areaname_m": "大塚",
+      "garea_large": {
+        "areacode_l": "AREAL2156",
+        "areaname_l": "池袋・巣鴨・駒込"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2937",
+      "areaname_m": "巣鴨",
+      "garea_large": {
+        "areacode_l": "AREAL2156",
+        "areaname_l": "池袋・巣鴨・駒込"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2938",
+      "areaname_m": "駒込",
+      "garea_large": {
+        "areacode_l": "AREAL2156",
+        "areaname_l": "池袋・巣鴨・駒込"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2939",
+      "areaname_m": "白山",
+      "garea_large": {
+        "areacode_l": "AREAL2156",
+        "areaname_l": "池袋・巣鴨・駒込"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2141",
+      "areaname_m": "丸の内",
+      "garea_large": {
+        "areacode_l": "AREAL2141",
+        "areaname_l": "東京駅・丸の内・日本橋"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2940",
+      "areaname_m": "大手町",
+      "garea_large": {
+        "areacode_l": "AREAL2141",
+        "areaname_l": "東京駅・丸の内・日本橋"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2941",
+      "areaname_m": "東京駅（八重洲）",
+      "garea_large": {
+        "areacode_l": "AREAL2141",
+        "areaname_l": "東京駅・丸の内・日本橋"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2143",
+      "areaname_m": "日本橋",
+      "garea_large": {
+        "areacode_l": "AREAL2141",
+        "areaname_l": "東京駅・丸の内・日本橋"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2942",
+      "areaname_m": "京橋",
+      "garea_large": {
+        "areacode_l": "AREAL2141",
+        "areaname_l": "東京駅・丸の内・日本橋"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2145",
+      "areaname_m": "三越前",
+      "garea_large": {
+        "areacode_l": "AREAL2141",
+        "areaname_l": "東京駅・丸の内・日本橋"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2198",
+      "areaname_m": "上野",
+      "garea_large": {
+        "areacode_l": "AREAL2198",
+        "areaname_l": "上野・浅草・日暮里"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2948",
+      "areaname_m": "御徒町",
+      "garea_large": {
+        "areacode_l": "AREAL2198",
+        "areaname_l": "上野・浅草・日暮里"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2949",
+      "areaname_m": "湯島",
+      "garea_large": {
+        "areacode_l": "AREAL2198",
+        "areaname_l": "上野・浅草・日暮里"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2205",
+      "areaname_m": "浅草",
+      "garea_large": {
+        "areacode_l": "AREAL2198",
+        "areaname_l": "上野・浅草・日暮里"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2201",
+      "areaname_m": "日暮里",
+      "garea_large": {
+        "areacode_l": "AREAL2198",
+        "areaname_l": "上野・浅草・日暮里"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2950",
+      "areaname_m": "田端",
+      "garea_large": {
+        "areacode_l": "AREAL2198",
+        "areaname_l": "上野・浅草・日暮里"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2951",
+      "areaname_m": "根津",
+      "garea_large": {
+        "areacode_l": "AREAL2198",
+        "areaname_l": "上野・浅草・日暮里"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2202",
+      "areaname_m": "千駄木",
+      "garea_large": {
+        "areacode_l": "AREAL2198",
+        "areaname_l": "上野・浅草・日暮里"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2142",
+      "areaname_m": "神田",
+      "garea_large": {
+        "areacode_l": "AREAL2142",
+        "areaname_l": "神田・秋葉原・水道橋"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2200",
+      "areaname_m": "秋葉原",
+      "garea_large": {
+        "areacode_l": "AREAL2142",
+        "areaname_l": "神田・秋葉原・水道橋"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2184",
+      "areaname_m": "御茶ノ水",
+      "garea_large": {
+        "areacode_l": "AREAL2142",
+        "areaname_l": "神田・秋葉原・水道橋"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2952",
+      "areaname_m": "神保町",
+      "garea_large": {
+        "areacode_l": "AREAL2142",
+        "areaname_l": "神田・秋葉原・水道橋"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2953",
+      "areaname_m": "水道橋",
+      "garea_large": {
+        "areacode_l": "AREAL2142",
+        "areaname_l": "神田・秋葉原・水道橋"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2954",
+      "areaname_m": "小石川",
+      "garea_large": {
+        "areacode_l": "AREAL2142",
+        "areaname_l": "神田・秋葉原・水道橋"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2955",
+      "areaname_m": "本郷",
+      "garea_large": {
+        "areacode_l": "AREAL2142",
+        "areaname_l": "神田・秋葉原・水道橋"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2169",
+      "areaname_m": "品川",
+      "garea_large": {
+        "areacode_l": "AREAL2169",
+        "areaname_l": "品川・五反田・大崎"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2176",
+      "areaname_m": "五反田",
+      "garea_large": {
+        "areacode_l": "AREAL2169",
+        "areaname_l": "品川・五反田・大崎"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2960",
+      "areaname_m": "大崎",
+      "garea_large": {
+        "areacode_l": "AREAL2169",
+        "areaname_l": "品川・五反田・大崎"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2961",
+      "areaname_m": "戸越銀座・旗の台",
+      "garea_large": {
+        "areacode_l": "AREAL2169",
+        "areaname_l": "品川・五反田・大崎"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2171",
+      "areaname_m": "天王洲アイル周辺",
+      "garea_large": {
+        "areacode_l": "AREAL2169",
+        "areaname_l": "品川・五反田・大崎"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2113",
+      "areaname_m": "お台場",
+      "garea_large": {
+        "areacode_l": "AREAL2170",
+        "areaname_l": "お台場・豊洲・湾岸"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2962",
+      "areaname_m": "有明",
+      "garea_large": {
+        "areacode_l": "AREAL2170",
+        "areaname_l": "お台場・豊洲・湾岸"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2963",
+      "areaname_m": "晴海",
+      "garea_large": {
+        "areacode_l": "AREAL2170",
+        "areaname_l": "お台場・豊洲・湾岸"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2111",
+      "areaname_m": "豊洲",
+      "garea_large": {
+        "areacode_l": "AREAL2170",
+        "areaname_l": "お台場・豊洲・湾岸"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2178",
+      "areaname_m": "恵比寿",
+      "garea_large": {
+        "areacode_l": "AREAL2178",
+        "areaname_l": "恵比寿・中目黒・目黒"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2964",
+      "areaname_m": "代官山",
+      "garea_large": {
+        "areacode_l": "AREAL2178",
+        "areaname_l": "恵比寿・中目黒・目黒"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2181",
+      "areaname_m": "中目黒",
+      "garea_large": {
+        "areacode_l": "AREAL2178",
+        "areaname_l": "恵比寿・中目黒・目黒"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2965",
+      "areaname_m": "祐天寺",
+      "garea_large": {
+        "areacode_l": "AREAL2178",
+        "areaname_l": "恵比寿・中目黒・目黒"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2180",
+      "areaname_m": "目黒",
+      "garea_large": {
+        "areacode_l": "AREAL2178",
+        "areaname_l": "恵比寿・中目黒・目黒"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2966",
+      "areaname_m": "不動前・武蔵小山",
+      "garea_large": {
+        "areacode_l": "AREAL2178",
+        "areaname_l": "恵比寿・中目黒・目黒"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2164",
+      "areaname_m": "自由が丘",
+      "garea_large": {
+        "areacode_l": "AREAL2164",
+        "areaname_l": "自由が丘・三軒茶屋・二子玉川"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2967",
+      "areaname_m": "田園調布",
+      "garea_large": {
+        "areacode_l": "AREAL2164",
+        "areaname_l": "自由が丘・三軒茶屋・二子玉川"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2968",
+      "areaname_m": "学芸大学",
+      "garea_large": {
+        "areacode_l": "AREAL2164",
+        "areaname_l": "自由が丘・三軒茶屋・二子玉川"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2166",
+      "areaname_m": "三軒茶屋",
+      "garea_large": {
+        "areacode_l": "AREAL2164",
+        "areaname_l": "自由が丘・三軒茶屋・二子玉川"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2969",
+      "areaname_m": "池尻大橋・三宿",
+      "garea_large": {
+        "areacode_l": "AREAL2164",
+        "areaname_l": "自由が丘・三軒茶屋・二子玉川"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2970",
+      "areaname_m": "駒澤大学",
+      "garea_large": {
+        "areacode_l": "AREAL2164",
+        "areaname_l": "自由が丘・三軒茶屋・二子玉川"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2168",
+      "areaname_m": "二子玉川・用賀",
+      "garea_large": {
+        "areacode_l": "AREAL2164",
+        "areaname_l": "自由が丘・三軒茶屋・二子玉川"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2207",
+      "areaname_m": "下北沢",
+      "garea_large": {
+        "areacode_l": "AREAL2207",
+        "areaname_l": "下北沢・明大前・成城学園前"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2971",
+      "areaname_m": "代々木上原",
+      "garea_large": {
+        "areacode_l": "AREAL2207",
+        "areaname_l": "下北沢・明大前・成城学園前"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2209",
+      "areaname_m": "笹塚",
+      "garea_large": {
+        "areacode_l": "AREAL2207",
+        "areaname_l": "下北沢・明大前・成城学園前"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2972",
+      "areaname_m": "明大前",
+      "garea_large": {
+        "areacode_l": "AREAL2207",
+        "areaname_l": "下北沢・明大前・成城学園前"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2973",
+      "areaname_m": "高井戸",
+      "garea_large": {
+        "areacode_l": "AREAL2207",
+        "areaname_l": "下北沢・明大前・成城学園前"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2211",
+      "areaname_m": "千歳烏山・仙川",
+      "garea_large": {
+        "areacode_l": "AREAL2207",
+        "areaname_l": "下北沢・明大前・成城学園前"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2215",
+      "areaname_m": "豪徳寺・経堂",
+      "garea_large": {
+        "areacode_l": "AREAL2207",
+        "areaname_l": "下北沢・明大前・成城学園前"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2974",
+      "areaname_m": "千歳船橋・成城学園前",
+      "garea_large": {
+        "areacode_l": "AREAL2207",
+        "areaname_l": "下北沢・明大前・成城学園前"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2975",
+      "areaname_m": "喜多見・狛江",
+      "garea_large": {
+        "areacode_l": "AREAL2207",
+        "areaname_l": "下北沢・明大前・成城学園前"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2217",
+      "areaname_m": "中野",
+      "garea_large": {
+        "areacode_l": "AREAL2217",
+        "areaname_l": "中野・吉祥寺・三鷹"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2976",
+      "areaname_m": "荻窪",
+      "garea_large": {
+        "areacode_l": "AREAL2217",
+        "areaname_l": "中野・吉祥寺・三鷹"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2977",
+      "areaname_m": "高円寺",
+      "garea_large": {
+        "areacode_l": "AREAL2217",
+        "areaname_l": "中野・吉祥寺・三鷹"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2978",
+      "areaname_m": "方南町",
+      "garea_large": {
+        "areacode_l": "AREAL2217",
+        "areaname_l": "中野・吉祥寺・三鷹"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2979",
+      "areaname_m": "落合",
+      "garea_large": {
+        "areacode_l": "AREAL2217",
+        "areaname_l": "中野・吉祥寺・三鷹"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2980",
+      "areaname_m": "井荻",
+      "garea_large": {
+        "areacode_l": "AREAL2217",
+        "areaname_l": "中野・吉祥寺・三鷹"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2276",
+      "areaname_m": "吉祥寺",
+      "garea_large": {
+        "areacode_l": "AREAL2217",
+        "areaname_l": "中野・吉祥寺・三鷹"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2981",
+      "areaname_m": "三鷹",
+      "garea_large": {
+        "areacode_l": "AREAL2217",
+        "areaname_l": "中野・吉祥寺・三鷹"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2222",
+      "areaname_m": "練馬",
+      "garea_large": {
+        "areacode_l": "AREAL2222",
+        "areaname_l": "練馬・江古田・田無"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2982",
+      "areaname_m": "平和台",
+      "garea_large": {
+        "areacode_l": "AREAL2222",
+        "areaname_l": "練馬・江古田・田無"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2983",
+      "areaname_m": "光が丘",
+      "garea_large": {
+        "areacode_l": "AREAL2222",
+        "areaname_l": "練馬・江古田・田無"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2984",
+      "areaname_m": "大泉学園",
+      "garea_large": {
+        "areacode_l": "AREAL2222",
+        "areaname_l": "練馬・江古田・田無"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2985",
+      "areaname_m": "江古田",
+      "garea_large": {
+        "areacode_l": "AREAL2222",
+        "areaname_l": "練馬・江古田・田無"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2986",
+      "areaname_m": "上石神井",
+      "garea_large": {
+        "areacode_l": "AREAL2222",
+        "areaname_l": "練馬・江古田・田無"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2987",
+      "areaname_m": "田無",
+      "garea_large": {
+        "areacode_l": "AREAL2222",
+        "areaname_l": "練馬・江古田・田無"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2282",
+      "areaname_m": "東久留米",
+      "garea_large": {
+        "areacode_l": "AREAL2222",
+        "areaname_l": "練馬・江古田・田無"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2988",
+      "areaname_m": "東村山",
+      "garea_large": {
+        "areacode_l": "AREAL2222",
+        "areaname_l": "練馬・江古田・田無"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2989",
+      "areaname_m": "清瀬",
+      "garea_large": {
+        "areacode_l": "AREAL2222",
+        "areaname_l": "練馬・江古田・田無"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2228",
+      "areaname_m": "錦糸町・住吉",
+      "garea_large": {
+        "areacode_l": "AREAL2228",
+        "areaname_l": "錦糸町・押上・新小岩"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2990",
+      "areaname_m": "押上",
+      "garea_large": {
+        "areacode_l": "AREAL2228",
+        "areaname_l": "錦糸町・押上・新小岩"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2991",
+      "areaname_m": "両国",
+      "garea_large": {
+        "areacode_l": "AREAL2228",
+        "areaname_l": "錦糸町・押上・新小岩"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2230",
+      "areaname_m": "浅草橋",
+      "garea_large": {
+        "areacode_l": "AREAL2228",
+        "areaname_l": "錦糸町・押上・新小岩"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2992",
+      "areaname_m": "亀戸",
+      "garea_large": {
+        "areacode_l": "AREAL2228",
+        "areaname_l": "錦糸町・押上・新小岩"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2993",
+      "areaname_m": "新小岩",
+      "garea_large": {
+        "areacode_l": "AREAL2228",
+        "areaname_l": "錦糸町・押上・新小岩"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2232",
+      "areaname_m": "小岩",
+      "garea_large": {
+        "areacode_l": "AREAL2228",
+        "areaname_l": "錦糸町・押上・新小岩"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2234",
+      "areaname_m": "船堀・瑞江",
+      "garea_large": {
+        "areacode_l": "AREAL2228",
+        "areaname_l": "錦糸町・押上・新小岩"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2148",
+      "areaname_m": "人形町・小伝馬町",
+      "garea_large": {
+        "areacode_l": "AREAL2146",
+        "areaname_l": "人形町・門前仲町・葛西"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2146",
+      "areaname_m": "茅場町",
+      "garea_large": {
+        "areacode_l": "AREAL2146",
+        "areaname_l": "人形町・門前仲町・葛西"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2996",
+      "areaname_m": "八丁堀",
+      "garea_large": {
+        "areacode_l": "AREAL2146",
+        "areaname_l": "人形町・門前仲町・葛西"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2149",
+      "areaname_m": "門前仲町",
+      "garea_large": {
+        "areacode_l": "AREAL2146",
+        "areaname_l": "人形町・門前仲町・葛西"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2997",
+      "areaname_m": "清澄白河",
+      "garea_large": {
+        "areacode_l": "AREAL2146",
+        "areaname_l": "人形町・門前仲町・葛西"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2998",
+      "areaname_m": "木場",
+      "garea_large": {
+        "areacode_l": "AREAL2146",
+        "areaname_l": "人形町・門前仲町・葛西"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2999",
+      "areaname_m": "東陽町",
+      "garea_large": {
+        "areacode_l": "AREAL2146",
+        "areaname_l": "人形町・門前仲町・葛西"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2153",
+      "areaname_m": "南砂町・菊川",
+      "garea_large": {
+        "areacode_l": "AREAL2146",
+        "areaname_l": "人形町・門前仲町・葛西"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2237",
+      "areaname_m": "西葛西・葛西",
+      "garea_large": {
+        "areacode_l": "AREAL2146",
+        "areaname_l": "人形町・門前仲町・葛西"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2239",
+      "areaname_m": "新木場・葛西臨海公園",
+      "garea_large": {
+        "areacode_l": "AREAL2146",
+        "areaname_l": "人形町・門前仲町・葛西"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3000",
+      "areaname_m": "南千住",
+      "garea_large": {
+        "areacode_l": "AREAL2241",
+        "areaname_l": "北千住・綾瀬・亀有"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2241",
+      "areaname_m": "町屋",
+      "garea_large": {
+        "areacode_l": "AREAL2241",
+        "areaname_l": "北千住・綾瀬・亀有"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2243",
+      "areaname_m": "北千住",
+      "garea_large": {
+        "areacode_l": "AREAL2241",
+        "areaname_l": "北千住・綾瀬・亀有"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3001",
+      "areaname_m": "綾瀬",
+      "garea_large": {
+        "areacode_l": "AREAL2241",
+        "areaname_l": "北千住・綾瀬・亀有"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3002",
+      "areaname_m": "西新井",
+      "garea_large": {
+        "areacode_l": "AREAL2241",
+        "areaname_l": "北千住・綾瀬・亀有"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3003",
+      "areaname_m": "金町",
+      "garea_large": {
+        "areacode_l": "AREAL2241",
+        "areaname_l": "北千住・綾瀬・亀有"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3004",
+      "areaname_m": "亀有・青砥",
+      "garea_large": {
+        "areacode_l": "AREAL2241",
+        "areaname_l": "北千住・綾瀬・亀有"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2250",
+      "areaname_m": "板橋",
+      "garea_large": {
+        "areacode_l": "AREAL2250",
+        "areaname_l": "板橋・成増・赤羽"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3005",
+      "areaname_m": "成増",
+      "garea_large": {
+        "areacode_l": "AREAL2250",
+        "areaname_l": "板橋・成増・赤羽"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3006",
+      "areaname_m": "高島平",
+      "garea_large": {
+        "areacode_l": "AREAL2250",
+        "areaname_l": "板橋・成増・赤羽"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2248",
+      "areaname_m": "赤羽",
+      "garea_large": {
+        "areacode_l": "AREAL2250",
+        "areaname_l": "板橋・成増・赤羽"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3007",
+      "areaname_m": "王子",
+      "garea_large": {
+        "areacode_l": "AREAL2250",
+        "areaname_l": "板橋・成増・赤羽"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2254",
+      "areaname_m": "大井町",
+      "garea_large": {
+        "areacode_l": "AREAL2254",
+        "areaname_l": "大井町・大森・蒲田"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3008",
+      "areaname_m": "大森",
+      "garea_large": {
+        "areacode_l": "AREAL2254",
+        "areaname_l": "大井町・大森・蒲田"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2255",
+      "areaname_m": "蒲田",
+      "garea_large": {
+        "areacode_l": "AREAL2254",
+        "areaname_l": "大井町・大森・蒲田"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3009",
+      "areaname_m": "羽田",
+      "garea_large": {
+        "areacode_l": "AREAL2254",
+        "areaname_l": "大井町・大森・蒲田"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3010",
+      "areaname_m": "池上・洗足池",
+      "garea_large": {
+        "areacode_l": "AREAL2254",
+        "areaname_l": "大井町・大森・蒲田"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2273",
+      "areaname_m": "府中",
+      "garea_large": { "areacode_l": "AREAL2273", "areaname_l": "府中・調布" },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3011",
+      "areaname_m": "稲城",
+      "garea_large": { "areacode_l": "AREAL2273", "areaname_l": "府中・調布" },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3012",
+      "areaname_m": "調布",
+      "garea_large": { "areacode_l": "AREAL2273", "areaname_l": "府中・調布" },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3078",
+      "areaname_m": "聖蹟桜ヶ丘",
+      "garea_large": { "areacode_l": "AREAL2273", "areaname_l": "府中・調布" },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3013",
+      "areaname_m": "多摩センター",
+      "garea_large": { "areacode_l": "AREAL2923", "areaname_l": "町田・多摩" },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2294",
+      "areaname_m": "町田",
+      "garea_large": { "areacode_l": "AREAL2923", "areaname_l": "町田・多摩" },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3077",
+      "areaname_m": "鶴川",
+      "garea_large": { "areacode_l": "AREAL2923", "areaname_l": "町田・多摩" },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2278",
+      "areaname_m": "小金井",
+      "garea_large": {
+        "areacode_l": "AREAL2278",
+        "areaname_l": "小金井・国分寺・国立"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2279",
+      "areaname_m": "小平",
+      "garea_large": {
+        "areacode_l": "AREAL2278",
+        "areaname_l": "小金井・国分寺・国立"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2280",
+      "areaname_m": "国分寺",
+      "garea_large": {
+        "areacode_l": "AREAL2278",
+        "areaname_l": "小金井・国分寺・国立"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2281",
+      "areaname_m": "国立",
+      "garea_large": {
+        "areacode_l": "AREAL2278",
+        "areaname_l": "小金井・国分寺・国立"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2286",
+      "areaname_m": "立川",
+      "garea_large": {
+        "areacode_l": "AREAL2286",
+        "areaname_l": "立川・八王子・青梅"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3014",
+      "areaname_m": "昭島",
+      "garea_large": {
+        "areacode_l": "AREAL2286",
+        "areaname_l": "立川・八王子・青梅"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2288",
+      "areaname_m": "八王子",
+      "garea_large": {
+        "areacode_l": "AREAL2286",
+        "areaname_l": "立川・八王子・青梅"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3015",
+      "areaname_m": "日野",
+      "garea_large": {
+        "areacode_l": "AREAL2286",
+        "areaname_l": "立川・八王子・青梅"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2290",
+      "areaname_m": "青梅・小作",
+      "garea_large": {
+        "areacode_l": "AREAL2286",
+        "areaname_l": "立川・八王子・青梅"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3016",
+      "areaname_m": "福生",
+      "garea_large": {
+        "areacode_l": "AREAL2286",
+        "areaname_l": "立川・八王子・青梅"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM3017",
+      "areaname_m": "あきる野",
+      "garea_large": {
+        "areacode_l": "AREAL2286",
+        "areaname_l": "立川・八王子・青梅"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    },
+    {
+      "areacode_m": "AREAM2295",
+      "areaname_m": "伊豆諸島・小笠原諸島",
+      "garea_large": {
+        "areacode_l": "AREAL2295",
+        "areaname_l": "伊豆諸島・小笠原諸島"
+      },
+      "pref": { "pref_code": "PREF13", "pref_name": "東京都" }
+    }
+  ]
+}
