@@ -6,6 +6,7 @@ export default function List({ t }) {
 	// shared restaurant state with useContext
 	const { restaurants, setRestaurants } = useContext(RestaurantContext);
 
+	
 	return (
 		<div id="gallery-container">
 			<div id="num-results">
