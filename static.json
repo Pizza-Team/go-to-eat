@@ -1,0 +1,7 @@
+{
+  "name": "checkout",
+  "configureDotEnv": true,
+  "routes": {
+    "/**": "index.html"
+  }
+}

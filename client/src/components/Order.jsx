@@ -17,9 +17,9 @@ export default function Order({ restaurant, t }) {
       payment_method_types: ["card"],
       line_items: [],
       mode: 'payment',
-      success_url: `https://eatokyo.herokuapp.com/success`,
+      success_url: `https://eatokyo.herokuapp.com/success.html`,
       cancel_url: `https://eatokyo.herokuapp.com/cancel`
-    };
+		};
 
     for (let i = 0; i < quantity.length; i++) {
       const discountPrice = price[i] - price[i] * 0.25;
