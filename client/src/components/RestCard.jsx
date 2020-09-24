@@ -9,12 +9,12 @@ import {
 	faExternalLinkAlt,
 	faAlignJustify,
 } from '@fortawesome/free-solid-svg-icons';
-import { food } from '../Images/imageArray';
 
 export default function RestCard({ restaurant, t, lang }) {
 	const [display, setDisplay] = useState(false);
 
 	const lastNumOfLatitude = Number(restaurant.location.latitude.slice(-1));
+
 	function imageMatch(smallImgSrc) {
 		if (smallImgSrc) {
 			const ImgSrc = smallImgSrc.split('?')[0];
