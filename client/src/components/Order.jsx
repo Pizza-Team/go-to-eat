@@ -18,8 +18,8 @@ export default function Order({ restaurant, t }) {
       payment_method_types: ['card'],
       line_items: [],
       mode: 'payment',
-      success_url: `https://www.codechrysalis.io/`,
-      cancel_url: `https://google.co.jp`
+      success_url: `http://lcalhost:4000/success.html`,
+      cancel_url: `http://localhost:4000/cancel.html`
     };
         
     for (let i = 0; i < quantity.length; i++) {
