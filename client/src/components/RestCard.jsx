@@ -36,7 +36,7 @@ export default function RestCard({ restaurant, t, lang }) {
 		}
 		return (
 			<img
-				src={category[num - 1]}
+				src={food[num - 1] || food[0]}
 				object-fit="contain"
 				height="200px"
 				width="270px"
@@ -70,8 +70,10 @@ export default function RestCard({ restaurant, t, lang }) {
 				<>
 					{/* overlay grays out the rest of the body */}
 					<div className="main-overlay" onClick={() => setDisplay(false)}></div>
-
 					<div className="checkout">
+						<div className="x-button" onClick={() => setDisplay(false)}>
+							X
+						</div>
 						<h1 className="checkout-name">{restaurant.name.name}</h1>
 						<div className="informational">
 							<div className="checkout-image">{imageMatch()}</div>
@@ -147,6 +149,9 @@ export default function RestCard({ restaurant, t, lang }) {
 						</div>
 
 						<Order restaurant={restaurant} t={t} />
+						<div className="cancel-button" onClick={() => setDisplay(false)}>
+							Cancel
+						</div>
 					</div>
 				</>
 			)}

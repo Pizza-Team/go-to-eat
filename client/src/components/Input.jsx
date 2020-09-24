@@ -117,41 +117,48 @@ export default function Input({ t, lang }) {
 			<div id="find">{t('Find')}</div>
 			<div id="filter-section">
 				{/* dropdown menu for AREA */}
-				<select
-					value={area}
-					onChange={(e) => {
-						setArea(e.target.value);
-					}}
-				>
-					<option>{t('Area')}</option>
-					{areaSwitch()}
-				</select>
+				<div className="select">
+					<select
+						value={area}
+						onChange={(e) => {
+							setArea(e.target.value);
+						}}
+					>
+						<option>{t('Area')}</option>
+						{areaSwitch()}
+					</select>
+					<p id="required">*Required</p>
+				</div>
 
 				{/* dropdown menu for CATEGORY */}
-				<select
-					value={category}
-					onChange={(e) => {
-						setCategory(e.target.value);
-					}}
-				>
-					<option>{t('Food Type')}</option>
-					{foodTypeSwitch()}
-				</select>
+				<div className="select">
+					<select
+						value={category}
+						onChange={(e) => {
+							setCategory(e.target.value);
+						}}
+					>
+						<option>{t('Food Type')}</option>
+						{foodTypeSwitch()}
+					</select>
+				</div>
 
 				{/* dropdown menu for BUDGET */}
-				<select
-					value={budget}
-					onChange={(e) => {
-						setBudget(e.target.value);
-					}}
-				>
-					<option>{t('Budget')}</option>
-					<option value="1">{'< ¥1,000'}</option>
-					<option value="2">{'¥1,000 - ¥3,000'}</option>
-					<option value="3">{'¥3,000 - ¥5,000'}</option>
-					<option value="4">{'¥5,000 - ¥10,000'}</option>
-					<option value="5">{'> ¥10,000'}</option>
-				</select>
+				<div className="select">
+					<select
+						value={budget}
+						onChange={(e) => {
+							setBudget(e.target.value);
+						}}
+					>
+						<option>{t('Budget')}</option>
+						<option value="1">{'< ¥1,000'}</option>
+						<option value="2">{'¥1,000 - ¥3,000'}</option>
+						<option value="3">{'¥3,000 - ¥5,000'}</option>
+						<option value="4">{'¥5,000 - ¥10,000'}</option>
+						<option value="5">{'> ¥10,000'}</option>
+					</select>
+				</div>
 			</div>
 
 			<div id="button-container">
