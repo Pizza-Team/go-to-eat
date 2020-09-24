@@ -17,8 +17,8 @@ export default function Order({ restaurant, t }) {
       payment_method_types: ["card"],
       line_items: [],
       mode: 'payment',
-      success_url: `https://eatokyo.herokuapp.com/success.html`,
-      cancel_url: `https://eatokyo.herokuapp.com/cancel`
+      success_url: `${process.env.REACT_APP_DOMAIN}/api/success`,
+      cancel_url: `${process.env.REACT_APP_DOMAIN}/cancel`
 		};
 
     for (let i = 0; i < quantity.length; i++) {

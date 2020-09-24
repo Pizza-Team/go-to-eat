@@ -1,6 +1,6 @@
 {
-  "name": "checkout",
-  "configureDotEnv": true,
+  "root": "client/build/",
+  "clean_urls": false,
   "routes": {
     "/**": "index.html"
   }
