@@ -91,7 +91,7 @@ export default function Input({t}) {
 			<div id="filter-section">
 				{/* dropdown menu for AREA */}
 				<select value={area} onChange={(e) => setArea(e.target.value)}>
-					<option>{t('Area')}</option>
+					<option>{t('Area') + " **required"}</option>
 					{areas.area_m
 						.sort((a, b) => a.areaname_m.localeCompare(b.areaname_m))
 						.map((area) => (

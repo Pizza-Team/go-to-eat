@@ -18,8 +18,9 @@ export default function RestCard({ restaurant, t }) {
 		//0<=(lastNumOfLatitude/9)<=1
 		const num = Math.floor((lastNumOfLatitude / 9) * 12);
 		//last num of latitude(0~9)
+		console.log(num, food.length)
 		return (
-			<img src={food[num]} object-fit="contain" height="200px" width="270px" />
+			<img src={food[num - 1]} object-fit="contain" height="200px" width="270px" />
 		);
 	}
 
@@ -29,6 +30,8 @@ export default function RestCard({ restaurant, t }) {
 				<div className="image">{imageMatch()}</div>
 				<div className="info">
 					<div className="name">{restaurant.name.name}</div>
+
+					<div className="location">{restaurant.location.area.areaname_m}</div>
 
 					<div className="type">{restaurant.categories.category_name_l[0]}</div>
 
