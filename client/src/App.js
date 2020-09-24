@@ -12,19 +12,7 @@ export default function App() {
       <div>
         <Route exact path="/" component={Home} />
 
-<<<<<<< HEAD
         <Route path="/success" component={Success} />
-=======
-      <Route exact path="/" component={Home} />
-
-      {/* <Route path="/success" component={Success} /> */}
-
-
-      <Route path="/success.html" />
-        <Success />
-      <Route />
-
->>>>>>> f65fe3398788640952cf84452c27d0912f987b6a
       </div>
     </BrowserRouter>
 

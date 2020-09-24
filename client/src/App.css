@@ -591,10 +591,7 @@ select {
   #lang-container {
     padding-top: 20px;
     width: 400px;
-<<<<<<< HEAD
-=======
     ;
->>>>>>> f65fe3398788640952cf84452c27d0912f987b6a
   }
 
   .checkout {
@@ -623,52 +620,30 @@ select {
   #nav-main {
     flex-flow: row wrap;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> f65fe3398788640952cf84452c27d0912f987b6a
   #lang-container {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     width: 100%;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> f65fe3398788640952cf84452c27d0912f987b6a
   #info-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> f65fe3398788640952cf84452c27d0912f987b6a
   #about {
     width: 25%;
     padding: 5px;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> f65fe3398788640952cf84452c27d0912f987b6a
   #how-to {
     width: 25%;
     padding: 5px;
   }
-<<<<<<< HEAD
-  #covid-header {
-    width: 25%;
-  }
-=======
 
   #covid-header {
     width: 25%;
   }
 
->>>>>>> f65fe3398788640952cf84452c27d0912f987b6a
   .order-table {
     margin-top: 10px;
   }
@@ -676,13 +651,6 @@ select {
 
 @media (max-width: 400px) {
   #about {
-<<<<<<< HEAD
-    width: 100%;
-  }
-  #how-to {
-    width: 100%;
-  }
-=======
     width: 100%
   }
 
@@ -690,21 +658,13 @@ select {
     width: 100%;
   }
 
->>>>>>> f65fe3398788640952cf84452c27d0912f987b6a
   #covid-header {
     width: 100%;
     padding-top: 5px;
     padding: 5px;
   }
-<<<<<<< HEAD
-  #info-container {
-    width: 100%;
-  }
-}
-=======
 
   #info-container {
     width: 100%;
   }
 }
->>>>>>> f65fe3398788640952cf84452c27d0912f987b6a
