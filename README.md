@@ -1,10 +1,12 @@
+This was developed during our time as students at Code Chrysalis.
+
 <p align="center">
   <img width="300" alt="logo" src="./client/public/Logo.png">
 </p>
 
-[EaTokyo](https://eatokyo.herokuapp.com/) is our vision to support the Japanese Government's Go-to-Eat Campaign in the Tokyo area. Throughout the Go-to-Eat Campaign, the Japanese government will be offering customers 25% discounts to several local restaurants and reimbursing those restaurants the difference. 
+[EATokyo](https://eatokyo.herokuapp.com/) is our vision to support the Japanese government's Go-to-Eat Campaign in the Tokyo area - an incentive program to revitalize the local economy, as we continue to recover from the pandemic. Throughout the Go-to-Eat Campaign, the Japanese government will be offering customers 25% discounts to several local restaurants and reimbursing those restaurants the difference. 
 
-However, public information about this campaign has been vague and confusing. With an application like EaTokyo, customers can find all the information they need to take advantage of these discounted prices, search for all participating restaurants, and order the discounted vouchers online. 
+However, public information about this campaign has been vague and confusing. With an application like EATokyo, customers can find all the information they need to take advantage of these discounted prices, search for all participating restaurants, and order the discounted vouchers online. 
 
 いい東京! Stay safe, and keep supporting the small businesses in our communities! 
 
