@@ -10,39 +10,34 @@ import {
 	faAlignJustify,
 } from '@fortawesome/free-solid-svg-icons';
 
-
 export default function RestCard({ restaurant, t, lang }) {
 	const [display, setDisplay] = useState(false);
 
 	const lastNumOfLatitude = Number(restaurant.location.latitude.slice(-1));
 
 	function imageMatch(smallImgSrc) {
-    if (smallImgSrc) {
-      const ImgSrc=smallImgSrc.split("?")[0]
-      return (
-        <img
-          src={ImgSrc}
-          object-fit="contain"
-          height="200px"
-          width="270px"
-        />
-      );
-    }
-
+		if (smallImgSrc) {
+			const ImgSrc = smallImgSrc.split('?')[0];
+			return (
+				<img src={ImgSrc} object-fit="contain" height="200px" width="270px" />
+			);
+		}
 	}
 
-	function languageSwitch() {
-		if (lang === 'jp') {
-			return restaurant.name.name_sub;
-		} else return restaurant.name.name;
-	}
+	// function languageSwitch() {
+	// 	if (lang === 'jp') {
+	// 		return restaurant.name.name_sub;
+	// 	} else return restaurant.name.name;
+	// }
 
 	return (
 		<>
 			<div id="restaurant-container" onClick={() => setDisplay(true)}>
-				<div className="image">{imageMatch(restaurant.image_url.thumbnail)}</div>
+				<div className="image">
+					{imageMatch(restaurant.image_url.thumbnail)}
+				</div>
 				<div className="info">
-					<div className="name">{languageSwitch()}</div>
+					<div className="name">{restaurant.name.name}</div>
 
 					<div className="location">{restaurant.location.area.areaname_m}</div>
 
@@ -63,7 +58,9 @@ export default function RestCard({ restaurant, t, lang }) {
 						</div>
 						<h1 className="checkout-name">{restaurant.name.name}</h1>
 						<div className="informational">
-							<div className="checkout-image">{imageMatch(restaurant.image_url.thumbnail)}</div>
+							<div className="checkout-image">
+								{imageMatch(restaurant.image_url.thumbnail)}
+							</div>
 							<div className="checkout-info">
 								{/* hours of operations */}
 								<div className="info-line">
@@ -128,7 +125,7 @@ export default function RestCard({ restaurant, t, lang }) {
 									</div>
 									<div className="info-content">
 										<a href={restaurant.url} target="_blank">
-											Website
+											{t('Website')}
 										</a>
 									</div>
 								</div>
@@ -137,7 +134,7 @@ export default function RestCard({ restaurant, t, lang }) {
 
 						<Order restaurant={restaurant} t={t} />
 						<div className="cancel-button" onClick={() => setDisplay(false)}>
-							Cancel
+							{t('Cancel')}
 						</div>
 					</div>
 				</>
