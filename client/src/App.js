@@ -11,7 +11,13 @@ export default function App() {
 
       <Route exact path="/" component={Home} />
 
-      <Route path="/success" component={Success} />
+      {/* <Route path="/success" component={Success} /> */}
+
+
+      <Route path="/success" />
+        <Success />
+      <Route />
+
       </div>
     </BrowserRouter>
   );
